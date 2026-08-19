@@ -282,6 +282,8 @@ R Markdown 的檔案由多個 code chunk 組成，每個 chunk 可以獨立執�
 
 寫作工具把這件事拆開了。它定義了六種模式，每一種只處理論文生命週期的一個階段：
 
+⚠️ **這六種模式不是我發明的。** 它們出自 Cheng-I Wu 的 [Academic Research Skills](https://github.com/Imbad0202/academic-research-skills)，本書用的是我改寫過的版本（模式名稱沿用、判準與範例改為教育研究取向）。下面那個 `[MATERIAL GAP]` 標記也是它的設計。詳細的血緣與授權見書末〈出處〉。
+
 | 模式 | 什麼時候用 | 做什麼 |
 |---|---|---|
 | plan | 研究方向還沒收斂 | 透過引導式提問幫你收斂研究問題 |
@@ -555,6 +557,7 @@ R Markdown 的檔案由多個 code chunk 組成，每個 chunk 可以獨立執�
 
 - **統計方法論教科書**：6.2 把書轉成方法顧問，需要你自己選一本。挑你這個領域引用率高、而且你已經有電子檔的那一本。**這一本選錯不會壞掉，會更麻煩：它照樣答得頭頭是道，只是用你的審查者不使用的那一套術語與判準在答。** 挑「有名的」不如挑「你領域的人會拿來吵架的」那一本
 - **Skills 官方文件**：[https://code.claude.com/docs/en/skills](https://code.claude.com/docs/en/skills) 6.2 把書轉成技能之後，你遲早會想自己改它。這一頁是改的依據。特別注意它講的一個判準：**當你發現說明檔裡的某一段已經從「事實」長成「程序」，那就該把它抽出來變成技能。**
+- **Academic Research Skills**（Cheng-I Wu）：[https://github.com/Imbad0202/academic-research-skills](https://github.com/Imbad0202/academic-research-skills) 6.3 的六種模式與 `[MATERIAL GAP]` 標記出自這裡。它另外還有文獻探索與論文審查兩套，規模比本書用到的大很多。**授權 CC BY-NC 4.0**，非商業可自由使用與改編，請註明出處。 ⚠️ **它是給會操作技能檔的人用的**，不是入門教材——先讀完本書第 3 章再去看會比較順。 **驗證層級：讀過 README 與授權宣告，未逐一跑過它的四套技能。**
 - **Anthropic — Best practices for Claude Code**：[https://www.anthropic.com/engineering/claude-code-best-practices](https://www.anthropic.com/engineering/claude-code-best-practices) 雖然是寫給工程師的，但其中兩點跟本書完全重疊：**先研究再規劃、不要讓它直接動手**，以及**多數最佳實務都源自同一個限制：脈絡會很快填滿，填滿之後品質下降**。後者就是第 3 章 3.2。
 
 **本書其他章節**

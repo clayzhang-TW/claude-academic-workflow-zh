@@ -16,7 +16,7 @@ CC BY-NC-SA 4.0。可以用，請註明出處；不可作商業用途；改編�
 |---|---|---|---|
 | 附錄 H 全份 | 中文潤稿技能 | [Raymondhou0917/speak-human-tw](https://github.com/Raymondhou0917/speak-human-tw)（雷蒙／侯智薰） | MIT |
 | 7.1、詞彙表、附錄 I 的「保護片段」 | 同上 | [MrGeDiao/shuorenhua](https://github.com/MrGeDiao/shuorenhua) | MIT |
-| 附錄 I；7.2 五角色自審；7.3 爆炸半徑檢查、唯讀稽核 | 論文審查與審查回應技能 | [Imbad0202/academic-research-skills](https://github.com/Imbad0202/academic-research-skills)（Cheng-I Wu）；[HKUSTDial/Supervisor-Skills](https://github.com/HKUSTDial/Supervisor-Skills) | CC BY-NC 4.0；CC BY-NC-SA 4.0 |
+| **6.3 寫作模式鏈與 `[MATERIAL GAP]`；7.1 修稿模式；7.2 五角色自審；7.3 爆炸半徑檢查、唯讀稽核；附錄 I** | 論文寫作、審查與審查回應技能 | [Imbad0202/academic-research-skills](https://github.com/Imbad0202/academic-research-skills)（Cheng-I Wu）；[HKUSTDial/Supervisor-Skills](https://github.com/HKUSTDial/Supervisor-Skills) | **CC BY-NC 4.0**（見下節）；CC BY-NC-SA 4.0 |
 | 7.1 逆向大綱、主張與證據對照 | 論文審查技能 | [Master-cai/Research-Paper-Writing-Skills](https://github.com/Master-cai/Research-Paper-Writing-Skills)，內容源自彭思達的公開筆記 | 見下節 |
 | 4.1 五維度評分、三角色對抗 | 研究構想評估技能 | HKUSTDial/Supervisor-Skills 的 `idea-evaluator` | CC BY-NC-SA 4.0 |
 | 4.1 三取向、四世界觀、三種效度 | 研究設計技能 | Creswell, J. W., & Creswell, J. D. (2018). *Research design* (5th ed.). SAGE. | 教科書，僅用其框架結構 |
@@ -32,6 +32,55 @@ CC BY-NC-SA 4.0。可以用，請註明出處；不可作商業用途；改編�
 | 附錄 F 十二個設計模式 | 不是單一技能，是橫向掃過整套技能庫抽出來的 |
 | 附錄 G 寫作聲紋 | 同上，來自對一批寫作技能的量測 |
 | 本書的電子書排版 | 中文電子書排版技能 |
+
+## Academic Research Skills：用得最多的一個上游
+
+書裡有四處往上追到同一個地方：Cheng-I Wu 的 [Academic Research Skills](https://github.com/Imbad0202/academic-research-skills)（以下簡稱 ARS）。它是本書用得最多的單一上游，所以單獨一節說清楚。
+
+**它要求的署名格式，原文如下：**
+
+```
+Based on Academic Research Skills by Cheng-I Wu
+https://github.com/Imbad0202/academic-research-skills
+```
+
+授權 **CC BY-NC 4.0**：可自由使用與改編，須註明出處，不可作商業用途。本書的 CC BY-NC-SA 與它相容。
+
+### 它有什麼
+
+ARS 是四套給研究者用的技能，規模比本書用到的大很多：
+
+| ARS 的套件 | 規模 |
+|---|---|
+| 論文寫作（Academic Paper） | 12 個角色、11 種模式 |
+| 論文審查（Academic Paper Reviewer） | 7 個角色、6 種模式 |
+| 文獻探索（Deep Research） | 13 個角色、8 種模式 |
+| 全流程協調（Academic Pipeline） | 10 個階段 |
+
+### 我改了什麼
+
+**最大的改動不是砍項目，是換使用者。**
+
+ARS 假設你會操作技能檔、會讓多個角色並行、會管理階段之間的交接。本書假設你**沒寫過程式**，而且是一個人在一個對話視窗裡工作。所以每一處的改動方向都一樣：**把多角色系統降維成一個人照著走的流程。**
+
+| 書中位置 | ARS 原本 | 本書改成 | 為什麼 |
+|---|---|---|---|
+| **6.3 寫作模式鏈** | 11 種模式（含 `lit-review`、`format-convert`、`citation-check`、`disclosure` 等） | **6 種**：plan／outline／draft／revise／abstract／revision-coach | 砍掉的五種要嘛在本書別章已經處理（引用查核在第 5 章、使用聲明在附錄 D），要嘛對初學者是額外負擔。⚠️ 另外**加了 `draft`**——ARS 把撰寫包在 `full` 裡，但本書要單獨標出它，因為那是唯一「它可能替你生出東西」的一格 |
+| **7.2 五角色自審** | 7 個審查角色 | **5 個**：主編／方法論／領域／視角／魔鬼代言人 | 砍掉兩個偏格式與統計細節的角色，它們的工作在 7.1 第三輪與附錄 I 各自處理。⚠️ 並改為**分五次對話跑**，因為讀者沒有多角色並行的環境——這個限制反而讓「五個角色互相不知道」變成必然而不是設定 |
+| **附錄 I** | 6 種審查模式、0–100 評分量尺 | **不收模式、不收量尺**，只收八個品質面向與五條拒稿標準 | 評分量尺是模擬審查者給分用的，對自審讀者會誘發「我幾分」這種錯問題。⚠️ 五條拒稿標準改寫為**教育測量取向**（樣本數、測量恆等性、效度來源），與 ARS 原本的領域不同 |
+| **7.1 修稿** | `revision` 模式 | **拆成三輪**（邏輯 → 去 AI 腔 → 格式），並規定同一對話跑完 | 一次要它全部處理，等於把 ARS 拆開的東西又壓回去 |
+| **文獻探索** | 13 個角色、8 種模式 | **幾乎沒用** | 第 4 章的檢索工序來自另一套來源。ARS 這一塊對初學者太重 |
+| **十階段全流程** | 10 個階段的協調器 | **完全沒用** | 本書的七章本身就是那個順序，再套一層協調器只會多一層抽象 |
+
+### 一件值得說的事
+
+⚠️ **第 3 章 3.5 說「不要硬搬別人的技能」，理由是四條：跳過發現摩擦、繼承別人的品質標準、拿到查不動的黑箱、領域不通用。**
+
+上面那張表就是我自己照那四條做了一次。ARS 的模式我用了六個、砍了五個，砍的判準不是「這個功能不好」，是**「本書的讀者這一週會不會用到」**。那個判準只有我知道，因為只有我知道我的讀者是誰。
+
+**你拿本書的東西去用的時候，該做同一件事。**
+
+---
 
 ## 彭思達的研究筆記
 

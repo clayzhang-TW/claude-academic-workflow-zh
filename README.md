@@ -85,7 +85,7 @@
 
 **附錄**
 - [A　安裝與設定](appendix/A-setup.md) — 驗收清單，不是逐步手冊
-- [B–E　技能索引・Prompt 範本・使用聲明・課堂政策](appendix/B-E-toolkit-policy.md)
+- [B–E　技能索引‧Prompt 範本‧使用聲明‧課堂政策](appendix/B-E-toolkit-policy.md)
 - [F　一套技能庫怎麼運作](appendix/F-skill-library.md) — 十二個可移植設計
 - [G　寫作聲紋：怎麼量出你自己的基線](appendix/G-writing-fingerprint.md)
 - [H　中文學術稿的 AI 腔清單與台灣用語校正](appendix/H-chinese-ai-tone.md) — 含完整逐詞清單
