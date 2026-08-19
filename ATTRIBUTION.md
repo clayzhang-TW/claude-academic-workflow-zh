@@ -10,18 +10,16 @@
 
 謹向以下作者與團隊致謝。本書若干章節的方法與結構，建立在他們公開釋出的成果之上。
 
-| | 成果 | 本書用於 |
-|---|---|---|
-| **Cheng-I Wu** | [Academic Research Skills](https://github.com/Imbad0202/academic-research-skills) | 6.3、7.1、7.2、7.3、附錄 I |
-| **HKUSTDial 團隊** | [Supervisor-Skills](https://github.com/HKUSTDial/Supervisor-Skills) | 4.1、附錄 I 的結構層 |
-| **彭思達（Peng Sida）** | [learning_research](https://github.com/pengsida/learning_research) | 7.1 逆向大綱、主張與證據對照 |
-| **Master-cai** | [Research-Paper-Writing-Skills](https://github.com/Master-cai/Research-Paper-Writing-Skills) | 同上（封裝與結構化） |
-| **侯智薰（雷蒙）** | [speak-human-tw](https://github.com/Raymondhou0917/speak-human-tw) | 附錄 H 全份 |
-| **MrGeDiao** | [shuorenhua](https://github.com/MrGeDiao/shuorenhua) | 7.1、附錄 I 的「保護片段」 |
-| **Matt Pocock** | [skills](https://github.com/mattpocock/skills) 之 `grill-me` | 2.4 執行前追問 |
-| **Thariq Shihipar**（Anthropic） | 〈[A field guide to Claude Fable 5: Finding your unknowns](https://claude.com/blog/a-field-guide-to-claude-fable-finding-your-unknowns)〉 | 2.4 的四象限框架 |
-| **virgiliojr94** | `book-to-skill` | 6.2 把一本書變成顧問 |
-| **J. W. Creswell & J. D. Creswell** | *Research Design* (5th ed.). SAGE, 2018. | 4.1 三取向、四世界觀、三種效度 |
+- **Cheng-I Wu**｜[Academic Research Skills](https://github.com/Imbad0202/academic-research-skills) → 6.3、7.1、7.2、7.3、附錄 I
+- **HKUSTDial 團隊**｜[Supervisor-Skills](https://github.com/HKUSTDial/Supervisor-Skills) → 4.1、附錄 I 的結構層
+- **彭思達（Peng Sida）**｜[learning_research](https://github.com/pengsida/learning_research) → 7.1 逆向大綱、主張與證據對照
+- **Master-cai**｜[Research-Paper-Writing-Skills](https://github.com/Master-cai/Research-Paper-Writing-Skills) → 同上（封裝與結構化）
+- **侯智薰（雷蒙）**｜[speak-human-tw](https://github.com/Raymondhou0917/speak-human-tw) → 附錄 H 全份
+- **MrGeDiao**｜[shuorenhua](https://github.com/MrGeDiao/shuorenhua) → 7.1、附錄 I 的「保護片段」
+- **Matt Pocock**｜[skills](https://github.com/mattpocock/skills) 之 `grill-me` → 2.4 執行前追問
+- **Thariq Shihipar**（Anthropic）｜〈[A field guide to Claude Fable 5: Finding your unknowns](https://claude.com/blog/a-field-guide-to-claude-fable-finding-your-unknowns)〉 → 2.4 的四象限框架
+- **virgiliojr94**｜`book-to-skill` → 6.2 把一本書變成顧問
+- **J. W. Creswell & J. D. Creswell**｜*Research Design* (5th ed.). SAGE, 2018. → 4.1 三取向、四世界觀、三種效度
 
 其中 Cheng-I Wu 的 Academic Research Skills 指定了署名格式，依其要求原文照錄：
 
@@ -38,14 +36,12 @@ https://github.com/Imbad0202/academic-research-skills
 
 各上游的授權條件如下。除彭思達一項外，其餘皆與本書授權相容。
 
-| 來源 | 授權 |
-|---|---|
-| Academic Research Skills（Cheng-I Wu） | CC BY-NC 4.0 |
-| Supervisor-Skills（HKUSTDial） | CC BY-NC-SA 4.0 |
-| speak-human-tw／shuorenhua／mattpocock/skills／Research-Paper-Writing-Skills／book-to-skill | MIT |
-| Anthropic 官方部落格文章 | 僅取其概念框架 |
-| Creswell & Creswell (2018) | 商業出版之教科書；⚠️ **僅取其框架結構，未引用任何文字** |
-| learning_research（彭思達） | ⚠️ **無授權宣告**，處理方式見第五節 |
+- Academic Research Skills（Cheng-I Wu）——**CC BY-NC 4.0**
+- Supervisor-Skills（HKUSTDial）——**CC BY-NC-SA 4.0**
+- speak-human-tw／shuorenhua／mattpocock 的 skills／Research-Paper-Writing-Skills／book-to-skill——**MIT**
+- Anthropic 官方部落格文章——僅取其概念框架
+- Creswell & Creswell (2018)——商業出版之教科書；⚠️ **僅取其框架結構，未引用任何文字**
+- learning_research（彭思達）——⚠️ **無授權宣告**，處理方式見第五節
 
 ---
 
