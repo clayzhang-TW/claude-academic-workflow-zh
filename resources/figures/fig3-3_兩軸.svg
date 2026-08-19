@@ -67,10 +67,10 @@
   <text class="c1 b" x="167" y="318" text-anchor="middle">提示詞</text>
   <text class="muted s" x="167" y="336" text-anchor="middle">講完就沒了</text>
 
-  <!-- 接頭：第三件事，不在這兩軸上 -->
+  <!-- 連接器：第三件事，不在這兩軸上 -->
   <rect class="plug" x="18" y="440" width="524" height="66" rx="6"/>
-  <text class="cw h" x="34" y="464">接頭　⚠️ 它不在這兩條軸上</text>
-  <text class="ink s" x="34" y="486">上面兩軸問的是「誰決定」與「何時生效」；接頭問的是它伸得到哪裡。</text>
+  <text class="cw h" x="34" y="464">連接器　⚠️ 它不在這兩條軸上</text>
+  <text class="ink s" x="34" y="486">上面兩軸問的是「誰決定」與「何時生效」；連接器問的是它伸得到哪裡。</text>
   <text class="muted s" x="34" y="502">裝了它，四個位置全部同時擴大——它不移動任何一格，它把整張圖能碰到的範圍變大。</text>
 
   <line class="rule" x1="18" y1="526" x2="542" y2="526"/>

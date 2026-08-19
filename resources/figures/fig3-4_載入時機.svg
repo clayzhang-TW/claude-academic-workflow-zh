@@ -57,11 +57,11 @@
 
   <circle class="plug" cx="64" cy="366" r="8"/>
   <rect class="plug" x="96" y="344" width="446" height="44" rx="6"/>
-  <text class="cw b" x="112" y="366">接頭　它要碰外部程式的時候</text>
+  <text class="cw b" x="112" y="366">連接器　它要碰外部程式的時候</text>
   <text class="muted s" x="112" y="382">⚠️ 它有回應不等於接通了——要用非連線不可的功能去驗</text>
 
   <line class="rule" x1="18" y1="428" x2="542" y2="428"/>
   <text class="ink s" x="18" y="452" font-weight="700">四樣東西回答的是三個不同的問題：</text>
-  <text class="muted s" x="18" y="474">提示詞、技能檔、代理 → 誰決定步驟　｜　規則檔 → 什麼時候生效　｜　接頭 → 碰得到什麼</text>
+  <text class="muted s" x="18" y="474">提示詞、技能檔、代理 → 誰決定步驟　｜　規則檔 → 什麼時候生效　｜　連接器 → 碰得到什麼</text>
   <text class="cw s" x="18" y="500" font-weight="700">最上面那一條最容易被忘記，因為你從來沒有主動叫過它。</text>
 </svg>
