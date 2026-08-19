@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 500" width="560" height="500" font-family="Noto Sans TC, Microsoft JhengHei, Helvetica, Arial, sans-serif">
+  <style>
+    @page{size:560px 500px;margin:0}
+    .bg{fill:#faf7f0}
+    .ink{fill:#23201b}
+    .muted{fill:#6b6459}
+    .rule{stroke:#ddd5c6;stroke-width:1}
+    .l1{fill:#e8f2ec;stroke:#2f6b4f;stroke-width:2.6}
+    .l2{fill:#f5efe2;stroke:#8a5a2b;stroke-width:1.8}
+    .l3{fill:#f1ebf5;stroke:#6b4a7a;stroke-width:1.8;stroke-dasharray:6 4}
+    .c1{fill:#2f6b4f}.c2{fill:#8a5a2b}.c3{fill:#6b4a7a}
+    .arrow{stroke:#8a5a2b;stroke-width:2;fill:none}
+    .head{fill:#8a5a2b}
+    .stopbar{fill:#2f6b4f}
+    .title{font-size:17px;font-weight:700}
+    .h{font-size:15px;font-weight:700}
+    .b{font-size:13px;font-weight:700}
+    .s{font-size:12px}
+    @media (prefers-color-scheme: dark){
+      .bg{fill:#17150f}.ink{fill:#ece5d6}.muted{fill:#a49a88}.rule{stroke:#3a352a}
+      .l1{fill:#15241c;stroke:#7fc4a0}.l2{fill:#241f16;stroke:#d09a5e}.l3{fill:#241b2a;stroke:#c3a0d4}
+      .c1{fill:#7fc4a0}.c2{fill:#d09a5e}.c3{fill:#c3a0d4}
+      .arrow{stroke:#d09a5e}.head{fill:#d09a5e}.stopbar{fill:#7fc4a0}
+    }
+  </style>
+
+  <rect class="bg" width="560" height="500"/>
+  <text class="ink title" x="18" y="28">圖 7-3　三層起步：由上往下裝，隨時可以停</text>
+  <text class="muted s" x="18" y="50">第一層就能單獨運作。往下每一層都是加分，不是前提。</text>
+
+  <defs><marker id="m73" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path class="head" d="M0,0 L10,5 L0,10 z"/></marker></defs>
+
+  <rect class="l1" x="18" y="66" width="524" height="104" rx="8"/>
+  <text class="c1 h" x="34" y="92">第一層　零安裝，這週就能開始</text>
+  <text class="ink s" x="34" y="116">一份規則檔（3.4）　｜　跑一次七欄文獻筆記管線（2.1）　｜　一個技能檔（3.1）</text>
+  <text class="c1 s" x="34" y="138" font-weight="700">它解決的正是最大的那個痛點：文獻讀完之後不會蒸發。</text>
+  <text class="muted s" x="34" y="160">⚠️ 不需要金鑰、不需要安裝。只做到這一層，這門課的多數價值你已經拿到了。</text>
+
+  <rect class="stopbar" x="18" y="180" width="524" height="4" rx="2"/>
+  <text class="c1 s" x="34" y="202" font-weight="700">停在這裡完全成立　←　多數人的正確終點</text>
+  <path class="arrow" d="M496,188 L496,216" marker-end="url(#m73)"/>
+  <text class="muted s" x="330" y="204">手動開始覺得痛，才往下</text>
+
+  <rect class="l2" x="18" y="220" width="524" height="88" rx="8"/>
+  <text class="c2 h" x="34" y="246">第二層　接上你的書目軟體</text>
+  <text class="ink s" x="34" y="270">約半小時。換來批次補 DOI、查重、撤稿與被引極性的自動查核。</text>
+  <text class="c2 s" x="34" y="294">⚠️ 價值隨文獻量放大——只有幾十筆時，手動反而比較快</text>
+
+  <path class="arrow" d="M496,312 L496,340" marker-end="url(#m73)"/>
+  <text class="muted s" x="352" y="330">有機構資源才往下</text>
+
+  <rect class="l3" x="18" y="344" width="524" height="84" rx="8"/>
+  <text class="c3 h" x="34" y="370">第三層　外部檢索資料庫</text>
+  <text class="ink s" x="34" y="394">看機構資源。有些要訂閱，有些完全免費。</text>
+  <text class="c3 s" x="34" y="416">⚠️ 沒有也不影響上面兩層——要挑一個先裝，挑免費、來源多的那種</text>
+
+  <line class="rule" x1="18" y1="450" x2="542" y2="450"/>
+  <text class="ink s" x="18" y="474" font-weight="700">要不要往下一層？問一句：你上一次因為缺它而卡住，是什麼時候？</text>
+  <text class="muted s" x="18" y="496">說不出來，就代表你還不需要它。</text>
+</svg>

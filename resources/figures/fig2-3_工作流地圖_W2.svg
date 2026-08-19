@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 753" width="560" height="753" font-family="Noto Sans TC, Microsoft JhengHei, Helvetica, Arial, sans-serif">
+  <style>
+    @page{size:560px 753px;margin:0}
+    .bg{fill:#faf7f0}
+    .ink{fill:#23201b}
+    .muted{fill:#6b6459}
+    .rule{stroke:#ddd5c6;stroke-width:1}
+    .rail{stroke:#c9bda8;stroke-width:2.4;fill:none}
+    .node{fill:#f3f0e8;stroke:#c9bfa8;stroke-width:1.2}
+    .nodeOn{fill:#e8f2ec;stroke:#2f6b4f;stroke-width:2.4}
+    .span{fill:#f2edf6;stroke:#b8a8c4;stroke-width:1.2}
+    .spanOn{fill:#f1ebf5;stroke:#6b4a7a;stroke-width:2.4}
+    .zone{fill:#8a5a2b}
+    .on{fill:#2f6b4f}
+    .onSpan{fill:#6b4a7a}
+    .dim{opacity:0.42}
+    .tagOn{fill:#2f6b4f}
+    .tagOnSpan{fill:#6b4a7a}
+    .hdr{fill:#efe9dc}
+    .title{font-size:17px;font-weight:700}
+    .h{font-size:14px;font-weight:700}
+    .b{font-size:13px;font-weight:700}
+    .s{font-size:12px}
+    @media (prefers-color-scheme: dark){
+      .bg{fill:#17150f}
+      .ink{fill:#ece5d6}
+      .muted{fill:#a49a88}
+      .rule{stroke:#3a352a}
+      .rail{stroke:#4a4335}
+      .node{fill:#1e1b14;stroke:#3d3629}
+      .nodeOn{fill:#15241c;stroke:#7fc4a0}
+      .span{fill:#221c28;stroke:#4d4356}
+      .spanOn{fill:#241b2a;stroke:#c3a0d4}
+      .zone{fill:#d09a5e}
+      .on{fill:#7fc4a0}
+      .onSpan{fill:#c3a0d4}
+      .tagOn{fill:#7fc4a0}
+      .tagOnSpan{fill:#c3a0d4}
+      .hdr{fill:#241f16}
+    }
+  </style>
+
+  <rect class="bg" width="560" height="753"/>
+  <text class="ink title" x="18" y="28">圖 2-3　你在整條工作流的哪裡</text>
+  <text class="on s" x="18" y="50" font-weight="700">第 2 章　第一份文獻筆記</text>
+  <text class="muted s" x="18" y="68">你跑的是「蒐集」裡的一站。它的產出會一路餵到最後一站。</text>
+  <text class="onSpan h" x="18" y="90">貫穿全程（不屬於任何一站）</text>
+  <g class="dim">
+    <rect class="span" x="18" y="96" width="524" height="42" rx="6"/>
+    <text class="ink b" x="34" y="114">知識庫</text>
+    <text class="muted s" x="34" y="130">文獻／概念／靈感／技術四種筆記</text>
+    <text class="muted s" x="530" y="114" text-anchor="end">1.2 · 4.4</text>
+  </g>
+  <g class="dim">
+    <rect class="span" x="18" y="141" width="524" height="42" rx="6"/>
+    <text class="ink b" x="34" y="159">你的技能檔</text>
+    <text class="muted s" x="34" y="175">把重複的做法固定下來，跨章重用</text>
+    <text class="muted s" x="530" y="159" text-anchor="end">3.1–3.5</text>
+  </g>
+  <path class="rail" d="M40,192 L40,672"/>
+  <text class="zone h" x="58" y="200">起點</text>
+  <g class="dim">
+    <rect class="node" x="58" y="204" width="484" height="33" rx="5"/>
+    <text class="ink b" x="72" y="218">研究構想</text>
+    <text class="muted s" x="72" y="232">從模糊的興趣收斂成查得動的問題</text>
+    <text class="muted s" x="530" y="218" text-anchor="end">4.1</text>
+  </g>
+  <text class="zone h" x="58" y="259">蒐集</text>
+  <g class="dim">
+    <rect class="node" x="58" y="263" width="484" height="33" rx="5"/>
+    <text class="ink b" x="72" y="277">文獻檢索</text>
+    <text class="muted s" x="72" y="291">先搜自己的，涵蓋不足才往外</text>
+    <text class="muted s" x="530" y="277" text-anchor="end">4.3</text>
+  </g>
+  <g>
+    <rect class="nodeOn" x="58" y="299" width="484" height="33" rx="5"/>
+    <text class="on b" x="72" y="313">轉檔與七欄筆記</text>
+    <text class="muted s" x="72" y="327">PDF → 看得懂的文字 → 結構化筆記</text>
+    <text class="muted s" x="468" y="313" text-anchor="end">2.1</text>
+    <text class="tagOn s" x="530" y="313" text-anchor="end" font-weight="700">← 本章</text>
+  </g>
+  <g class="dim">
+    <rect class="node" x="58" y="335" width="484" height="33" rx="5"/>
+    <text class="ink b" x="72" y="349">書目層</text>
+    <text class="muted s" x="72" y="363">補 DOI、查重、撤稿與被引極性</text>
+    <text class="muted s" x="530" y="349" text-anchor="end">4.5</text>
+  </g>
+  <text class="zone h" x="58" y="390">驗證與綜整</text>
+  <g class="dim">
+    <rect class="node" x="58" y="394" width="484" height="33" rx="5"/>
+    <text class="ink b" x="72" y="408">查證</text>
+    <text class="muted s" x="72" y="422">落地驗證 → 四步核實 → 詮釋層</text>
+    <text class="muted s" x="530" y="408" text-anchor="end">5.1</text>
+  </g>
+  <g class="dim">
+    <rect class="node" x="58" y="430" width="484" height="33" rx="5"/>
+    <text class="ink b" x="72" y="444">綜整</text>
+    <text class="muted s" x="72" y="458">三句主張 → 證據歸櫃 → 空櫃＝缺口</text>
+    <text class="muted s" x="530" y="444" text-anchor="end">5.3</text>
+  </g>
+  <text class="zone h" x="58" y="485">產出</text>
+  <g class="dim">
+    <rect class="node" x="58" y="489" width="484" height="33" rx="5"/>
+    <text class="ink b" x="72" y="503">資料分析</text>
+    <text class="muted s" x="72" y="517">寫語法 → 跑 → 偵錯 → 存成技術筆記</text>
+    <text class="muted s" x="530" y="503" text-anchor="end">6.1</text>
+  </g>
+  <g class="dim">
+    <rect class="node" x="58" y="525" width="484" height="33" rx="5"/>
+    <text class="ink b" x="72" y="539">撰寫</text>
+    <text class="muted s" x="72" y="553">六種模式，一次只處理一個階段</text>
+    <text class="muted s" x="530" y="539" text-anchor="end">6.3</text>
+  </g>
+  <text class="zone h" x="58" y="580">送出</text>
+  <g class="dim">
+    <rect class="node" x="58" y="584" width="484" height="33" rx="5"/>
+    <text class="ink b" x="72" y="598">修稿</text>
+    <text class="muted s" x="72" y="612">三輪：邏輯 → 去 AI 腔 → 格式</text>
+    <text class="muted s" x="530" y="598" text-anchor="end">7.1</text>
+  </g>
+  <g class="dim">
+    <rect class="node" x="58" y="620" width="484" height="33" rx="5"/>
+    <text class="ink b" x="72" y="634">自審</text>
+    <text class="muted s" x="72" y="648">五個角色分開跑，互相不知道</text>
+    <text class="muted s" x="530" y="634" text-anchor="end">7.2</text>
+  </g>
+  <g class="dim">
+    <rect class="node" x="58" y="656" width="484" height="33" rx="5"/>
+    <text class="ink b" x="72" y="670">投稿與審查回應</text>
+    <text class="muted s" x="72" y="684">逐條判斷、爆炸半徑、唯讀稽核</text>
+    <text class="muted s" x="530" y="670" text-anchor="end">7.3</text>
+  </g>
+  <line class="rule" x1="18" y1="701" x2="542" y2="701"/>
+  <text class="muted s" x="18" y="721">淡掉的那幾站不是不重要——它們是你在別章會站上去的位置。</text>
+  <text class="ink s" x="18" y="741" font-weight="700">這張圖每一章都會再出現一次，亮起來的位置不同。</text>
+</svg>

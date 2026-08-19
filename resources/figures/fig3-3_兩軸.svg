@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 596" width="560" height="596" font-family="Noto Sans TC, Microsoft JhengHei, Helvetica, Arial, sans-serif">
+  <style>
+    @page{size:560px 596px;margin:0}
+    .bg{fill:#faf7f0}
+    .ink{fill:#23201b}
+    .muted{fill:#6b6459}
+    .rule{stroke:#ddd5c6;stroke-width:1}
+    .grid{stroke:#e4dccd;stroke-width:1;stroke-dasharray:4 4}
+    .axis{stroke:#23201b;stroke-width:2;fill:none}
+    .headA{fill:#23201b}
+    .p1{fill:#e8f2ec;stroke:#2f6b4f;stroke-width:1.8}
+    .p2{fill:#f1ebf5;stroke:#6b4a7a;stroke-width:1.8}
+    .c1{fill:#2f6b4f}.c2{fill:#6b4a7a}.cw{fill:#8a5a2b}
+    .plug{fill:#f5efe2;stroke:#8a5a2b;stroke-width:2}
+    .hdr{fill:#efe9dc}
+    .title{font-size:17px;font-weight:700}
+    .h{font-size:14px;font-weight:700}
+    .b{font-size:13px;font-weight:700}
+    .s{font-size:12px}
+    @media (prefers-color-scheme: dark){
+      .bg{fill:#17150f}.ink{fill:#ece5d6}.muted{fill:#a49a88}.rule{stroke:#3a352a}
+      .grid{stroke:#332e24}.axis{stroke:#ece5d6}.headA{fill:#ece5d6}
+      .p1{fill:#15241c;stroke:#7fc4a0}.p2{fill:#241b2a;stroke:#c3a0d4}
+      .c1{fill:#7fc4a0}.c2{fill:#c3a0d4}.cw{fill:#d09a5e}
+      .plug{fill:#241f16;stroke:#d09a5e}.hdr{fill:#241f16}
+    }
+  </style>
+
+  <rect class="bg" width="560" height="596"/>
+  <text class="ink title" x="18" y="28">圖 3-3　兩條軸，四樣東西各站一個位置</text>
+  <text class="muted s" x="18" y="50">位置有意義：越往右它自主性越高，越往上它越不需要你叫。</text>
+
+  <defs><marker id="m33" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path class="headA" d="M0,0 L10,5 L0,10 z"/></marker></defs>
+
+  <!-- 網格 -->
+  <line class="grid" x1="96" y1="180" x2="520" y2="180"/>
+  <line class="grid" x1="96" y1="280" x2="520" y2="280"/>
+  <line class="grid" x1="240" y1="88" x2="240" y2="384"/>
+  <line class="grid" x1="384" y1="88" x2="384" y2="384"/>
+
+  <!-- 軸 -->
+  <line class="axis" x1="96" y1="384" x2="528" y2="384" marker-end="url(#m33)"/>
+  <line class="axis" x1="96" y1="384" x2="96" y2="82" marker-end="url(#m33)"/>
+
+  <text class="ink b" x="300" y="416" text-anchor="middle">誰決定步驟</text>
+  <text class="muted s" x="120" y="404">你，每一次</text>
+  <text class="muted s" x="452" y="404">它自己決定</text>
+
+  <text class="ink b" x="18" y="76">什麼時候生效</text>
+  <text class="muted s" x="18" y="112">每一次都自動</text>
+  <text class="muted s" x="18" y="372">只有這一次</text>
+
+  <!-- 四個位置 -->
+  <rect class="p2" x="104" y="96" width="126" height="52" rx="6"/>
+  <text class="c2 b" x="167" y="118" text-anchor="middle">規則檔</text>
+  <text class="muted s" x="167" y="136" text-anchor="middle">不用你叫它</text>
+
+  <rect class="p1" x="248" y="196" width="126" height="52" rx="6"/>
+  <text class="c1 b" x="311" y="218" text-anchor="middle">技能檔</text>
+  <text class="muted s" x="311" y="236" text-anchor="middle">被叫到才生效</text>
+
+  <rect class="p1" x="392" y="196" width="128" height="52" rx="6"/>
+  <text class="c1 b" x="456" y="218" text-anchor="middle">代理</text>
+  <text class="muted s" x="456" y="236" text-anchor="middle">它挑要走哪幾步</text>
+
+  <rect class="p1" x="104" y="296" width="126" height="52" rx="6"/>
+  <text class="c1 b" x="167" y="318" text-anchor="middle">提示詞</text>
+  <text class="muted s" x="167" y="336" text-anchor="middle">講完就沒了</text>
+
+  <!-- 接頭：第三件事，不在這兩軸上 -->
+  <rect class="plug" x="18" y="440" width="524" height="66" rx="6"/>
+  <text class="cw h" x="34" y="464">接頭　⚠️ 它不在這兩條軸上</text>
+  <text class="ink s" x="34" y="486">上面兩軸問的是「誰決定」與「何時生效」；接頭問的是它伸得到哪裡。</text>
+  <text class="muted s" x="34" y="502">裝了它，四個位置全部同時擴大——它不移動任何一格，它把整張圖能碰到的範圍變大。</text>
+
+  <line class="rule" x1="18" y1="526" x2="542" y2="526"/>
+  <text class="ink s" x="18" y="550" font-weight="700">左上那一格最容易被忽略，也最危險：規則檔一直在生效，所以它錯了也一直在錯。</text>
+  <text class="muted s" x="18" y="574">而且它不會提醒你——技能檔至少你叫它的時候會想起它。</text>
+</svg>

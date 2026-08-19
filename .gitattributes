@@ -1,0 +1,4 @@
+# 換行一律 LF，與 build_repo.py 的輸出一致。
+# 少了這一行，Windows 的 git 會把 LF 轉成 CRLF，
+# 於是每跑一次腳本，所有檔案都會被標成「已修改」。
+* text=auto eol=lf

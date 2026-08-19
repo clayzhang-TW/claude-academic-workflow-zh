@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 560" width="560" height="560" font-family="Noto Sans TC, Microsoft JhengHei, Helvetica, Arial, sans-serif">
+  <style>
+    @page{size:560px 560px;margin:0}
+    .bg{fill:#faf7f0}
+    .ink{fill:#23201b}
+    .muted{fill:#6b6459}
+    .rule{stroke:#ddd5c6;stroke-width:1}
+    .note{fill:#e8dfd0;stroke:#8a7a60;stroke-width:1.2}
+    .split{fill:#f5efe2;stroke:#8a5a2b;stroke-width:2}
+    .cb{fill:#8a5a2b}
+    .box{fill:#e8f2ec;stroke:#2f6b4f;stroke-width:1.6}
+    .empty{fill:#fff3e6;stroke:#c47a2b;stroke-width:2;stroke-dasharray:6 4}
+    .cs{fill:#2f6b4f}.cw{fill:#8a2b3f}.co{fill:#c47a2b}
+    .arrow{stroke:#8a7a60;stroke-width:1.2;fill:none}
+    .head{fill:#8a7a60}
+    .hdr{fill:#efe9dc}
+    .title{font-size:17px;font-weight:700}
+    .h{font-size:14px;font-weight:700}
+    .b{font-size:13px;font-weight:700}
+    .s{font-size:12px}
+    @media (prefers-color-scheme: dark){
+      .bg{fill:#17150f}.ink{fill:#ece5d6}.muted{fill:#a49a88}.rule{stroke:#3a352a}
+      .note{fill:#2a2518;stroke:#a49a88}
+      .split{fill:#241f16;stroke:#d09a5e}
+      .cb{fill:#d09a5e}.box{fill:#15241c;stroke:#7fc4a0}
+      .empty{fill:#2a1f10;stroke:#d09a5e}
+      .cs{fill:#7fc4a0}.cw{fill:#e08a9c}.co{fill:#d09a5e}
+      .arrow{stroke:#a49a88}.head{fill:#a49a88}.hdr{fill:#241f16}
+    }
+  </style>
+
+  <rect class="bg" width="560" height="560"/>
+  <text class="ink title" x="18" y="28">圖 5-2　從筆記到論點：片段要重新歸隊</text>
+  <text class="muted s" x="18" y="50">左邊的單位是「一篇論文」，右邊的單位是「一個主張」。中間那一步是關鍵。</text>
+
+  <defs><marker id="m5A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path class="head" d="M0,0 L10,5 L0,10 z"/></marker></defs>
+
+  <text class="muted s" x="18" y="80">你的 18 篇筆記</text>
+  <text class="cb s" x="158" y="80" font-weight="700">拆成片段</text>
+  <text class="cs s" x="288" y="80" font-weight="700">三個容器（＝三句主張）</text>
+
+  <!-- 左：筆記 -->
+  <rect class="note" x="18" y="92" width="118" height="28" rx="3"/>
+  <text class="muted s" x="77" y="111" text-anchor="middle">筆記 A</text>
+  <rect class="note" x="18" y="128" width="118" height="28" rx="3"/>
+  <text class="muted s" x="77" y="147" text-anchor="middle">筆記 B</text>
+  <rect class="note" x="18" y="164" width="118" height="28" rx="3"/>
+  <text class="muted s" x="77" y="183" text-anchor="middle">筆記 C</text>
+  <rect class="note" x="18" y="200" width="118" height="28" rx="3"/>
+  <text class="muted s" x="77" y="219" text-anchor="middle">筆記 D</text>
+  <text class="muted s" x="77" y="248" text-anchor="middle">…共 18 篇</text>
+
+
+  <!-- 連線 -->
+  <!-- 筆記 → 拆解：四條各走各的 y，互不相交 -->
+  <path class="arrow" d="M140,106 L154,106" marker-end="url(#m5A)"/>
+  <path class="arrow" d="M140,142 L154,142" marker-end="url(#m5A)"/>
+  <path class="arrow" d="M140,178 L154,178" marker-end="url(#m5A)"/>
+  <path class="arrow" d="M140,214 L154,214" marker-end="url(#m5A)"/>
+
+  <!-- 中間：拆成片段（原本六條交叉連線改由這一站承接） -->
+  <rect class="split" x="158" y="92" width="102" height="136" rx="6"/>
+  <text class="cb b" x="209" y="124" text-anchor="middle">拆成片段</text>
+  <text class="muted s" x="209" y="150" text-anchor="middle">一個發現</text>
+  <text class="muted s" x="209" y="168" text-anchor="middle">＝一個片段</text>
+  <text class="cb s" x="209" y="196" text-anchor="middle">一篇可拆進</text>
+  <text class="cb s" x="209" y="214" text-anchor="middle">兩個容器</text>
+
+  <!-- 拆解 → 容器：出口與入口各自分開，無交叉 -->
+  <path class="arrow" d="M264,128 L282,128" marker-end="url(#m5A)"/>
+  <path class="arrow" d="M264,160 L273,160 L273,222 L282,222" marker-end="url(#m5A)"/>
+  <path class="arrow" d="M264,196 L268,196 L268,318 L282,318" marker-end="url(#m5A)"/>
+
+  <!-- 右：容器 -->
+  <rect class="box" x="286" y="96" width="256" height="66" rx="6"/>
+  <text class="cs b" x="302" y="118">容器一</text>
+  <text class="ink s" x="376" y="118">6 篇片段，方向一致</text>
+  <text class="muted s" x="302" y="140">證據充足，可以直接寫成一段</text>
+  <text class="cs s" x="302" y="156">■■■■■■</text>
+
+  <rect class="box" x="286" y="192" width="256" height="66" rx="6"/>
+  <text class="cs b" x="302" y="214">容器二</text>
+  <text class="ink s" x="376" y="214">3 直接 ＋ 2 間接</text>
+  <text class="muted s" x="302" y="236">可用，但句子裡要加但書</text>
+  <text class="cs s" x="302" y="252">■■■□□</text>
+
+  <rect class="empty" x="286" y="288" width="256" height="66" rx="6"/>
+  <text class="co b" x="302" y="310">容器三</text>
+  <text class="ink s" x="376" y="310">1 篇，而且不顯著</text>
+  <text class="cw s" x="302" y="332" font-weight="700">幾乎是空的——這一格才是重點</text>
+  <text class="co s" x="302" y="348">□</text>
+
+  <line class="rule" x1="18" y1="382" x2="542" y2="382"/>
+
+  <rect class="hdr" x="18" y="394" width="524" height="76" rx="6"/>
+  <text class="ink h" x="34" y="418">空容器有兩種讀法，你必須挑一種</text>
+  <text class="muted s" x="34" y="440">（一）這是研究缺口——把它改寫成你的研究問題。</text>
+  <text class="muted s" x="34" y="460">（二）這句話撐不住——誠實拿掉，不要硬找一篇來墊。</text>
+
+  <text class="ink s" x="18" y="496" font-weight="700">主張在前，證據在後。</text>
+  <text class="muted s" x="18" y="518">反過來做，你會一直讀、一直分類，但永遠寫不出第一段——</text>
+  <text class="muted s" x="18" y="540">因為筆記按論文排，而論證按主張排，兩種排法之間沒有自動轉換。</text>
+</svg>

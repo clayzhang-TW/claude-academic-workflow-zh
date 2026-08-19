@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 588" width="560" height="588" font-family="Noto Sans TC, Microsoft JhengHei, Helvetica, Arial, sans-serif">
+  <style>
+    @page{size:560px 588px;margin:0}
+    .bg{fill:#faf7f0}
+    .ink{fill:#23201b}
+    .muted{fill:#6b6459}
+    .rule{stroke:#c9bfa8;stroke-width:1}
+    .inside{fill:#f3f0e8;stroke:#c9bfa8;stroke-width:1.2}
+    .mem{fill:#f1ebf5;stroke:#6b4a7a;stroke-width:2}
+    .stage{fill:#e8f2ec;stroke:#2f6b4f;stroke-width:1.6}
+    .gate{fill:#f6e8e6;stroke:#8a2b3f;stroke-width:2}
+    .out{fill:#efe9dc;stroke:#8a7a60;stroke-width:1.4}
+    .cg{fill:#2f6b4f}.cm{fill:#6b4a7a}.ck{fill:#8a2b3f}.co{fill:#8a7a60}
+    .border{stroke:#8a2b3f;stroke-width:3;fill:none;stroke-dasharray:8 5}
+    .flow{stroke:#8a5a2b;stroke-width:1.8;fill:none}
+    .head{fill:#8a5a2b}
+    .title{font-size:17px;font-weight:700}
+    .h{font-size:14px;font-weight:700}
+    .b{font-size:13px;font-weight:700}
+    .s{font-size:12px}
+    @media (prefers-color-scheme: dark){
+      .bg{fill:#17150f}.ink{fill:#ece5d6}.muted{fill:#a49a88}.rule{stroke:#3d3629}
+      .inside{fill:#1e1b14;stroke:#3d3629}.mem{fill:#241b2a;stroke:#c3a0d4}
+      .stage{fill:#15241c;stroke:#7fc4a0}.gate{fill:#2a161a;stroke:#e08a9c}
+      .out{fill:#241f16;stroke:#a49a88}
+      .cg{fill:#7fc4a0}.cm{fill:#c3a0d4}.ck{fill:#e08a9c}.co{fill:#a49a88}
+      .border{stroke:#e08a9c}.flow{stroke:#d09a5e}.head{fill:#d09a5e}
+    }
+  </style>
+
+  <rect class="bg" width="560" height="588"/>
+  <text class="ink title" x="18" y="28">圖 7-2　關卡都長在同一條邊界上</text>
+  <text class="muted s" x="18" y="50">左邊是還在你手上的，右邊是已經出去的。六道關卡全部站在那條虛線上。</text>
+
+  <defs><marker id="m72b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path class="head" d="M0,0 L10,5 L0,10 z"/></marker></defs>
+
+  <text class="cg h" x="18" y="80">還在你手上</text>
+  <text class="co h" x="466" y="80" text-anchor="end">已經出去了</text>
+
+  <!-- 邊界 -->
+  <line class="border" x1="352" y1="88" x2="352" y2="470"/>
+  <rect class="bg" x="358" y="92" width="34" height="16"/>
+  <text class="ck s" x="362" y="104" font-weight="700">邊界</text>
+
+  <!-- 貫穿層 -->
+  <rect class="mem" x="18" y="94" width="112" height="352" rx="6"/>
+  <text class="cm b" x="74" y="118" text-anchor="middle">知識管理</text>
+  <text class="cm s" x="74" y="136" text-anchor="middle">貫穿全程</text>
+  <text class="muted s" x="74" y="176" text-anchor="middle">專案記憶</text>
+  <text class="muted s" x="74" y="194" text-anchor="middle">（1.2）</text>
+  <text class="muted s" x="74" y="234" text-anchor="middle">知識記憶</text>
+  <text class="muted s" x="74" y="252" text-anchor="middle">（4.4）</text>
+  <text class="cm s" x="74" y="304" text-anchor="middle">它不在</text>
+  <text class="cm s" x="74" y="322" text-anchor="middle">任何一站上</text>
+  <text class="cm s" x="74" y="360" text-anchor="middle">但每一站</text>
+  <text class="cm s" x="74" y="378" text-anchor="middle">都回來取用</text>
+
+  <!-- 八站 -->
+  <rect class="stage" x="144" y="94" width="120" height="30" rx="4"/>
+  <text class="ink s" x="154" y="114">① 研究構想</text>
+  <rect class="stage" x="144" y="140" width="120" height="30" rx="4"/>
+  <text class="ink s" x="154" y="160">② 文獻累積</text>
+  <rect class="stage" x="144" y="186" width="120" height="30" rx="4"/>
+  <text class="ink s" x="154" y="206">③ 綜整</text>
+  <rect class="stage" x="144" y="232" width="120" height="30" rx="4"/>
+  <text class="ink s" x="154" y="252">④ 資料分析</text>
+  <rect class="stage" x="144" y="278" width="120" height="30" rx="4"/>
+  <text class="ink s" x="154" y="298">⑤ 撰寫</text>
+  <rect class="stage" x="144" y="324" width="120" height="30" rx="4"/>
+  <text class="ink s" x="154" y="344">⑥ 修稿</text>
+  <rect class="stage" x="144" y="370" width="120" height="30" rx="4"/>
+  <text class="ink s" x="154" y="390">⑦ 自審</text>
+  <rect class="stage" x="144" y="416" width="120" height="30" rx="4"/>
+  <text class="ink s" x="154" y="436">⑧ 投稿與審查</text>
+
+  <!-- 關卡：坐在邊界上 -->
+  <rect class="gate" x="278" y="142" width="148" height="26" rx="4"/>
+  <text class="ck s" x="288" y="160">⚠ 引用人工核實</text>
+  <rect class="gate" x="278" y="234" width="148" height="26" rx="4"/>
+  <text class="ck s" x="288" y="252">⚠ 選模型與判品質</text>
+  <rect class="gate" x="278" y="280" width="148" height="26" rx="4"/>
+  <text class="ck s" x="288" y="298">⚠ 主動餵文獻</text>
+  <rect class="gate" x="278" y="326" width="148" height="26" rx="4"/>
+  <text class="ck s" x="288" y="344">⚠ 逐條判斷</text>
+  <rect class="gate" x="278" y="372" width="148" height="26" rx="4"/>
+  <text class="ck s" x="288" y="390">⚠ 改完要重跑一次</text>
+  <rect class="gate" x="278" y="418" width="148" height="26" rx="4"/>
+  <text class="ck s" x="288" y="436">⚠ 新增引用再核實</text>
+
+  <!-- 出去之後 -->
+  <rect class="out" x="440" y="142" width="102" height="26" rx="4"/>
+  <text class="muted s" x="450" y="160">進了論文</text>
+  <rect class="out" x="440" y="234" width="102" height="26" rx="4"/>
+  <text class="muted s" x="450" y="252">進了結果章</text>
+  <rect class="out" x="440" y="280" width="102" height="26" rx="4"/>
+  <text class="muted s" x="450" y="298">進了正文</text>
+  <rect class="out" x="440" y="326" width="102" height="26" rx="4"/>
+  <text class="muted s" x="450" y="344">進了定稿</text>
+  <rect class="out" x="440" y="372" width="102" height="26" rx="4"/>
+  <text class="muted s" x="450" y="390">當成掃乾淨了</text>
+  <rect class="out" x="440" y="418" width="102" height="26" rx="4"/>
+  <text class="muted s" x="450" y="436">寄給編輯</text>
+
+  <path class="flow" d="M268,155 H274" marker-end="url(#m72b)"/>
+  <path class="flow" d="M268,247 H274" marker-end="url(#m72b)"/>
+  <path class="flow" d="M268,293 H274" marker-end="url(#m72b)"/>
+  <path class="flow" d="M268,339 H274" marker-end="url(#m72b)"/>
+  <path class="flow" d="M268,385 H274" marker-end="url(#m72b)"/>
+  <path class="flow" d="M268,431 H274" marker-end="url(#m72b)"/>
+  <path class="flow" d="M430,155 H436" marker-end="url(#m72b)"/>
+  <path class="flow" d="M430,247 H436" marker-end="url(#m72b)"/>
+  <path class="flow" d="M430,293 H436" marker-end="url(#m72b)"/>
+  <path class="flow" d="M430,339 H436" marker-end="url(#m72b)"/>
+  <path class="flow" d="M430,385 H436" marker-end="url(#m72b)"/>
+  <path class="flow" d="M430,431 H436" marker-end="url(#m72b)"/>
+
+  <line class="rule" x1="18" y1="496" x2="542" y2="496"/>
+  <text class="ink s" x="18" y="520" font-weight="700">六道關卡的位置不是巧合——它們全部長在同一條邊界上。</text>
+  <text class="muted s" x="18" y="542">過了這條線，錯誤就不再是你一個人的事：它進了論文、進了審查者的手上。</text>
+  <text class="ck s" x="18" y="566" font-weight="700">委派的風險不在委派本身，在於沒有驗收就讓它過線。</text>
+  <text class="muted s" x="18" y="584">⚠️ 而下游會把過了線的東西，當成已經驗過的。</text>
+</svg>

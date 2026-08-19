@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 676" width="560" height="676" font-family="Noto Sans TC, Microsoft JhengHei, Helvetica, Arial, sans-serif">
+  <style>
+    @page{size:560px 676px;margin:0}
+    .bg{fill:#faf7f0}
+    .ink{fill:#23201b}
+    .muted{fill:#6b6459}
+    .rule{stroke:#ddd5c6;stroke-width:1}
+    .gone{fill:#f0ece3;stroke:#a49a88;stroke-width:1.6;stroke-dasharray:6 4}
+    .win{fill:#f7f3ea;stroke:#8a5a2b;stroke-width:2}
+    .mine{fill:#e8f2ec;stroke:#2f6b4f;stroke-width:1.4}
+    .its{fill:#f1ebf5;stroke:#6b4a7a;stroke-width:1.4}
+    .c1{fill:#2f6b4f}.c2{fill:#6b4a7a}.cw{fill:#8a5a2b}
+    .warn{fill:#8a2b3f}
+    .hdr{fill:#efe9dc}
+    .squeeze{fill:#f5efe2;stroke:#8a5a2b;stroke-width:2}
+    .feed{stroke:#8a5a2b;stroke-width:1.8;fill:none}
+    .arrow{stroke:#8a7a60;stroke-width:1.8;fill:none;stroke-dasharray:5 4}
+    .head{fill:#8a7a60}
+    .headW{fill:#8a5a2b}
+    .cw{fill:#8a5a2b}
+    .title{font-size:17px;font-weight:700}
+    .h{font-size:14px;font-weight:700}
+    .b{font-size:13px;font-weight:700}
+    .s{font-size:12px}
+    @media (prefers-color-scheme: dark){
+      .bg{fill:#17150f}
+      .ink{fill:#ece5d6}
+      .muted{fill:#a49a88}
+      .rule{stroke:#3a352a}
+      .gone{fill:#201d16;stroke:#5d564a}
+      .win{fill:#221d14;stroke:#d09a5e}
+      .mine{fill:#15241c;stroke:#7fc4a0}
+      .its{fill:#241b2a;stroke:#c3a0d4}
+      .c1{fill:#7fc4a0}.c2{fill:#c3a0d4}.cw{fill:#d09a5e}
+      .warn{fill:#e08a9c}
+      .hdr{fill:#241f16}
+      .squeeze{fill:#241f16;stroke:#d09a5e}
+      .feed{stroke:#d09a5e}
+      .arrow{stroke:#a49a88}
+      .head{fill:#a49a88}
+      .headW{fill:#d09a5e}
+      .cw{fill:#d09a5e}
+    }
+  </style>
+
+  <rect class="bg" width="560" height="676"/>
+  <text class="ink title" x="18" y="28">圖 3-2　為什麼對話會愈用愈鈍</text>
+  <text class="muted s" x="18" y="50">視窗有上限。滿了不會有警告，它會開始漏——而且最先漏掉的是最早那幾句。</text>
+
+  <defs>
+    <marker id="m32b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path class="headW" d="M0,0 L10,5 L0,10 z"/></marker>
+    <marker id="m32" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path class="head" d="M0,0 L10,5 L0,10 z"/>
+    </marker>
+  </defs>
+
+  <rect class="gone" x="18" y="70" width="524" height="60" rx="6"/>
+  <text class="muted b" x="34" y="92">已經不在視窗裡了</text>
+  <text class="muted s" x="34" y="112">你最開頭交代的限制與背景、你第一份上傳的檔案</text>
+  <text class="warn s" x="270" y="92" font-weight="700">⚠ 它不會說「我忘了」</text>
+  <text class="muted s" x="34" y="126">那段文字對它而言不存在，就跟從來沒出現過一樣。</text>
+
+  <path class="arrow" d="M280,158 L280,136" marker-end="url(#m32)"/>
+  <text class="muted s" x="292" y="152">先進先出</text>
+
+  <rect class="win" x="18" y="164" width="524" height="200" rx="8"/>
+  <text class="cw b" x="34" y="188">目前還看得到的（視窗裡）</text>
+
+  <rect class="mine" x="34" y="200" width="130" height="30" rx="4"/>
+  <text class="ink s" x="46" y="220">你較早的問題</text>
+  <rect class="its" x="34" y="236" width="492" height="30" rx="4"/>
+  <text class="ink s" x="46" y="256">它較早的回答</text>
+  <rect class="mine" x="34" y="272" width="160" height="30" rx="4"/>
+  <text class="ink s" x="46" y="292">你上一輪的問題</text>
+  <rect class="its" x="34" y="308" width="492" height="30" rx="4"/>
+  <text class="ink s" x="46" y="328">它上一輪的回答</text>
+  <text class="c2 s" x="34" y="356" font-weight="700">⚠ 注意寬度：越到後面，佔位置的主要是「它自己的回答」，不是你講的話。</text>
+
+  <line class="rule" x1="18" y1="386" x2="542" y2="386"/>
+
+  <text class="ink h" x="18" y="410">漏起來長什麼樣</text>
+  <text class="muted s" x="18" y="432">· 你前面交代過的限制，它突然不遵守了</text>
+  <text class="muted s" x="18" y="452">· 你上傳的檔案，它答得含糊</text>
+  <text class="muted s" x="18" y="472">· 它重複問你已經回答過的事</text>
+
+  <text class="ink h" x="18" y="514">應對：把它壓縮，不要搬過去</text>
+
+  <rect class="win" x="18" y="526" width="176" height="98" rx="6"/>
+  <text class="cw s" x="106" y="548" text-anchor="middle" font-weight="700">舊對話（滿的）</text>
+  <rect class="its" x="30" y="558" width="152" height="12" rx="2"/>
+  <rect class="mine" x="30" y="574" width="70" height="12" rx="2"/>
+  <rect class="its" x="30" y="590" width="152" height="12" rx="2"/>
+  <text class="muted s" x="106" y="612" text-anchor="middle">整段複製＝沒壓縮</text>
+
+  <path class="feed" d="M198,570 L226,570" marker-end="url(#m32b)"/>
+
+  <rect class="squeeze" x="230" y="526" width="112" height="98" rx="6"/>
+  <text class="cw s" x="286" y="552" text-anchor="middle" font-weight="700">只抽結論</text>
+  <text class="muted s" x="286" y="574" text-anchor="middle">你們談出</text>
+  <text class="muted s" x="286" y="590" text-anchor="middle">什麼決定</text>
+  <text class="cw s" x="286" y="610" text-anchor="middle" font-weight="700">通常三五句</text>
+
+  <path class="feed" d="M346,570 L374,570" marker-end="url(#m32b)"/>
+
+  <rect class="win" x="378" y="526" width="164" height="98" rx="6"/>
+  <text class="cw s" x="460" y="548" text-anchor="middle" font-weight="700">新對話</text>
+  <rect class="mine" x="390" y="558" width="60" height="12" rx="2"/>
+  <text class="muted s" x="460" y="592" text-anchor="middle">空間全部還在</text>
+  <text class="muted s" x="460" y="610" text-anchor="middle">給接下來要做的事</text>
+
+  <text class="muted s" x="18" y="640">另外兩個應對：把要它每次記得的寫成檔案（3.1）；一件事一個對話，不要順便查文獻。</text>
+  <text class="warn s" x="18" y="662" font-weight="700">⚠️ 把舊對話整段貼進新視窗，等於把塞滿的視窗原封不動搬過去——什麼都沒解決。</text>
+</svg>

@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 624" width="560" height="624" font-family="Noto Sans TC, Microsoft JhengHei, Helvetica, Arial, sans-serif">
+  <style>
+    @page{size:560px 624px;margin:0}
+    .bg{fill:#faf7f0}
+    .ink{fill:#23201b}
+    .muted{fill:#6b6459}
+    .rule{stroke:#ddd5c6;stroke-width:1}
+    .del{fill:#e8f2ec;stroke:#2f6b4f;stroke-width:1.4}
+    .you{fill:#f6eaec;stroke:#8a2b3f;stroke-width:2}
+    .barg{fill:#2f6b4f}.barr{fill:#8a2b3f}
+    .cdel{fill:#2f6b4f}.cyou{fill:#8a2b3f}
+    .hdr{fill:#efe9dc}
+    .title{font-size:17px;font-weight:700}
+    .b{font-size:13px;font-weight:700}
+    .t{font-size:13px}
+    .s{font-size:12px}
+    @media (prefers-color-scheme: dark){
+      .bg{fill:#17150f}
+      .ink{fill:#ece5d6}
+      .muted{fill:#a49a88}
+      .rule{stroke:#3a352a}
+      .del{fill:#15241c;stroke:#7fc4a0}
+      .you{fill:#2a1a1f;stroke:#e08a9c}
+      .barg{fill:#7fc4a0}.barr{fill:#e08a9c}
+      .cdel{fill:#7fc4a0}.cyou{fill:#e08a9c}
+      .hdr{fill:#241f16}
+    }
+  </style>
+
+  <rect class="bg" width="560" height="624"/>
+  <text class="ink title" x="18" y="28">圖 5-3　文獻工作流全圖</text>
+  <text class="muted s" x="18" y="50">整條路上只有兩段不能委派。它們剛好是唯一需要你動腦的兩段。</text>
+
+  <!-- legend -->
+  <rect class="del" x="18" y="62" width="14" height="14" rx="3"/>
+  <text class="muted s" x="40" y="74">可委派</text>
+  <rect class="you" x="120" y="62" width="14" height="14" rx="3"/>
+  <text class="muted s" x="142" y="74">只能你自己做</text>
+  <text class="muted s" x="440" y="74">出現在哪一節</text>
+
+  <!-- 1 -->
+  <rect class="del" x="18" y="88" width="524" height="40" rx="5"/>
+  <rect class="barg" x="18" y="88" width="5" height="40"/>
+  <text class="ink b" x="36" y="113">①</text>
+  <text class="ink b" x="62" y="113">來源</text>
+  <text class="muted s" x="190" y="113">手上的 PDF、Zotero 或任何書目庫</text>
+  <text class="muted s" x="470" y="113">2.1</text>
+
+  <!-- 2 -->
+  <rect class="del" x="18" y="134" width="524" height="40" rx="5"/>
+  <rect class="barg" x="18" y="134" width="5" height="40"/>
+  <text class="ink b" x="36" y="159">②</text>
+  <text class="ink b" x="62" y="159">轉檔</text>
+  <text class="muted s" x="190" y="159">抽出文字與圖表，變成看得懂的純文字</text>
+  <text class="muted s" x="470" y="159">2.1</text>
+
+  <!-- 3 -->
+  <rect class="del" x="18" y="180" width="524" height="40" rx="5"/>
+  <rect class="barg" x="18" y="180" width="5" height="40"/>
+  <text class="ink b" x="36" y="205">③</text>
+  <text class="ink b" x="62" y="205">文獻筆記</text>
+  <text class="muted s" x="190" y="205">七欄模板，第 5 欄一定要人工修</text>
+  <text class="muted s" x="470" y="205">2.1</text>
+
+  <!-- 4 you -->
+  <rect class="you" x="18" y="226" width="524" height="40" rx="5"/>
+  <rect class="barr" x="18" y="226" width="5" height="40"/>
+  <text class="cyou b" x="36" y="251">④</text>
+  <text class="cyou b" x="62" y="251">概念筆記</text>
+  <text class="ink s" x="190" y="251">用你自己的話講一次——那是你的理解</text>
+  <text class="muted s" x="470" y="251">4.4</text>
+
+  <!-- 5 -->
+  <rect class="del" x="18" y="272" width="524" height="40" rx="5"/>
+  <rect class="barg" x="18" y="272" width="5" height="40"/>
+  <text class="ink b" x="36" y="297">⑤</text>
+  <text class="ink b" x="62" y="297">知識庫</text>
+  <text class="muted s" x="190" y="297">歸檔進 vault，成為跨專案的知識記憶</text>
+  <text class="muted s" x="470" y="297">1.2</text>
+
+  <!-- 6 -->
+  <rect class="del" x="18" y="318" width="524" height="40" rx="5"/>
+  <rect class="barg" x="18" y="318" width="5" height="40"/>
+  <text class="ink b" x="36" y="343">⑥</text>
+  <text class="ink b" x="62" y="343">書目層</text>
+  <text class="muted s" x="190" y="343">補 DOI、查重、撤稿檢查、匯出格式</text>
+  <text class="muted s" x="470" y="343">4.5</text>
+
+  <!-- 7 -->
+  <rect class="del" x="18" y="364" width="524" height="40" rx="5"/>
+  <rect class="barg" x="18" y="364" width="5" height="40"/>
+  <text class="ink b" x="36" y="389">⑦</text>
+  <text class="ink b" x="62" y="389">核實：存在</text>
+  <text class="muted s" x="190" y="389">四步核實，工具在這裡大幅加速</text>
+  <text class="muted s" x="470" y="389">5.1</text>
+
+  <!-- 8 you -->
+  <rect class="you" x="18" y="410" width="524" height="40" rx="5"/>
+  <rect class="barr" x="18" y="410" width="5" height="40"/>
+  <text class="cyou b" x="36" y="435">⑧</text>
+  <text class="cyou b" x="62" y="435">核實：詮釋</text>
+  <text class="ink s" x="190" y="435">打開來讀那一段——沒有工具驗得出</text>
+  <text class="muted s" x="470" y="435">5.1</text>
+
+  <!-- 9 -->
+  <rect class="del" x="18" y="456" width="524" height="40" rx="5"/>
+  <rect class="barg" x="18" y="456" width="5" height="40"/>
+  <text class="ink b" x="36" y="481">⑨</text>
+  <text class="ink b" x="62" y="481">引用進論文</text>
+  <text class="muted s" x="190" y="481">依驗證層級節制主張強度</text>
+  <text class="muted s" x="470" y="481">5.2</text>
+
+  <line class="rule" x1="18" y1="514" x2="542" y2="514"/>
+
+  <rect class="hdr" x="18" y="528" width="524" height="80" rx="5"/>
+  <text class="cyou t" x="34" y="552" font-weight="700">兩段不可委派，而且理由是同一個</text>
+  <text class="muted s" x="34" y="574">④ 概念筆記——那是你的理解，別人代寫的理解不是你的。</text>
+  <text class="muted s" x="34" y="596">⑧ 詮釋核實——它有沒有說你以為它說的話，只有讀過的人知道。</text>
+</svg>

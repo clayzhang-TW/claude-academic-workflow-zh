@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 624" width="560" height="624" font-family="Noto Sans TC, Microsoft JhengHei, Helvetica, Arial, sans-serif">
+  <style>
+    @page{size:560px 624px;margin:0}
+    .bg{fill:#faf7f0}
+    .ink{fill:#23201b}
+    .muted{fill:#6b6459}
+    .rule{stroke:#ddd5c6;stroke-width:1}
+    .pick{fill:#8a5a2b}
+    .barpick{fill:#8a5a2b}
+    .bar{fill:#c9bda8}
+    .ctx{fill:#efe9dc}
+    .title{font-size:17px;font-weight:700}
+    .h{font-size:14px;font-weight:700}
+    .b{font-size:13px;font-weight:700}
+    .t{font-size:13px}
+    .s{font-size:12px}
+    @media (prefers-color-scheme: dark){
+      .bg{fill:#17150f}
+      .ink{fill:#ece5d6}
+      .muted{fill:#a49a88}
+      .rule{stroke:#3a352a}
+      .pick,.barpick{fill:#d09a5e}
+      .bar{fill:#4a4335}
+      .ctx{fill:#241f16}
+    }
+  </style>
+
+  <rect class="bg" width="560" height="624"/>
+  <text class="ink title" x="18" y="28">圖 2-1　它一次只猜一個字</text>
+  <text class="muted s" x="18" y="50">每一步只看左邊已經有的字，不看右邊還沒出現的字。</text>
+  <text class="muted s" x="18" y="68">被選中的字接上去，成為下一步的輸入。</text>
+
+  <!-- STEP 1 -->
+  <g transform="translate(0,78)">
+    <text class="muted s" x="18" y="12">步驟 1　目前為止的文字</text>
+    <rect class="ctx" x="18" y="18" width="524" height="28" rx="4"/>
+    <text class="ink t" x="30" y="38">…最常用的信度指標是</text>
+    <text class="muted s" x="18" y="66">下一個字的候選與機率</text>
+    <rect class="barpick" x="34" y="72" width="176" height="11" rx="2"/>
+    <text class="pick t" x="252" y="82" font-weight="700">Cronbach　← 選中</text>
+    <rect class="bar" x="34" y="88" width="68" height="11" rx="2"/>
+    <text class="muted t" x="252" y="98">再測</text>
+    <rect class="bar" x="34" y="104" width="52" height="11" rx="2"/>
+    <text class="muted t" x="252" y="114">評分者</text>
+  </g>
+
+  <!-- STEP 2 -->
+  <g transform="translate(0,208)">
+    <text class="muted s" x="18" y="12">步驟 2</text>
+    <rect class="ctx" x="18" y="18" width="524" height="28" rx="4"/>
+    <text class="ink t" x="30" y="38">…信度指標是 <tspan class="pick" font-weight="700">Cronbach</tspan></text>
+    <rect class="barpick" x="34" y="60" width="200" height="11" rx="2"/>
+    <text class="pick t" x="252" y="70" font-weight="700">'s　← 選中</text>
+    <rect class="bar" x="34" y="76" width="30" height="11" rx="2"/>
+    <text class="muted t" x="252" y="86">的</text>
+  </g>
+
+  <!-- STEP 3 -->
+  <g transform="translate(0,310)">
+    <text class="muted s" x="18" y="12">步驟 3</text>
+    <rect class="ctx" x="18" y="18" width="524" height="28" rx="4"/>
+    <text class="ink t" x="30" y="38">…信度指標是 <tspan class="pick" font-weight="700">Cronbach's</tspan></text>
+    <rect class="barpick" x="34" y="60" width="196" height="11" rx="2"/>
+    <text class="pick t" x="252" y="70" font-weight="700">α　← 選中</text>
+    <rect class="bar" x="34" y="76" width="72" height="11" rx="2"/>
+    <text class="muted t" x="252" y="86">alpha</text>
+  </g>
+
+  <!-- STEP 4 -->
+  <g transform="translate(0,412)">
+    <text class="muted s" x="18" y="12">步驟 4</text>
+    <rect class="ctx" x="18" y="18" width="524" height="28" rx="4"/>
+    <text class="ink t" x="30" y="38">…信度指標是 <tspan class="pick" font-weight="700">Cronbach's α</tspan></text>
+    <rect class="barpick" x="34" y="60" width="156" height="11" rx="2"/>
+    <text class="pick t" x="252" y="70" font-weight="700">，　← 選中</text>
+    <rect class="bar" x="34" y="76" width="86" height="11" rx="2"/>
+    <text class="muted t" x="252" y="86">係數</text>
+    <rect class="bar" x="34" y="92" width="40" height="11" rx="2"/>
+    <text class="muted t" x="252" y="102">。</text>
+  </g>
+
+  <line class="rule" x1="18" y1="528" x2="542" y2="528"/>
+
+  <rect class="ctx" x="18" y="540" width="524" height="70" rx="4"/>
+  <text class="ink t" x="34" y="562" font-weight="700">這裡沒有「查詢」這個步驟。</text>
+  <text class="ink t" x="34" y="582">它算的是「最常見的接法」，不是「正確的答案」。兩者高度重疊，</text>
+  <text class="pick t" x="34" y="602" font-weight="700">而它們分開的時候，它不會通知你。</text>
+</svg>

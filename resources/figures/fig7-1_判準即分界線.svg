@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 584" width="560" height="584" font-family="Noto Sans TC, Microsoft JhengHei, Helvetica, Arial, sans-serif">
+  <style>
+    @page{size:560px 584px;margin:0}
+    .bg{fill:#faf7f0}
+    .ink{fill:#23201b}
+    .muted{fill:#6b6459}
+    .rule{stroke:#c9bfa8;stroke-width:1}
+    .divide{stroke:#8a5a2b;stroke-width:3;fill:none}
+    .keep{fill:#f6e8e6;stroke:#8a2b3f;stroke-width:1.4}
+    .give{fill:#e8f2ec;stroke:#2f6b4f;stroke-width:1.4}
+    .dot{fill:#f5efe2;stroke:#8a5a2b;stroke-width:2}
+    .ck{fill:#8a2b3f}.cg{fill:#2f6b4f}.cw{fill:#8a5a2b}
+    .hdr{fill:#f5efe2;stroke:#8a5a2b;stroke-width:2}
+    .title{font-size:17px;font-weight:700}
+    .h{font-size:14px;font-weight:700}
+    .b{font-size:13px;font-weight:700}
+    .s{font-size:12px}
+    @media (prefers-color-scheme: dark){
+      .bg{fill:#17150f}.ink{fill:#ece5d6}.muted{fill:#a49a88}.rule{stroke:#3d3629}
+      .divide{stroke:#d09a5e}.dot{fill:#241f16;stroke:#d09a5e}
+      .keep{fill:#2a161a;stroke:#e08a9c}.give{fill:#15241c;stroke:#7fc4a0}
+      .ck{fill:#e08a9c}.cg{fill:#7fc4a0}.cw{fill:#d09a5e}
+      .hdr{fill:#241f16;stroke:#d09a5e}
+    }
+  </style>
+
+  <rect class="bg" width="560" height="584"/>
+  <text class="ink title" x="18" y="28">圖 7-1　判準就是那條線</text>
+  <text class="muted s" x="18" y="50">中間那條線只有一個問題。七章的每一件事，都被它分到左邊或右邊。</text>
+
+  <rect class="hdr" x="120" y="64" width="320" height="40" rx="6"/>
+  <text class="cw b" x="280" y="90" text-anchor="middle">如果它做錯了，我看得出來嗎？</text>
+
+  <line class="divide" x1="280" y1="104" x2="280" y2="470"/>
+
+  <text class="ck h" x="18" y="126">看不出來 → 保留</text>
+  <text class="cg h" x="404" y="126" text-anchor="end">看得出來 → 交出</text>
+  <text class="cg h" x="524" y="126" text-anchor="end"> </text>
+
+  <g>
+    <rect class="keep" x="18" y="136" width="238" height="36" rx="4"/>
+    <text class="ink s" x="30" y="159">庫裡放什麼、日誌的理由欄</text>
+    <circle class="dot" cx="280" cy="154" r="11"/>
+    <text class="cw s" x="280" y="158" text-anchor="middle" font-weight="700">1</text>
+    <rect class="give" x="304" y="136" width="238" height="36" rx="4"/>
+    <text class="muted s" x="316" y="159">把話接下去、照格式產檔</text>
+  </g>
+  <g>
+    <rect class="keep" x="18" y="180" width="238" height="36" rx="4"/>
+    <text class="ink s" x="30" y="203">查證書目、判第 5 欄</text>
+    <circle class="dot" cx="280" cy="198" r="11"/>
+    <text class="cw s" x="280" y="202" text-anchor="middle" font-weight="700">2</text>
+    <rect class="give" x="304" y="180" width="238" height="36" rx="4"/>
+    <text class="muted s" x="316" y="203">轉檔、抽圖、填七欄、批次</text>
+  </g>
+  <g>
+    <rect class="keep" x="18" y="224" width="238" height="36" rx="4"/>
+    <text class="ink s" x="30" y="247">寫什麼品質標準、刪哪一條</text>
+    <circle class="dot" cx="280" cy="242" r="11"/>
+    <text class="cw s" x="280" y="246" text-anchor="middle" font-weight="700">3</text>
+    <rect class="give" x="304" y="224" width="238" height="36" rx="4"/>
+    <text class="muted s" x="316" y="247">照你寫的規格反覆執行</text>
+  </g>
+  <g>
+    <rect class="keep" x="18" y="268" width="238" height="36" rx="4"/>
+    <text class="ink s" x="30" y="291">問題長什麼樣、驗證層級</text>
+    <circle class="dot" cx="280" cy="286" r="11"/>
+    <text class="cw s" x="280" y="290" text-anchor="middle" font-weight="700">4</text>
+    <rect class="give" x="304" y="268" width="238" height="36" rx="4"/>
+    <text class="muted s" x="316" y="291">檢索、比對、查重、書目格式</text>
+  </g>
+  <g>
+    <rect class="keep" x="18" y="312" width="238" height="36" rx="4"/>
+    <text class="ink s" x="30" y="335">詮釋層查證、三句主張</text>
+    <circle class="dot" cx="280" cy="330" r="11"/>
+    <text class="cw s" x="280" y="334" text-anchor="middle" font-weight="700">5</text>
+    <rect class="give" x="304" y="312" width="238" height="36" rx="4"/>
+    <text class="muted s" x="316" y="335">機械查詢、拆片段、當反方</text>
+  </g>
+  <g>
+    <rect class="keep" x="18" y="356" width="238" height="36" rx="4" stroke-width="2.8"/>
+    <text class="ink s" x="30" y="379">選模型、判品質、撐多強</text>
+    <circle class="dot" cx="280" cy="374" r="11"/>
+    <text class="ck s" x="280" y="378" text-anchor="middle" font-weight="700">6</text>
+    <rect class="give" x="304" y="356" width="238" height="36" rx="4"/>
+    <text class="muted s" x="316" y="379">語法、偵錯、輸出轉換、起草</text>
+  </g>
+  <g>
+    <rect class="keep" x="18" y="400" width="238" height="36" rx="4"/>
+    <text class="ink s" x="30" y="423">逐條判斷、讓步範圍、聲明</text>
+    <circle class="dot" cx="280" cy="418" r="11"/>
+    <text class="cw s" x="280" y="422" text-anchor="middle" font-weight="700">7</text>
+    <rect class="give" x="304" y="400" width="238" height="36" rx="4"/>
+    <text class="muted s" x="316" y="423">意見結構化、掃 AI 腔、格式</text>
+  </g>
+
+  <text class="ck s" x="18" y="460" font-weight="700">錯誤會安靜留在論文裡</text>
+  <text class="cg s" x="542" y="460" text-anchor="end" font-weight="700">錯誤遲早會浮出水面</text>
+
+  <line class="rule" x1="18" y1="490" x2="542" y2="490"/>
+  <text class="ink s" x="18" y="514" font-weight="700">左欄七格各不相同；右欄七格的性質完全一樣：機械、形式、可重複。</text>
+  <text class="muted s" x="18" y="538">所以第 7 章不再增加新判準——它只是把前六章的位置並排放。</text>
+  <text class="ck s" x="18" y="562" font-weight="700">第 6 格框粗一點：它的錯誤最不容易浮出水面，是全書風險最高的一章。</text>
+</svg>

@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 610" width="560" height="610" font-family="Noto Sans TC, Helvetica, Arial, sans-serif">
+  <style>
+    @page{size:560px 610px;margin:0}
+    .bg{fill:#faf7f0}
+    .ink{fill:#23201b}
+    .muted{fill:#6b6459}
+    .rule{stroke:#ddd5c6;stroke-width:1}
+    .file{fill:#efe9dc}
+    .band{fill:#f5f0e5;stroke:#ddd5c6;stroke-width:1}
+    .keybg{fill:#e8f2ec;stroke:#2f6b4f;stroke-width:1.5}
+    .key{fill:#2f6b4f}
+    .warnbg{fill:#f6eaec;stroke:#8a2b3f;stroke-width:1.5}
+    .warn{fill:#8a2b3f}
+    .title{font-size:17px;font-weight:700}
+    .t{font-size:13px}
+    .s{font-size:12px}
+    .b{font-size:14px;font-weight:700}
+    @media (prefers-color-scheme: dark){
+      .bg{fill:#17150f}
+      .ink{fill:#ece5d6}
+      .muted{fill:#a49a88}
+      .rule{stroke:#3a352a}
+      .file{fill:#241f16}
+      .band{fill:#1e1a13;stroke:#3a352a}
+      .keybg{fill:#15241c;stroke:#7fc4a0}
+      .key{fill:#7fc4a0}
+      .warnbg{fill:#2a1a1f;stroke:#e08a9c}
+      .warn{fill:#e08a9c}
+    }
+  </style>
+
+  <rect class="bg" width="560" height="610"/>
+  <text class="ink title" x="18" y="28">圖 3-1　一份技能檔的解剖</text>
+  <text class="muted s" x="18" y="48">五段各對應本章哪一節，以及第一版該有的份量。</text>
+
+  <rect class="file" x="18" y="62" width="524" height="500" rx="8"/>
+  <text class="muted s" x="32" y="83">skill.md（一個純文字檔）</text>
+
+  <!-- band 1 -->
+  <rect class="keybg" x="32" y="94" width="496" height="88" rx="5"/>
+  <text class="key b" x="48" y="117">① 使用者背景</text>
+  <text class="ink s" x="48" y="138">你是誰、做什麼領域、面對誰。你重複講了三次的那幾句。</text>
+  <text class="muted s" x="48" y="158">3.1　最小的技能——投報率最高的一段</text>
+  <text class="key s" x="48" y="176">第一版：先只寫這一段，其他留白</text>
+
+  <!-- band 2 -->
+  <rect class="band" x="32" y="192" width="496" height="70" rx="5"/>
+  <text class="ink b" x="48" y="215">② 這個技能做什麼</text>
+  <text class="muted s" x="48" y="236">一句話。寫不出一句話，代表範圍還太大。</text>
+  <text class="muted s" x="48" y="254">3.2　那個檔案裡該寫什麼　｜　第一版：一句話</text>
+
+  <!-- band 3 -->
+  <rect class="band" x="32" y="272" width="496" height="88" rx="5"/>
+  <text class="ink b" x="48" y="295">③ 步驟</text>
+  <text class="muted s" x="48" y="316">照順序寫。※ 不必寫程式——真的在跑的技能多半就是兩張表。</text>
+  <text class="muted s" x="48" y="336">3.2　七元素前四項：角色、任務、脈絡、格式</text>
+  <text class="muted s" x="48" y="354">第一版：三到五行</text>
+
+  <!-- band 4 -->
+  <rect class="band" x="32" y="370" width="496" height="88" rx="5"/>
+  <text class="ink b" x="48" y="393">④ 做對了長什麼樣</text>
+  <text class="muted s" x="48" y="414">驗收條件。它讓「做完了」變成一件可以判斷的事。</text>
+  <text class="muted s" x="48" y="434">3.2　七元素後三項：成品、過程、表現</text>
+  <text class="muted s" x="48" y="452">第一版：兩行</text>
+
+  <!-- band 5 -->
+  <rect class="warnbg" x="32" y="468" width="496" height="80" rx="5"/>
+  <text class="warn b" x="48" y="491">⑤ 不要做什麼</text>
+  <text class="ink s" x="48" y="512">一開始只有一兩條，三個月後最長。這是你的事故史。</text>
+  <text class="warn s" x="48" y="532">3.5　讓它長大　｜　第一版：可以完全是空的</text>
+
+  <line class="rule" x1="18" y1="576" x2="542" y2="576"/>
+  <text class="muted s" x="18" y="596">※ 別一次填滿五段。①先寫、⑤留白——⑤只能靠你自己被絆到才長得出來。</text>
+</svg>

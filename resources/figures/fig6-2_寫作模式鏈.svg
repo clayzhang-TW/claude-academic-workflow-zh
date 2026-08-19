@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 596" width="560" height="596" font-family="Noto Sans TC, Microsoft JhengHei, Helvetica, Arial, sans-serif">
+  <style>
+    @page{size:560px 596px;margin:0}
+    .bg{fill:#faf7f0}
+    .ink{fill:#23201b}
+    .muted{fill:#6b6459}
+    .rule{stroke:#ddd5c6;stroke-width:1}
+    .row{fill:#e8f2ec;stroke:#2f6b4f;stroke-width:1.4}
+    .rowhi{fill:#f6eaec;stroke:#8a2b3f;stroke-width:2}
+    .c1{fill:#2f6b4f}.c3{fill:#8a2b3f}
+    .hdr{fill:#efe9dc}
+    .title{font-size:17px;font-weight:700}
+    .h{font-size:14px;font-weight:700}
+    .b{font-size:14px;font-weight:700}
+    .t{font-size:13px}
+    .s{font-size:12px}
+    @media (prefers-color-scheme: dark){
+      .bg{fill:#17150f}
+      .ink{fill:#ece5d6}
+      .muted{fill:#a49a88}
+      .rule{stroke:#3a352a}
+      .row{fill:#15241c;stroke:#7fc4a0}
+      .rowhi{fill:#2a1a1f;stroke:#e08a9c}
+      .c1{fill:#7fc4a0}.c3{fill:#e08a9c}
+      .hdr{fill:#241f16}
+    }
+  </style>
+
+  <rect class="bg" width="560" height="596"/>
+  <text class="ink title" x="18" y="28">圖 6-2　寫作模式鏈：六個階段，一次只處理一個</text>
+  <text class="muted s" x="18" y="50">把結構、論證、語氣、格式壓進同一個指令，它哪一項都做不好。</text>
+
+  <text class="muted s" x="18" y="76">模式　／　你在哪一段</text>
+  <text class="muted s" x="200" y="76">它在這一段做什麼</text>
+
+  <rect class="row" x="18" y="86" width="524" height="46" rx="5"/>
+  <text class="c1 b" x="34" y="110">① plan</text>
+  <text class="ink s" x="200" y="110">用引導式提問幫你收斂研究問題</text>
+  <text class="muted s" x="34" y="126">研究方向還沒收斂</text>
+
+  <rect class="row" x="18" y="138" width="524" height="46" rx="5"/>
+  <text class="c1 b" x="34" y="162">② outline</text>
+  <text class="ink s" x="200" y="162">產出逐章、逐節的大綱</text>
+  <text class="muted s" x="34" y="178">有研究問題，要動筆</text>
+
+  <rect class="rowhi" x="18" y="190" width="524" height="62" rx="5"/>
+  <text class="c3 b" x="34" y="214">③ draft</text>
+  <text class="ink s" x="200" y="214">逐節撰寫初稿</text>
+  <text class="muted s" x="34" y="230">有大綱，要寫內文</text>
+  <text class="c3 s" x="200" y="244" font-weight="700">⚠ 缺文獻時它標記缺口，不會自己編一筆</text>
+
+  <rect class="row" x="18" y="258" width="524" height="46" rx="5"/>
+  <text class="c1 b" x="34" y="282">④ revise</text>
+  <text class="ink s" x="200" y="282">針對論證邏輯、連貫性、語氣</text>
+  <text class="muted s" x="34" y="298">有初稿，要改善</text>
+
+  <rect class="row" x="18" y="310" width="524" height="46" rx="5"/>
+  <text class="c1 b" x="34" y="334">⑤ abstract</text>
+  <text class="ink s" x="200" y="334">依目標期刊格式產出摘要</text>
+  <text class="muted s" x="34" y="350">論文接近完成</text>
+
+  <rect class="row" x="18" y="362" width="524" height="46" rx="5"/>
+  <text class="c1 b" x="34" y="386">⑥ revision-coach</text>
+  <text class="ink s" x="200" y="386">解析審查意見並規劃修改路線圖</text>
+  <text class="muted s" x="34" y="402">收到審查意見</text>
+
+  <line class="rule" x1="18" y1="430" x2="542" y2="430"/>
+
+  <rect class="hdr" x="18" y="444" width="524" height="136" rx="6"/>
+  <text class="ink h" x="34" y="468">三條使用規則</text>
+  <text class="ink s" x="34" y="492">1　不必每次從 ① 開始。</text>
+  <text class="muted s" x="216" y="492">研究問題已經清楚就直接進 ②，只想改稿就從 ④ 進</text>
+  <text class="c3 s" x="34" y="516" font-weight="700">2　⚠ 但不要倒著走。</text>
+  <text class="muted s" x="180" y="516">先有大綱再有草稿，先有草稿再修</text>
+  <text class="ink s" x="34" y="540">3　先定位，再動手。</text>
+  <text class="muted s" x="180" y="540">說得出「知道分幾節但寫不出第一段」，你就在 ③</text>
+  <text class="muted s" x="34" y="568">⚠ 這六格不是六個按鈕，是六種不同的責任分配——你在每一格要驗的東西不一樣。</text>
+</svg>

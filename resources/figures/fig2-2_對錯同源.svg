@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 512" width="560" height="512" font-family="Noto Sans TC, Microsoft JhengHei, Helvetica, Arial, sans-serif">
+  <style>
+    @page{size:560px 512px;margin:0}
+    .bg{fill:#faf7f0}
+    .ink{fill:#23201b}
+    .muted{fill:#6b6459}
+    .rule{stroke:#ddd5c6;stroke-width:1}
+    .core{fill:#f5efe2;stroke:#8a5a2b;stroke-width:2.6}
+    .good{fill:#e8f2ec;stroke:#2f6b4f;stroke-width:1.8}
+    .badb{fill:#f6eaec;stroke:#8a2b3f;stroke-width:1.8}
+    .cg{fill:#2f6b4f}.cb{fill:#8a2b3f}.cw{fill:#8a5a2b}
+    .arrow{stroke:#8a5a2b;stroke-width:2.2;fill:none}
+    .head{fill:#8a5a2b}
+    .hdr{fill:#efe9dc}
+    .title{font-size:17px;font-weight:700}
+    .h{font-size:14px;font-weight:700}
+    .b{font-size:13px;font-weight:700}
+    .s{font-size:12px}
+    @media (prefers-color-scheme: dark){
+      .bg{fill:#17150f}.ink{fill:#ece5d6}.muted{fill:#a49a88}.rule{stroke:#3a352a}
+      .core{fill:#241f16;stroke:#d09a5e}
+      .good{fill:#15241c;stroke:#7fc4a0}.badb{fill:#2a1a1f;stroke:#e08a9c}
+      .cg{fill:#7fc4a0}.cb{fill:#e08a9c}.cw{fill:#d09a5e}
+      .arrow{stroke:#d09a5e}.head{fill:#d09a5e}.hdr{fill:#241f16}
+    }
+  </style>
+
+  <rect class="bg" width="560" height="512"/>
+  <text class="ink title" x="18" y="28">圖 2-2　對的答案與錯的答案，走的是同一條路</text>
+  <text class="muted s" x="18" y="50">這就是為什麼它不會通知你——分岔點根本不存在。</text>
+
+  <defs><marker id="m22b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path class="head" d="M0,0 L10,5 L0,10 z"/></marker></defs>
+
+  <rect class="core" x="120" y="72" width="320" height="66" rx="8"/>
+  <text class="cw h" x="280" y="98" text-anchor="middle">同一個機制：接龍</text>
+  <text class="muted s" x="280" y="120" text-anchor="middle">算「最常見的接法」，不是「正確的答案」</text>
+
+  <path class="arrow" d="M200,142 L200,168 L136,168 L136,196" marker-end="url(#m22b)"/>
+  <path class="arrow" d="M360,142 L360,168 L424,168 L424,196" marker-end="url(#m22b)"/>
+
+  <rect class="good" x="18" y="200" width="236" height="92" rx="8"/>
+  <text class="cg b" x="136" y="224" text-anchor="middle">說對了</text>
+  <text class="muted s" x="136" y="246" text-anchor="middle">最常見的接法</text>
+  <text class="muted s" x="136" y="264" text-anchor="middle">剛好也是對的</text>
+  <text class="muted s" x="136" y="284" text-anchor="middle">（多數時候如此）</text>
+
+  <rect class="badb" x="306" y="200" width="236" height="92" rx="8"/>
+  <text class="cb b" x="424" y="224" text-anchor="middle">說錯了</text>
+  <text class="muted s" x="424" y="246" text-anchor="middle">最常見的接法</text>
+  <text class="muted s" x="424" y="264" text-anchor="middle">剛好不是對的</text>
+  <text class="cb s" x="424" y="284" text-anchor="middle" font-weight="700">拼裝／錯置／假精確</text>
+
+  <rect class="hdr" x="18" y="312" width="524" height="72" rx="6"/>
+  <text class="ink b" x="34" y="336">兩個框裡的東西，你分得出來嗎</text>
+  <text class="muted s" x="34" y="358">語氣一樣　｜　格式一樣　｜　自信一樣　｜　書目長得一樣專業</text>
+  <text class="cb s" x="34" y="376" font-weight="700">⚠️ 沒有任何一個訊號在左右兩邊是不同的。</text>
+
+  <line class="rule" x1="18" y1="404" x2="542" y2="404"/>
+  <text class="ink s" x="18" y="428" font-weight="700">所以「更小心一點」沒有用——你要小心的對象長得跟正常的一模一樣。</text>
+  <text class="cw s" x="18" y="452" font-weight="700">能分開左右兩邊的只有一件事：離開這個畫面，去查（2.5）。</text>
+  <text class="muted s" x="18" y="478">⚠️ 也因為同源，這不是可以被修好的故障——修掉右邊等於修掉左邊。</text>
+  <text class="muted s" x="18" y="500">更好的模型會讓右邊變小，但不會讓它變成零。</text>
+</svg>

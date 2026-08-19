@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 560" width="560" height="560" font-family="Noto Sans TC, Microsoft JhengHei, Helvetica, Arial, sans-serif">
+  <style>
+    @page{size:560px 560px;margin:0}
+    .bg{fill:#faf7f0}
+    .ink{fill:#23201b}
+    .muted{fill:#6b6459}
+    .find{fill:#e8f2ec;stroke:#2f6b4f;stroke-width:1.8}
+    .chal{fill:#f6e8e6;stroke:#8a2b3f;stroke-width:1.8}
+    .gate{fill:#f1ebf5;stroke:#6b4a7a;stroke-width:1.8}
+    .cf{fill:#2f6b4f}.cc{fill:#8a2b3f}.cg{fill:#6b4a7a}
+    .card{fill:#fffdf8;stroke:#c9bfa8;stroke-width:1.2}
+    .rule{stroke:#c9bfa8;stroke-width:1}
+    .arrow{stroke:#8a5a2b;stroke-width:1.8;fill:none}
+    .head{fill:#8a5a2b}
+    .thin{stroke:#8a7a60;stroke-width:1.1;fill:none;stroke-dasharray:4 3}
+    .title{font-size:17px;font-weight:700}
+    .rt{font-size:15px;font-weight:700}
+    .b{font-size:13px;font-weight:700}
+    .t{font-size:13px}
+    .s{font-size:12px}
+    @media (prefers-color-scheme: dark){
+      .bg{fill:#17150f}
+      .ink{fill:#ece5d6}
+      .muted{fill:#a49a88}
+      .find{fill:#15241c;stroke:#7fc4a0}
+      .chal{fill:#2a161a;stroke:#e08a9c}
+      .gate{fill:#241b2a;stroke:#c3a0d4}
+      .cf{fill:#7fc4a0}.cc{fill:#e08a9c}.cg{fill:#c3a0d4}
+      .card{fill:#1e1b14;stroke:#3d3629}
+      .rule{stroke:#3d3629}
+      .arrow{stroke:#d09a5e}
+      .head{fill:#d09a5e}
+      .thin{stroke:#a49a88}
+    }
+  </style>
+
+  <rect class="bg" width="560" height="560"/>
+  <text class="ink title" x="18" y="28">圖 F-1　三個角色的動機是衝突的，所以互相抓得到</text>
+  <text class="muted s" x="18" y="50">前兩個角色一次只看一筆，第三個只看跨筆的一致性。</text>
+
+  <defs>
+    <marker id="mf1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path class="head" d="M0,0 L10,5 L0,10 z"/>
+    </marker>
+  </defs>
+
+  <!-- 輸入 -->
+  <rect class="card" x="18" y="64" width="524" height="40" rx="5"/>
+  <text class="ink t" x="34" y="89">你要撐的一個主張　＋　一批候選來源</text>
+  <path class="arrow" d="M280,106 L280,124" marker-end="url(#mf1)"/>
+
+  <!-- Finder -->
+  <rect class="find" x="18" y="128" width="524" height="56" rx="5"/>
+  <text class="cf rt" x="34" y="152">① Finder</text>
+  <text class="muted s" x="34" y="174">把候選攤開、補齊書目，不做判斷</text>
+  <rect class="card" x="404" y="140" width="122" height="32" rx="4"/>
+  <text class="cf s" x="465" y="160" text-anchor="middle" font-weight="700">動機：找到</text>
+  <path class="arrow" d="M280,186 L280,204" marker-end="url(#mf1)"/>
+
+  <!-- Challenger -->
+  <rect class="chal" x="18" y="208" width="524" height="96" rx="5"/>
+  <text class="cc rt" x="34" y="232">② Challenger-Advisor</text>
+  <text class="muted s" x="34" y="254">逐筆過七項判準；打掉之後必須給替代方案</text>
+  <line class="rule" x1="34" y1="266" x2="386" y2="266"/>
+  <text class="ink s" x="34" y="286">結果只有三種：可用　／　駁回＋替代　／　待查</text>
+  <rect class="card" x="404" y="228" width="122" height="32" rx="4"/>
+  <text class="cc s" x="465" y="248" text-anchor="middle" font-weight="700">動機：打掉</text>
+  <path class="arrow" d="M280,306 L280,324" marker-end="url(#mf1)"/>
+
+  <!-- 逐筆結果 -->
+  <text class="muted s" x="18" y="342">逐筆判定的結果（一筆一張，彼此不相干）</text>
+  <rect class="card" x="18" y="350" width="80" height="30" rx="3"/>
+  <text class="ink s" x="58" y="370" text-anchor="middle">筆 1</text>
+  <rect class="card" x="106" y="350" width="80" height="30" rx="3"/>
+  <text class="ink s" x="146" y="370" text-anchor="middle">筆 2</text>
+  <rect class="card" x="194" y="350" width="80" height="30" rx="3"/>
+  <text class="ink s" x="234" y="370" text-anchor="middle">筆 3</text>
+  <text class="muted s" x="286" y="370">…</text>
+
+  <path class="thin" d="M58,382 L58,404 M146,382 L146,404 M234,382 L234,404"/>
+
+  <!-- Gatekeeper -->
+  <rect class="gate" x="18" y="408" width="524" height="88" rx="5"/>
+  <text class="cg rt" x="34" y="432">③ Gatekeeper</text>
+  <text class="muted s" x="34" y="454">只問一件事：同一個主張，前後有沒有用了兩種強度</text>
+  <text class="muted s" x="34" y="474">它不重查任何一筆，它比對所有筆之間的關係</text>
+  <rect class="card" x="404" y="424" width="122" height="32" rx="4"/>
+  <text class="cg s" x="465" y="444" text-anchor="middle" font-weight="700">動機：全篇一致</text>
+
+  <path class="arrow" d="M280,498 L280,514" marker-end="url(#mf1)"/>
+  <rect class="card" x="18" y="518" width="524" height="34" rx="5"/>
+  <text class="ink t" x="280" y="541" text-anchor="middle">可以寫進草稿的引用，以及你還要自己讀的那幾筆</text>
+</svg>

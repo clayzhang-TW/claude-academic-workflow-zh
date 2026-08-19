@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 528" width="560" height="528" font-family="Noto Sans TC, Microsoft JhengHei, Helvetica, Arial, sans-serif">
+  <style>
+    @page{size:560px 528px;margin:0}
+    .bg{fill:#faf7f0}
+    .ink{fill:#23201b}
+    .muted{fill:#6b6459}
+    .rule{stroke:#ddd5c6;stroke-width:1}
+    .proj{fill:#e8f2ec;stroke:#2f6b4f;stroke-width:1.6}
+    .know{fill:#f1ebf5;stroke:#6b4a7a;stroke-width:1.6}
+    .cp{fill:#2f6b4f}.ck{fill:#6b4a7a}
+    .lineP{stroke:#2f6b4f;stroke-width:2.4;fill:none}
+    .lineK{stroke:#6b4a7a;stroke-width:2.4;fill:none}
+    .headK{fill:#6b4a7a}
+    .stop{fill:#8a2b3f}
+    .ai{fill:#f5efe2;stroke:#8a5a2b;stroke-width:2.4}
+    .cw{fill:#8a5a2b}
+    .feed{stroke:#8a5a2b;stroke-width:1.6;fill:none;stroke-dasharray:5 4}
+    .headW{fill:#8a5a2b}
+    .title{font-size:17px;font-weight:700}
+    .h{font-size:14px;font-weight:700}
+    .b{font-size:13px;font-weight:700}
+    .s{font-size:12px}
+    @media (prefers-color-scheme: dark){
+      .bg{fill:#17150f}.ink{fill:#ece5d6}.muted{fill:#a49a88}.rule{stroke:#3a352a}
+      .proj{fill:#15241c;stroke:#7fc4a0}.know{fill:#241b2a;stroke:#c3a0d4}
+      .cp{fill:#7fc4a0}.ck{fill:#c3a0d4}
+      .lineP{stroke:#7fc4a0}.lineK{stroke:#c3a0d4}.headK{fill:#c3a0d4}
+      .stop{fill:#e08a9c}
+      .ai{fill:#241f16;stroke:#d09a5e}.cw{fill:#d09a5e}
+      .feed{stroke:#d09a5e}.headW{fill:#d09a5e}
+    }
+  </style>
+
+  <rect class="bg" width="560" height="528"/>
+  <text class="ink title" x="18" y="28">圖 1-1　兩種記憶：一種會結束，一種不會</text>
+  <text class="muted s" x="18" y="50">同樣是你寫下來的東西，差別在它跟著誰走。</text>
+
+  <defs>
+    <marker id="m11k" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path class="headK" d="M0,0 L10,5 L0,10 z"/></marker>
+    <marker id="m11w" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path class="headW" d="M0,0 L10,5 L0,10 z"/></marker>
+  </defs>
+
+  <!-- 專案記憶 -->
+  <text class="cp h" x="18" y="86">專案記憶</text>
+  <text class="muted s" x="120" y="86">做完就凍結，不會跟你到下一個題目</text>
+
+  <path class="lineP" d="M30,120 L400,120"/>
+  <circle class="proj" cx="30" cy="120" r="7"/>
+  <rect class="stop" x="396" y="106" width="8" height="28" rx="2"/>
+  <text class="muted s" x="24" y="146">開題</text>
+  <text class="stop s" x="360" y="146" font-weight="700">結案</text>
+
+  <rect class="proj" x="70" y="152" width="160" height="44" rx="5"/>
+  <text class="ink b" x="84" y="174">說明檔</text>
+  <text class="muted s" x="84" y="190">問題、方法、目標期刊</text>
+  <rect class="proj" x="246" y="152" width="154" height="44" rx="5"/>
+  <text class="ink b" x="260" y="174">決策日誌</text>
+  <text class="muted s" x="260" y="190">日期｜決定｜理由</text>
+
+  <!-- 知識記憶 -->
+  <text class="ck h" x="18" y="238">知識記憶</text>
+  <text class="muted s" x="120" y="238">穿過一個又一個專案，一直長</text>
+
+  <path class="lineK" d="M30,272 L404,272" marker-end="url(#m11k)"/>
+  <circle class="know" cx="30" cy="272" r="7"/>
+  <rect class="know" x="70" y="258" width="86" height="28" rx="4"/>
+  <text class="ink s" x="113" y="277" text-anchor="middle">專案 A</text>
+  <rect class="know" x="166" y="258" width="86" height="28" rx="4"/>
+  <text class="ink s" x="209" y="277" text-anchor="middle">專案 B</text>
+  <rect class="know" x="262" y="258" width="86" height="28" rx="4"/>
+  <text class="ink s" x="305" y="277" text-anchor="middle">專案 C</text>
+  <text class="muted s" x="404" y="238" text-anchor="end">還會有下一個</text>
+
+  <rect class="know" x="30" y="298" width="380" height="44" rx="5"/>
+  <text class="ink b" x="44" y="320">文獻筆記／概念筆記／靈感與技術筆記</text>
+  <text class="muted s" x="44" y="336">放在 vault；換題目、換工作都帶得走</text>
+
+  <!-- AI：走右側通道，不穿過任何一區 -->
+  <path class="feed" d="M404,174 L466,174 L466,214" marker-end="url(#m11w)"/>
+  <path class="feed" d="M414,320 L466,320 L466,282" marker-end="url(#m11w)"/>
+  <text class="cw s" x="472" y="170">讀取</text>
+  <text class="cw s" x="472" y="330">讀取</text>
+
+  <rect class="ai" x="410" y="218" width="132" height="60" rx="6"/>
+  <text class="cw b" x="476" y="242" text-anchor="middle">AI</text>
+  <text class="muted s" x="476" y="262" text-anchor="middle">兩邊都讀得到</text>
+
+  <line class="rule" x1="18" y1="368" x2="542" y2="368"/>
+  <text class="ink s" x="18" y="392" font-weight="700">兩種都不是為 AI 建的——但它們建起來之後，就是你餵給它最好的 context。</text>
+  <text class="cw s" x="18" y="416" font-weight="700">⚠️ 順序不能顛倒：先為自己建，它才有東西可讀。</text>
+  <text class="muted s" x="18" y="438">為了餵 AI 而寫的筆記，你自己不會回頭看——而不回頭看的筆記，寫了也是白寫。</text>
+  <text class="muted s" x="18" y="472">⚠️ 多數人只有上面那一條。於是每換一個題目，累積就從零開始。</text>
+  <text class="muted s" x="18" y="494">而下面那一條，正是你半年後跟別人差距最大的地方——</text>
+  <text class="ink s" x="18" y="516" font-weight="700">它是唯一一個「換了題目還留得下來」的東西。</text>
+</svg>

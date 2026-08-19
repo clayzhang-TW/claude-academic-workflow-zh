@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 520" width="560" height="520" font-family="Noto Sans TC, Microsoft JhengHei, Helvetica, Arial, sans-serif">
+  <style>
+    @page{size:560px 520px;margin:0}
+    .bg{fill:#faf7f0}
+    .ink{fill:#23201b}
+    .muted{fill:#6b6459}
+    .rule{stroke:#ddd5c6;stroke-width:1}
+    .spine{stroke:#8a5a2b;stroke-width:2.4;fill:none}
+    .head{fill:#8a5a2b}
+    .always{fill:#f1ebf5;stroke:#6b4a7a;stroke-width:2}
+    .oncall{fill:#e8f2ec;stroke:#2f6b4f;stroke-width:1.8}
+    .once{fill:#efe9dc;stroke:#c9bfab;stroke-width:1.4}
+    .plug{fill:#f5efe2;stroke:#8a5a2b;stroke-width:2}
+    .c1{fill:#2f6b4f}.c2{fill:#6b4a7a}.cw{fill:#8a5a2b}
+    .title{font-size:17px;font-weight:700}
+    .h{font-size:14px;font-weight:700}
+    .b{font-size:13px;font-weight:700}
+    .s{font-size:12px}
+    @media (prefers-color-scheme: dark){
+      .bg{fill:#17150f}.ink{fill:#ece5d6}.muted{fill:#a49a88}.rule{stroke:#3a352a}
+      .spine{stroke:#d09a5e}.head{fill:#d09a5e}
+      .always{fill:#241b2a;stroke:#c3a0d4}.oncall{fill:#15241c;stroke:#7fc4a0}
+      .once{fill:#241f16;stroke:#4a4335}.plug{fill:#241f16;stroke:#d09a5e}
+      .c1{fill:#7fc4a0}.c2{fill:#c3a0d4}.cw{fill:#d09a5e}
+    }
+  </style>
+
+  <rect class="bg" width="560" height="520"/>
+  <text class="ink title" x="18" y="28">圖 3-4　一次對話裡，四樣東西什麼時候進場</text>
+  <text class="muted s" x="18" y="50">同一條時間軸上的四個位置。越早進場的，你越容易忘記它還在。</text>
+
+  <defs><marker id="m33b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path class="head" d="M0,0 L10,5 L0,10 z"/></marker></defs>
+
+  <path class="spine" d="M64,90 L64,392" marker-end="url(#m33b)"/>
+  <text class="muted s" x="18" y="86">對話開始</text>
+  <text class="muted s" x="18" y="410">對話結束</text>
+
+  <circle class="always" cx="64" cy="112" r="8"/>
+  <rect class="always" x="96" y="90" width="446" height="52" rx="6"/>
+  <text class="c2 b" x="112" y="112">規則檔　自動載入，你沒做任何事</text>
+  <text class="muted s" x="112" y="130">⚠️ 它一直在生效，所以錯了也一直在錯，而且不會通知你</text>
+
+  <circle class="once" cx="64" cy="180" r="8"/>
+  <rect class="once" x="96" y="158" width="446" height="44" rx="6"/>
+  <text class="ink b" x="112" y="180">提示詞　你打字的那一刻</text>
+  <text class="muted s" x="112" y="196">講完就沒了。誰決定步驟：你，而且每一次都要重講</text>
+
+  <circle class="oncall" cx="64" cy="242" r="8"/>
+  <rect class="oncall" x="96" y="218" width="446" height="52" rx="6"/>
+  <text class="c1 b" x="112" y="240">技能檔　命中觸發條件才載入</text>
+  <text class="muted s" x="112" y="258">誰決定步驟：你寫死，它照做。⚠️ 觸發描述寫不好就永遠不會被叫到</text>
+
+  <circle class="oncall" cx="64" cy="306" r="8"/>
+  <rect class="oncall" x="96" y="284" width="446" height="44" rx="6"/>
+  <text class="c1 b" x="112" y="306">代理　你把整段工作交出去的時候</text>
+  <text class="muted s" x="112" y="322">誰決定步驟：它。判準——如果它做錯了，我看得出來嗎</text>
+
+  <circle class="plug" cx="64" cy="366" r="8"/>
+  <rect class="plug" x="96" y="344" width="446" height="44" rx="6"/>
+  <text class="cw b" x="112" y="366">接頭　它要碰外部程式的時候</text>
+  <text class="muted s" x="112" y="382">⚠️ 它有回應不等於接通了——要用非連線不可的功能去驗</text>
+
+  <line class="rule" x1="18" y1="428" x2="542" y2="428"/>
+  <text class="ink s" x="18" y="452" font-weight="700">四樣東西回答的是三個不同的問題：</text>
+  <text class="muted s" x="18" y="474">提示詞、技能檔、代理 → 誰決定步驟　｜　規則檔 → 什麼時候生效　｜　接頭 → 碰得到什麼</text>
+  <text class="cw s" x="18" y="500" font-weight="700">最上面那一條最容易被忘記，因為你從來沒有主動叫過它。</text>
+</svg>

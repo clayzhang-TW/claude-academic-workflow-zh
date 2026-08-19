@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 760" width="560" height="760" font-family="Noto Sans TC, Microsoft JhengHei, Helvetica, Arial, sans-serif">
+  <style>
+    @page{size:560px 760px;margin:0}
+    .bg{fill:#faf7f0}
+    .ink{fill:#23201b}
+    .muted{fill:#6b6459}
+    .step{fill:#e8f2ec;stroke:#2f6b4f;stroke-width:1.6}
+    .gatebox{fill:#f6e8e6;stroke:#8a2b3f;stroke-width:1.8}
+    .ck{fill:#8a2b3f}.cs{fill:#2f6b4f}
+    .card{fill:#fffdf8;stroke:#c9bfa8;stroke-width:1.2}
+    .rule{stroke:#c9bfa8;stroke-width:1}
+    .title{font-size:17px;font-weight:700}
+    .h{font-size:14px;font-weight:700}
+    .b{font-size:13px;font-weight:700}
+    .t{font-size:13px}
+    .s{font-size:12px}
+    @media (prefers-color-scheme: dark){
+      .bg{fill:#17150f}
+      .ink{fill:#ece5d6}
+      .muted{fill:#a49a88}
+      .step{fill:#15241c;stroke:#7fc4a0}
+      .gatebox{fill:#2a161a;stroke:#e08a9c}
+      .ck{fill:#e08a9c}.cs{fill:#7fc4a0}
+      .card{fill:#1e1b14;stroke:#3d3629}
+      .rule{stroke:#3d3629}
+    }
+  </style>
+
+  <rect class="bg" width="560" height="760"/>
+  <text class="ink title" x="18" y="28">圖 F-2　關卡的位置不是隨便挑的</text>
+  <text class="muted s" x="18" y="50">三個關卡全部落在同一種位置：這一步做下去就難回頭。</text>
+  <text class="muted s" x="18" y="68">也就是第 4 章那張風險表的「不可逆性」那一軸。以審稿回應為例。</text>
+
+  <text class="cs h" x="18" y="98">綠＝工具做的</text>
+  <text class="ck h" x="160" y="98">紅＝你必須拍板的</text>
+
+  <!-- steps -->
+  <rect class="step" x="18" y="110" width="524" height="30" rx="4"/>
+  <text class="ink s" x="34" y="130">0　唯讀稽核：這條意見到底說了什麼</text>
+
+  <rect class="step" x="18" y="144" width="524" height="30" rx="4"/>
+  <text class="ink s" x="34" y="164">1　整理與分類每一條意見</text>
+
+  <rect class="gatebox" x="40" y="178" width="502" height="46" rx="4"/>
+  <text class="ck b" x="56" y="198">⛔ G1（第 1 步之後）每條意見怎麼處置</text>
+  <text class="muted s" x="56" y="216">接受／部分接受／有理據反駁——三選一，逐條寫下</text>
+
+  <rect class="step" x="18" y="228" width="524" height="30" rx="4"/>
+  <text class="ink s" x="34" y="248">2　對應到稿件的哪一段</text>
+
+  <rect class="gatebox" x="40" y="262" width="502" height="46" rx="4"/>
+  <text class="ck b" x="56" y="282">⛔ G2（第 3 步之前）這個分析要不要跑</text>
+  <text class="muted s" x="56" y="300">跑之前先講好：跑出來若不利於原結論，你打算怎麼辦</text>
+
+  <rect class="step" x="18" y="312" width="524" height="30" rx="4"/>
+  <text class="ink s" x="34" y="332">3　補跑統計（按需）</text>
+
+  <rect class="gatebox" x="40" y="346" width="502" height="46" rx="4"/>
+  <text class="ck b" x="56" y="366">⛔ G3（第 4 步之前）讓步的範圍到哪裡</text>
+  <text class="muted s" x="56" y="384">哪些表述可以讓，哪些核心主張不可以讓</text>
+
+  <rect class="step" x="18" y="396" width="524" height="30" rx="4"/>
+  <text class="ink s" x="34" y="416">4　撰寫修改內容與回應信</text>
+
+  <rect class="step" x="18" y="430" width="524" height="30" rx="4"/>
+  <text class="ink s" x="34" y="450">5–7　產出文件、自我驗收</text>
+
+  <!-- 為什麼 -->
+  <line class="rule" x1="18" y1="478" x2="542" y2="478"/>
+  <text class="ink h" x="18" y="500">為什麼關卡在這三個位置</text>
+
+  <rect class="card" x="18" y="512" width="524" height="56" rx="4"/>
+  <text class="ck s" x="34" y="532" font-weight="700">G1 之後就定調了</text>
+  <text class="muted s" x="34" y="554">分類一旦定下，後面每一段修改都建立在那個分類上。改分類等於重寫。</text>
+
+  <rect class="card" x="18" y="576" width="524" height="76" rx="4"/>
+  <text class="ck s" x="34" y="596" font-weight="700">G2 是誠信關卡</text>
+  <text class="muted s" x="34" y="618">跑了就知道結果。知道之後再決定要不要報，那叫選擇性呈現。</text>
+  <text class="ink s" x="34" y="640" font-weight="700">所以有一條硬規則：不利的結果不得靜默不報。</text>
+
+  <rect class="card" x="18" y="660" width="524" height="56" rx="4"/>
+  <text class="ck s" x="34" y="680" font-weight="700">G3 牽動別的段落</text>
+  <text class="muted s" x="34" y="702">一處讓步會削弱另一處主張，所以決策卡有一欄專問「不可逆性」。</text>
+
+  <text class="ink s" x="18" y="736" font-weight="700">你的版本只需要一個關卡：找出流程裡「做錯了很難回頭」的那一步。</text>
+  <text class="ck s" x="18" y="754" font-weight="700">關卡太多會被習慣性略過，那比沒有關卡更危險。</text>
+</svg>

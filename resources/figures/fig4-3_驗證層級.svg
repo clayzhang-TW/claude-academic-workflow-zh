@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 500" width="560" height="500" font-family="Noto Sans TC, Microsoft JhengHei, Helvetica, Arial, sans-serif">
+  <style>
+    @page{size:560px 500px;margin:0}
+    .bg{fill:#faf7f0}
+    .ink{fill:#23201b}
+    .muted{fill:#6b6459}
+    .rule{stroke:#ddd5c6;stroke-width:1}
+    .l1{fill:#e8f2ec;stroke:#2f6b4f;stroke-width:1.6}
+    .l2{fill:#f5efe2;stroke:#8a5a2b;stroke-width:1.6}
+    .l3{fill:#f6eaec;stroke:#8a2b3f;stroke-width:1.6}
+    .c1{fill:#2f6b4f}.c2{fill:#8a5a2b}.c3{fill:#8a2b3f}
+    .tag1{fill:#2f6b4f;opacity:0.14}
+    .tag2{fill:#8a5a2b;opacity:0.14}
+    .tag3{fill:#8a2b3f;opacity:0.14}
+    .title{font-size:17px;font-weight:700}
+    .b{font-size:15px;font-weight:700}
+    .t{font-size:13px}
+    .s{font-size:12px}
+    @media (prefers-color-scheme: dark){
+      .bg{fill:#17150f}
+      .ink{fill:#ece5d6}
+      .muted{fill:#a49a88}
+      .rule{stroke:#3a352a}
+      .l1{fill:#15241c;stroke:#7fc4a0}
+      .l2{fill:#241f16;stroke:#d09a5e}
+      .l3{fill:#2a1a1f;stroke:#e08a9c}
+      .c1{fill:#7fc4a0}.c2{fill:#d09a5e}.c3{fill:#e08a9c}
+      .tag1{fill:#7fc4a0}.tag2{fill:#d09a5e}.tag3{fill:#e08a9c}
+    }
+  </style>
+
+  <rect class="bg" width="560" height="500"/>
+  <text class="ink title" x="18" y="28">圖 4-3　驗證層級：這筆引用能撐多重的主張</text>
+  <text class="muted s" x="18" y="50">在建檔的當下就標記，不要等到寫作時才回想「我到底讀到什麼程度」。</text>
+
+  <!-- L1 -->
+  <rect class="l1" x="18" y="70" width="524" height="104" rx="6"/>
+  <rect class="tag1" x="440" y="82" width="88" height="24" rx="4"/>
+  <text class="c1 s" x="484" y="99" text-anchor="middle" font-weight="700">最強</text>
+  <text class="c1 b" x="34" y="100">全文逐字</text>
+  <text class="muted s" x="34" y="126">你做了什麼</text>
+  <text class="ink t" x="128" y="126">讀過相關段落，知道它實際怎麼說</text>
+  <text class="muted s" x="34" y="148">能撐什麼</text>
+  <text class="ink t" x="128" y="148">具體主張、因果宣稱、數值引述</text>
+  <text class="c1 s" x="34" y="166">※ 要引述數字或宣稱因果，只能用這一層</text>
+
+  <!-- L2 -->
+  <rect class="l2" x="18" y="186" width="524" height="104" rx="6"/>
+  <rect class="tag2" x="440" y="198" width="88" height="24" rx="4"/>
+  <text class="c2 s" x="484" y="215" text-anchor="middle" font-weight="700">中等</text>
+  <text class="c2 b" x="34" y="216">摘要</text>
+  <text class="muted s" x="34" y="242">你做了什麼</text>
+  <text class="ink t" x="128" y="242">只讀了摘要，知道它大致在做什麼</text>
+  <text class="muted s" x="34" y="264">能撐什麼</text>
+  <text class="ink t" x="128" y="264">主題定位、「有人做過這個方向」</text>
+  <text class="c2 s" x="34" y="282">※ 不能用來支持任何具體結論</text>
+
+  <!-- L3 -->
+  <rect class="l3" x="18" y="302" width="524" height="104" rx="6"/>
+  <rect class="tag3" x="440" y="314" width="88" height="24" rx="4"/>
+  <text class="c3 s" x="484" y="331" text-anchor="middle" font-weight="700">最弱</text>
+  <text class="c3 b" x="34" y="332">僅書目</text>
+  <text class="muted s" x="34" y="358">你做了什麼</text>
+  <text class="ink t" x="128" y="358">只看到標題與作者，其實沒讀過</text>
+  <text class="muted s" x="34" y="380">能撐什麼</text>
+  <text class="c3 t" x="128" y="380" font-weight="700">幾乎撐不了任何主張</text>
+  <text class="c3 s" x="34" y="398">※ 標記「未經全文驗證」；只能列進延伸閱讀</text>
+
+  <line class="rule" x1="18" y1="428" x2="542" y2="428"/>
+  <text class="ink t" x="18" y="452" font-weight="700">滑坡警告</text>
+  <text class="muted s" x="18" y="474">搜到一篇標題切題的論文就引進來支持自己的想法，不算造假，</text>
+  <text class="muted s" x="18" y="492">但在文本上與造假難以分辨——讀者無從得知你只看過標題。</text>
+</svg>

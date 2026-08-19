@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 616" width="560" height="616" font-family="Noto Sans TC, Microsoft JhengHei, Helvetica, Arial, sans-serif">
+  <style>
+    @page{size:560px 616px;margin:0}
+    .bg{fill:#faf7f0}
+    .ink{fill:#23201b}
+    .muted{fill:#6b6459}
+    .rule{stroke:#ddd5c6;stroke-width:1}
+    .lane{fill:#f2ede2;stroke:#ddd5c6;stroke-width:1}
+    .laneyou{fill:#e8f2ec;stroke:#2f6b4f;stroke-width:1.8}
+    .box{fill:#efe9dc;stroke:#c9bfab;stroke-width:1.4}
+    .youbox{fill:#dcece3;stroke:#2f6b4f;stroke-width:1.8}
+    .key{fill:#2f6b4f}.warn{fill:#8a2b3f}
+    .flow{stroke:#8a5a2b;stroke-width:2;fill:none;stroke-linecap:round}
+    .head{fill:#8a5a2b}
+    .title{font-size:17px;font-weight:700}
+    .h{font-size:14px;font-weight:700}
+    .b{font-size:13px;font-weight:700}
+    .s{font-size:12px}
+    @media (prefers-color-scheme: dark){
+      .bg{fill:#17150f}.ink{fill:#ece5d6}.muted{fill:#a49a88}.rule{stroke:#3a352a}
+      .lane{fill:#1e1a13;stroke:#3a352a}.laneyou{fill:#15241c;stroke:#7fc4a0}
+      .box{fill:#241f16;stroke:#4a4335}.youbox{fill:#1c3327;stroke:#7fc4a0}
+      .key{fill:#7fc4a0}.warn{fill:#e08a9c}
+      .flow{stroke:#d09a5e}.head{fill:#d09a5e}
+    }
+  </style>
+
+  <rect class="bg" width="560" height="616"/>
+  <text class="ink title" x="18" y="28">圖 6-1　統計協作的責任邊界</text>
+  <text class="muted s" x="18" y="50">三條泳道，時間由上往下。工作跨過泳道的那一刻，責任也跟著換手。</text>
+
+  <defs>
+    <marker id="m61" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path class="head" d="M0,0 L10,5 L0,10 z"/>
+    </marker>
+  </defs>
+
+  <!-- 泳道 -->
+  <rect class="laneyou" x="18" y="66" width="172" height="424" rx="6"/>
+  <text class="key h" x="104" y="90" text-anchor="middle">你</text>
+  <text class="key s" x="104" y="108" text-anchor="middle">判斷．不可委派</text>
+
+  <rect class="lane" x="196" y="66" width="172" height="424" rx="6"/>
+  <text class="muted h" x="282" y="90" text-anchor="middle">AI</text>
+  <text class="muted s" x="282" y="108" text-anchor="middle">寫語法．翻譯輸出</text>
+
+  <rect class="lane" x="374" y="66" width="168" height="424" rx="6"/>
+  <text class="muted h" x="458" y="90" text-anchor="middle">軟體</text>
+  <text class="muted s" x="458" y="108" text-anchor="middle">R／SPSS／Mplus</text>
+
+  <text class="muted s" x="30" y="128">時間 ↓</text>
+
+  <!-- 交接線：畫在框之前，z 序在下 -->
+  <path class="flow" d="M178,163 H274 A8,8 0 0 1 282,171 V204" marker-end="url(#m61)"/>
+  <path class="flow" d="M356,235 H450 A8,8 0 0 1 458,243 V276" marker-end="url(#m61)"/>
+  <path class="flow" d="M386,307 H290 A8,8 0 0 0 282,315 V348" marker-end="url(#m61)"/>
+  <path class="flow" d="M208,379 H112 A8,8 0 0 0 104,387 V422" marker-end="url(#m61)"/>
+
+  <!-- 步驟 -->
+  <rect class="youbox" x="30" y="140" width="148" height="46" rx="5"/>
+  <text class="key s" x="104" y="162" text-anchor="middle">選哪個模型</text>
+  <text class="muted s" x="104" y="178" text-anchor="middle">以及為什麼</text>
+
+  <rect class="box" x="208" y="212" width="148" height="46" rx="5"/>
+  <text class="ink s" x="282" y="234" text-anchor="middle">寫出一個 chunk</text>
+  <text class="muted s" x="282" y="250" text-anchor="middle">可獨立執行、附註解</text>
+
+  <rect class="box" x="386" y="284" width="144" height="46" rx="5"/>
+  <text class="ink s" x="458" y="306" text-anchor="middle">實際執行運算</text>
+  <text class="muted s" x="458" y="322" text-anchor="middle">語法錯才報錯</text>
+
+  <rect class="box" x="208" y="356" width="148" height="46" rx="5"/>
+  <text class="ink s" x="282" y="378" text-anchor="middle">診斷錯誤訊息</text>
+  <text class="muted s" x="282" y="394" text-anchor="middle">只回貼出問題那段</text>
+
+  <rect class="youbox" x="30" y="430" width="148" height="46" rx="5"/>
+  <text class="key s" x="104" y="452" text-anchor="middle">判讀結果</text>
+  <text class="key s" x="104" y="468" text-anchor="middle">不利的也要照報</text>
+
+  <line class="rule" x1="18" y1="512" x2="542" y2="512"/>
+  <text class="warn b" x="18" y="536">三個靜默失敗點，全部落在最左邊那一條</text>
+  <text class="muted s" x="18" y="558">① 模型選錯——軟體會跑完　② 前提沒檢查——沒有程式會提醒　③ 詮釋過頭——沒有人報錯</text>
+  <text class="key s" x="18" y="584" font-weight="700">語法錯了畫面會跳紅字；模型錯了畫面什麼都不會跳。</text>
+  <text class="key s" x="18" y="606" font-weight="700">判準跟前面五章同一句：如果它做錯了，我看得出來嗎？</text>
+</svg>

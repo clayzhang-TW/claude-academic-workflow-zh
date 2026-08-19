@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 596" width="560" height="596" font-family="Noto Sans TC, Microsoft JhengHei, Helvetica, Arial, sans-serif">
+  <style>
+    @page{size:560px 596px;margin:0}
+    .bg{fill:#faf7f0}
+    .ink{fill:#23201b}
+    .muted{fill:#6b6459}
+    .rule{stroke:#ddd5c6;stroke-width:1}
+    .outerbox{fill:#f7f2f9;stroke:#6b4a7a;stroke-width:2.4}
+    .innerbox{fill:#eaf4ee;stroke:#2f6b4f;stroke-width:2.4}
+    .onode{fill:#f1ebf5;stroke:#6b4a7a;stroke-width:1.6}
+    .inode{fill:#e8f2ec;stroke:#2f6b4f;stroke-width:1.6}
+    .ci{fill:#2f6b4f}.co{fill:#6b4a7a}
+    .ringo{fill:none;stroke:#6b4a7a;stroke-width:1.8;stroke-dasharray:5 4}
+    .ringi{fill:none;stroke:#2f6b4f;stroke-width:1.8;stroke-dasharray:5 4}
+    .heado{fill:#6b4a7a}.headi{fill:#2f6b4f}
+    .hdr{fill:#efe9dc}
+    .title{font-size:17px;font-weight:700}
+    .h{font-size:14px;font-weight:700}
+    .b{font-size:14px;font-weight:700}
+    .s{font-size:12px}
+    @media (prefers-color-scheme: dark){
+      .bg{fill:#17150f}.ink{fill:#ece5d6}.muted{fill:#a49a88}.rule{stroke:#3a352a}
+      .outerbox{fill:#1d1724;stroke:#c3a0d4}.innerbox{fill:#13201a;stroke:#7fc4a0}
+      .onode{fill:#241b2a;stroke:#c3a0d4}.inode{fill:#15241c;stroke:#7fc4a0}
+      .ci{fill:#7fc4a0}.co{fill:#c3a0d4}
+      .ringo{stroke:#c3a0d4}.ringi{stroke:#7fc4a0}
+      .heado{fill:#c3a0d4}.headi{fill:#7fc4a0}.hdr{fill:#241f16}
+    }
+  </style>
+
+  <rect class="bg" width="560" height="596"/>
+  <text class="ink title" x="18" y="28">圖 4-2　AI Fluency 4D：兩個迴圈，一個包著另一個</text>
+  <text class="muted s" x="18" y="50">內圈跑得快，外圈跑得慢。多數人只在內圈打轉，而且只做一半。</text>
+
+  <defs>
+    <marker id="m4Ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path class="heado" d="M0,0 L10,5 L0,10 z"/></marker>
+    <marker id="m4Ai" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path class="headi" d="M0,0 L10,5 L0,10 z"/></marker>
+  </defs>
+
+  <!-- 外框 -->
+  <rect class="outerbox" x="18" y="66" width="524" height="384" rx="12"/>
+  <text class="co h" x="34" y="90">外圈　策略與倫理</text>
+  <text class="muted s" x="196" y="90">週期：一個任務、一門課、一篇論文</text>
+
+  <rect class="onode" x="112" y="102" width="336" height="62" rx="8"/>
+  <text class="co b" x="128" y="126">Delegation　委派</text>
+  <text class="ink s" x="128" y="146">這件事該不該交出去？</text>
+  <text class="muted s" x="128" y="160">判準＝可偵測性 × 不可逆性</text>
+
+  <rect class="onode" x="112" y="352" width="336" height="62" rx="8"/>
+  <text class="co b" x="128" y="376">Diligence　謹慎</text>
+  <text class="ink s" x="128" y="396">我留下紀錄了嗎？別人查得到嗎？</text>
+  <text class="muted s" x="128" y="410">使用聲明是它的最小實作（7.4）</text>
+
+  <path class="ringo" d="M456,133 L500,133 L500,383 L456,383" marker-end="url(#m4Ao)"/>
+  <path class="ringo" d="M104,383 L60,383 L60,133 L104,133" marker-end="url(#m4Ao)"/>
+
+  <!-- 內框 -->
+  <rect class="innerbox" x="82" y="176" width="396" height="164" rx="10"/>
+  <text class="ci h" x="98" y="198">內圈　互動與品質</text>
+  <text class="muted s" x="248" y="198">週期：一次對話往返</text>
+
+  <rect class="inode" x="130" y="208" width="300" height="52" rx="6"/>
+  <text class="ci b" x="146" y="230">Description　描述</text>
+  <text class="muted s" x="146" y="250">我講明白了嗎？七個欄位全在這裡</text>
+
+  <rect class="inode" x="130" y="276" width="300" height="52" rx="6"/>
+  <text class="ci b" x="146" y="298">Discernment　辨別</text>
+  <text class="muted s" x="146" y="318">這東西夠好嗎？我憑什麼知道？</text>
+
+  <path class="ringi" d="M438,234 L458,234 L458,302 L438,302" marker-end="url(#m4Ai)"/>
+  <path class="ringi" d="M122,302 L102,302 L102,234 L122,234" marker-end="url(#m4Ai)"/>
+
+  <!-- 底 -->
+  <rect class="hdr" x="18" y="468" width="524" height="70" rx="6"/>
+  <text class="ink b" x="34" y="492">兩個 D 共用同一組三分法</text>
+  <text class="muted s" x="34" y="512">描述時交代　成品 · 過程 · 表現；辨別時就照同樣三項逐一檢查。</text>
+  <text class="ci s" x="34" y="530" font-weight="700">多數人的判斷只做了「成品」——而最常出問題的是「過程」。</text>
+
+  <line class="rule" x1="18" y1="556" x2="542" y2="556"/>
+  <text class="ink s" x="18" y="578" font-weight="700">第 3 章整章，只是內圈的上半格。把 AI 素養等同於會寫提示詞，漏掉的是其餘四分之三。</text>
+</svg>

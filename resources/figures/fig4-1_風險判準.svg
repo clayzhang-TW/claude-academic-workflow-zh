@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 476" width="560" height="476" font-family="Noto Sans TC, Microsoft JhengHei, Helvetica, Arial, sans-serif">
+  <style>
+    @page{size:560px 476px;margin:0}
+    .bg{fill:#faf7f0}
+    .ink{fill:#23201b}
+    .muted{fill:#6b6459}
+    .rule{stroke:#ddd5c6;stroke-width:1}
+    .safe{fill:#e8f2ec;stroke:#2f6b4f;stroke-width:1.6}
+    .mid{fill:#f5efe2;stroke:#8a5a2b;stroke-width:1.6}
+    .stop{fill:#f6eaec;stroke:#8a2b3f;stroke-width:2.4}
+    .c1{fill:#2f6b4f}.c2{fill:#8a5a2b}.c3{fill:#8a2b3f}
+    .hdr{fill:#efe9dc}
+    .title{font-size:17px;font-weight:700}
+    .h{font-size:14px;font-weight:700}
+    .b{font-size:13px;font-weight:700}
+    .t{font-size:13px}
+    .s{font-size:12px}
+    @media (prefers-color-scheme: dark){
+      .bg{fill:#17150f}
+      .ink{fill:#ece5d6}
+      .muted{fill:#a49a88}
+      .rule{stroke:#3a352a}
+      .safe{fill:#15241c;stroke:#7fc4a0}
+      .mid{fill:#241f16;stroke:#d09a5e}
+      .stop{fill:#2a1a1f;stroke:#e08a9c}
+      .c1{fill:#7fc4a0}.c2{fill:#d09a5e}.c3{fill:#e08a9c}
+      .hdr{fill:#241f16}
+    }
+  </style>
+
+  <rect class="bg" width="560" height="476"/>
+  <text class="ink title" x="18" y="28">圖 4-1　該不該交給它：兩個維度</text>
+  <text class="muted s" x="18" y="50">風險 ≈ 錯誤的可偵測性（越低越危險）× 後果的不可逆性（越高越危險）。</text>
+
+  <!-- column headers -->
+  <rect class="hdr" x="98" y="66" width="222" height="28" rx="4"/>
+  <text class="ink s" x="209" y="85" text-anchor="middle" font-weight="700">可偵測性高</text>
+  <rect class="hdr" x="324" y="66" width="218" height="28" rx="4"/>
+  <text class="ink s" x="433" y="85" text-anchor="middle" font-weight="700">可偵測性低</text>
+
+  <!-- row 1 -->
+  <text class="ink s" x="18" y="140" font-weight="700">不可逆性</text>
+  <text class="ink s" x="18" y="158" font-weight="700">低</text>
+
+  <rect class="safe" x="98" y="98" width="222" height="88" rx="5"/>
+  <text class="c1 b" x="114" y="124">放心交</text>
+  <text class="muted s" x="114" y="146">格式轉換、排版</text>
+  <text class="c1 s" x="114" y="172">可以人在迴圈上</text>
+
+  <rect class="safe" x="324" y="98" width="218" height="88" rx="5"/>
+  <text class="c1 b" x="340" y="124">可以交，但要抽查</text>
+  <text class="muted s" x="340" y="146">批次改檔名</text>
+
+  <!-- row 2 -->
+  <text class="ink s" x="18" y="232" font-weight="700">不可逆性</text>
+  <text class="ink s" x="18" y="250" font-weight="700">高</text>
+
+  <rect class="mid" x="98" y="192" width="222" height="88" rx="5"/>
+  <text class="c2 b" x="114" y="218">交，但每一筆都要驗</text>
+  <text class="muted s" x="114" y="240">補 DOI、批次轉檔</text>
+
+  <rect class="stop" x="324" y="192" width="218" height="88" rx="5"/>
+  <text class="c3 b" x="340" y="218">⚠ 不要交</text>
+  <text class="ink s" x="340" y="240">替你判斷一篇文獻</text>
+  <text class="ink s" x="340" y="256">該不該納入</text>
+  <text class="c3 s" x="340" y="272" font-weight="700">必須人在迴圈內</text>
+
+  <line class="rule" x1="18" y1="304" x2="542" y2="304"/>
+
+  <rect class="hdr" x="18" y="318" width="524" height="54" rx="6"/>
+  <text class="muted s" x="34" y="340">右下角那一格，就是第 1 章那句話的完整版：</text>
+  <text class="ink t" x="34" y="362" font-weight="700">如果它做錯了，我看得出來嗎？</text>
+
+  <text class="c3 s" x="18" y="398" font-weight="700">⚠ 這張表裡沒有「任務難不難」這個維度。</text>
+  <text class="muted s" x="18" y="420">把三十份 PDF 轉檔不難，但它靜默流失九成內容你看不出來（第 2 章）。</text>
+  <text class="muted s" x="18" y="440">解一個複雜的統計問題很難，但只要你驗算得出來，它就不危險。</text>
+  <text class="ink s" x="18" y="464" font-weight="700">決定風險的是你的驗收能力，不是它的任務難度。</text>
+</svg>

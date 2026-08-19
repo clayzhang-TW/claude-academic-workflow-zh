@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 524" width="560" height="524" font-family="Noto Sans TC, Microsoft JhengHei, Helvetica, Arial, sans-serif">
+  <style>
+    @page{size:560px 524px;margin:0}
+    .bg{fill:#faf7f0}
+    .ink{fill:#23201b}
+    .muted{fill:#6b6459}
+    .rule{stroke:#ddd5c6;stroke-width:1}
+    .hdr{fill:#efe9dc}
+    .true{fill:#2f6b4f}
+    .truebg{fill:#e8f2ec}
+    .false{fill:#8a2b3f}
+    .falsebg{fill:#f6eaec}
+    .title{font-size:17px;font-weight:700}
+    .t{font-size:13px}
+    .s{font-size:12px}
+    .b{font-size:13px;font-weight:700}
+    @media (prefers-color-scheme: dark){
+      .bg{fill:#17150f}
+      .ink{fill:#ece5d6}
+      .muted{fill:#a49a88}
+      .rule{stroke:#3a352a}
+      .hdr{fill:#241f16}
+      .true{fill:#7fc4a0}
+      .truebg{fill:#15241c}
+      .false{fill:#e08a9c}
+      .falsebg{fill:#2a1a1f}
+    }
+  </style>
+
+  <rect class="bg" width="560" height="524"/>
+  <text class="ink title" x="18" y="28">圖 5-1　一筆拼裝文獻，逐欄攤開</text>
+  <text class="muted s" x="18" y="50">每個零件都查得到，只有「組合」不存在。這就是它為什麼難抓。</text>
+
+  <rect class="hdr" x="18" y="66" width="524" height="26" rx="4"/>
+  <text class="muted s" x="34" y="84">欄位</text>
+  <text class="muted s" x="150" y="84">真？假？</text>
+  <text class="muted s" x="264" y="84">在第幾步被抓到</text>
+
+  <!-- 作者 -->
+  <rect class="truebg" x="18" y="98" width="524" height="52" rx="4"/>
+  <text class="ink b" x="34" y="120">作者</text>
+  <text class="true b" x="150" y="120">真</text>
+  <text class="muted s" x="264" y="120">第 2 步通過（查得到）</text>
+  <text class="muted s" x="34" y="140">真實存在，而且確實是這個領域的人</text>
+
+  <!-- 期刊 -->
+  <rect class="truebg" x="18" y="158" width="524" height="52" rx="4"/>
+  <text class="ink b" x="34" y="180">期刊</text>
+  <text class="true b" x="150" y="180">真</text>
+  <text class="muted s" x="264" y="180">第 3 步通過</text>
+  <text class="muted s" x="34" y="200">真實存在，正派、有同儕審查</text>
+
+  <!-- 年份 -->
+  <rect class="truebg" x="18" y="218" width="524" height="52" rx="4"/>
+  <text class="ink b" x="34" y="240">年份</text>
+  <text class="true b" x="150" y="240">真</text>
+  <text class="muted s" x="264" y="240">第 4 步通過</text>
+  <text class="muted s" x="34" y="260">合理，與該領域的發展時序對得上</text>
+
+  <!-- 標題 -->
+  <rect class="falsebg" x="18" y="278" width="524" height="52" rx="4"/>
+  <rect class="false" x="18" y="278" width="4" height="52"/>
+  <text class="ink b" x="34" y="300">標題</text>
+  <text class="false b" x="150" y="300">假</text>
+  <text class="false s" x="264" y="300" font-weight="700">唯一的破綻</text>
+  <text class="muted s" x="34" y="320">像這個領域會有的題目，但從未存在過</text>
+
+  <!-- DOI -->
+  <rect class="falsebg" x="18" y="338" width="524" height="52" rx="4"/>
+  <rect class="false" x="18" y="338" width="4" height="52"/>
+  <text class="ink b" x="34" y="360">DOI</text>
+  <text class="false b" x="150" y="360">假／缺</text>
+  <text class="muted s" x="264" y="360">第 1 步（若有附）</text>
+  <text class="muted s" x="34" y="380">常見兩種：沒有附，或指向另一篇真論文</text>
+
+  <line class="rule" x1="18" y1="406" x2="542" y2="406"/>
+
+  <rect class="hdr" x="18" y="420" width="524" height="88" rx="4"/>
+  <text class="ink t" x="34" y="444" font-weight="700">為什麼查到一半會停手</text>
+  <text class="muted s" x="34" y="466">作者、期刊、年份三欄全部通過，人很自然就認定這一筆沒問題。</text>
+  <text class="false s" x="34" y="488" font-weight="700">真的欄位越多，它越晚被抓到，也就越危險。</text>
+  <text class="ink s" x="34" y="504" font-weight="700">每一筆都要查到第 4 步，沒有例外。</text>
+</svg>

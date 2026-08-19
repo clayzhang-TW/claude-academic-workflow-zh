@@ -1,0 +1,55 @@
+Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
+
+《把苦工交給副駕駛：教育研究者的 Claude 學術工作流》
+Copyright (c) 2026 張仁誠 (Clay Chang)
+
+本著作採用「創用 CC 姓名標示－非商業性－相同方式分享 4.0 國際」授權條款釋出。
+
+You are free to:
+  Share — copy and redistribute the material in any medium or format
+  Adapt — remix, transform, and build upon the material
+
+Under the following terms:
+  Attribution  — You must give appropriate credit, provide a link to the
+                 license, and indicate if changes were made.
+  NonCommercial— You may not use the material for commercial purposes.
+  ShareAlike   — If you remix, transform, or build upon the material, you
+                 must distribute your contributions under the same license
+                 as the original.
+
+Full legal code:
+  https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
+Human-readable summary:
+  https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+
+THIRD-PARTY ATTRIBUTION
+-----------------------
+Portions of the methods described in this work derive from public projects.
+Every upstream license listed below was verified against the upstream
+repository itself, not against second-hand notes. See ATTRIBUTION.md for the
+full lineage table and the section-by-section mapping.
+
+  MIT
+    Raymondhou0917/speak-human-tw  (雷蒙 / Raymond Hou)
+    MrGeDiao/shuorenhua
+    mattpocock/skills  (Matt Pocock)
+    Master-cai/Research-Paper-Writing-Skills
+    virgiliojr94/book-to-skill
+
+  CC BY-NC-SA 4.0
+    HKUSTDial/Supervisor-Skills
+    — NonCommercial and ShareAlike; compatible with this work's license.
+
+  CC BY-NC 4.0
+    Imbad0202/academic-research-skills  (Cheng-I Wu)
+    — Required attribution, per that project's README:
+      "Based on Academic Research Skills by Cheng-I Wu
+       https://github.com/Imbad0202/academic-research-skills"
+
+  NO LICENSE DECLARED — attribution required by the author
+    pengsida/learning_research  (彭思達 / Peng Sida)
+    — The writing methodology packaged by Master-cai originates here. The
+      author states: 如果轉載該文檔的內容，請註明出處：
+      https://github.com/pengsida/learning_research
+    — This work complies. See the dedicated section in ATTRIBUTION.md.

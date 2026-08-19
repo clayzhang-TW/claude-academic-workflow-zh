@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 748" width="560" height="748" font-family="Noto Sans TC, Microsoft JhengHei, Segoe UI Symbol, Helvetica, Arial, sans-serif">
+  <style>
+    @page{size:560px 748px;margin:0}
+    .bg{fill:#faf7f0}
+    .ink{fill:#23201b}
+    .muted{fill:#6b6459}
+    .seed{fill:#f6eaec;stroke:#8a2b3f;stroke-width:2}
+    .st1{fill:#e8f2ec;stroke:#2f6b4f;stroke-width:1.6}
+    .st2{fill:#eceef7;stroke:#5a5f8a;stroke-width:1.6}
+    .st3{fill:#f1ebf5;stroke:#6b4a7a;stroke-width:1.6}
+    .ck{fill:#8a2b3f}
+    .card{fill:#fffdf8;stroke:#c9bfa8;stroke-width:1.2}
+    .rule{stroke:#c9bfa8;stroke-width:1}
+    .spine{stroke:#8a5a2b;stroke-width:2.4;fill:none}
+    .head{fill:#8a5a2b}
+    .title{font-size:17px;font-weight:700}
+    .ph{font-size:14px;font-weight:700}
+    .num{font-size:14px;font-weight:700}
+    .t{font-size:13px}
+    .s{font-size:12px}
+    @media (prefers-color-scheme: dark){
+      .bg{fill:#17150f}
+      .ink{fill:#ece5d6}
+      .muted{fill:#a49a88}
+      .seed{fill:#2a161a;stroke:#e08a9c}
+      .st1{fill:#15241c;stroke:#7fc4a0}
+      .st2{fill:#1b1d2b;stroke:#a3aae0}
+      .st3{fill:#241b2a;stroke:#c3a0d4}
+      .ck{fill:#e08a9c}
+      .card{fill:#1e1b14;stroke:#3d3629}
+      .rule{stroke:#3d3629}
+      .spine{stroke:#d09a5e}
+      .head{fill:#d09a5e}
+    }
+  </style>
+
+  <rect class="bg" width="560" height="748"/>
+  <text class="ink title" x="18" y="28">圖 F-3　十二個模式有依賴順序，不能一次做完</text>
+  <text class="muted s" x="18" y="50">其餘十一個都需要同一個前提：你已經知道自己的摩擦在哪。</text>
+  <text class="muted s" x="18" y="68">而那個前提只能靠實際用出來，沒有辦法用想的。</text>
+
+  <defs>
+    <marker id="mf3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path class="head" d="M0,0 L10,5 L0,10 z"/>
+    </marker>
+  </defs>
+
+  <path class="spine" d="M40,92 L40,504" marker-end="url(#mf3)"/>
+
+  <!-- 第一週 -->
+  <circle class="seed" cx="40" cy="126" r="11"/>
+  <rect class="seed" x="76" y="92" width="466" height="72" rx="5"/>
+  <text class="ck ph" x="92" y="114">第一週　一段〈使用者背景〉</text>
+  <text class="muted s" x="92" y="134">不分模式、沒有清單、沒有關卡——就是你重複講了三次的那幾句</text>
+  <text class="ck s" x="92" y="154" font-weight="700">進下一階段的條件：你連續三次用到它</text>
+
+  <!-- 一個月 -->
+  <circle class="st1" cx="40" cy="208" r="9"/>
+  <rect class="st1" x="76" y="174" width="466" height="72" rx="5"/>
+  <text class="ink ph" x="92" y="196">一個月　⑨　⑫</text>
+  <text class="ink s" x="92" y="216">反面規則（不要做什麼）、版本行</text>
+  <text class="muted s" x="92" y="236">觸發點：你發現有時候只需要它的一小部分</text>
+
+  <!-- 兩三個月 -->
+  <circle class="st1" cx="40" cy="290" r="9"/>
+  <rect class="st1" x="76" y="256" width="466" height="72" rx="5"/>
+  <text class="ink ph" x="92" y="278">兩三個月　①　③</text>
+  <text class="ink s" x="92" y="298">模式路由、階段編號</text>
+  <text class="muted s" x="92" y="318">觸發點：你被同一類錯誤抓到第二次</text>
+
+  <!-- 半年 -->
+  <circle class="st2" cx="40" cy="372" r="9"/>
+  <rect class="st2" x="76" y="338" width="466" height="72" rx="5"/>
+  <text class="ink ph" x="92" y="360">半年　⑤　⑥　④</text>
+  <text class="ink s" x="92" y="380">判準清單、前置驗證、關卡</text>
+  <text class="muted s" x="92" y="400">觸發點：你有第三個技能了，開始需要它們彼此不打架</text>
+
+  <!-- 一年後 -->
+  <circle class="st3" cx="40" cy="454" r="9"/>
+  <rect class="st3" x="76" y="420" width="466" height="72" rx="5"/>
+  <text class="ink ph" x="92" y="442">一年後　⑩　②　⑦　⑧　⑪</text>
+  <text class="ink s" x="92" y="462">分工、對抗角色、覆蓋聲明、迴圈上限、規格</text>
+  <text class="muted s" x="92" y="482">沒有下一階段——到這裡就是維護，不是擴張</text>
+
+  <line class="rule" x1="18" y1="524" x2="542" y2="524"/>
+
+  <rect class="card" x="18" y="540" width="524" height="96" rx="5"/>
+  <text class="ck t" x="34" y="564" font-weight="700">反過來做的後果很具體</text>
+  <text class="muted s" x="34" y="586">你花一個下午設計了三種模式、七項判準、兩個關卡，</text>
+  <text class="muted s" x="34" y="606">然後發現你猜的摩擦點不是真的摩擦點，整套沒有一項用得上。</text>
+  <text class="ink s" x="34" y="626" font-weight="700">而你已經先累了，於是整件事就停在那裡。</text>
+
+  <rect class="card" x="18" y="648" width="524" height="86" rx="5"/>
+  <text class="ink t" x="34" y="672" font-weight="700">一個判準：這個模式該不該加</text>
+  <text class="muted s" x="34" y="694">問一句話：它在解決我實際遇過的問題，還是我想像中的問題？</text>
+  <text class="ck s" x="34" y="720" font-weight="700">想像中的問題有一個特徵：你說不出上一次它發生是什麼時候。</text>
+</svg>
