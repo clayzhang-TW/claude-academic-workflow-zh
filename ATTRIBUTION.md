@@ -60,7 +60,7 @@ https://github.com/Imbad0202/academic-research-skills
 
 **下列部分無外部上游**：[3.2](chapters/03-skills.md#32-那個檔案裡該寫什麼) 所引之技能檔全文、[5.1](chapters/05-verification.md#51-引用幻覺與四步核實) 存在查核、[4.3](chapters/04-research-question.md#43-文獻工作的三個瓶頸) 檢索工序與取用政策、[附錄 F](appendix/F-skill-library.md) 十二個設計模式、[附錄 G](appendix/G-writing-fingerprint.md) 寫作聲紋，以及本書電子書的排版流程。
 
-書末〈詞彙表〉59 條中有 **17 條標註 †**，即對應上表各來源。⚠️ 未標註 † 者不表示為作者原創，僅表示其無可指名之單一上游。
+書末〈詞彙表〉61 條中有 **17 條標註 †**，即對應上表各來源。⚠️ 未標註 † 者不表示為作者原創，僅表示其無可指名之單一上游。
 
 ---
 

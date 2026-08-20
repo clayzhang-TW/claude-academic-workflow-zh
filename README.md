@@ -9,7 +9,7 @@
 
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](LICENSE)
 ![語言](https://img.shields.io/badge/語言-繁體中文-red)
-![規模](https://img.shields.io/badge/七章%20＋%2011%20份附錄-25%20萬字-blue)
+![規模](https://img.shields.io/badge/七章%20＋%2012%20份附錄-25%20萬字-blue)
 ![圖](https://img.shields.io/badge/圖-29%20張-green)
 
 </div>
@@ -47,8 +47,8 @@
 | | |
 |---|---|
 | **正文** | 七章。每章含概念、教育研究實例、動手實作、常見迷思、責任落點 |
-| **附錄** | 11 份（A–K）。⚠️ 其中**附錄 J 貼出一份實際在跑的技能檔全文**，逐段拆解——那是全書唯一讓你看到成熟工具長什麼樣的地方 |
-| **查閱頁** | 詞彙表 59 詞、症狀導航、踩坑清單 18 則、出處頁 |
+| **附錄** | 12 份（A–L）。⚠️ 其中**附錄 J 貼出一份實際在跑的技能檔全文**，逐段拆解——那是全書唯一讓你看到成熟工具長什麼樣的地方 |
+| **查閱頁** | 詞彙表 61 詞、症狀導航、踩坑清單 18 則、出處頁 |
 | **圖** | 29 張手繪 SVG，隨明暗色自動切換 |
 | **可直接複製的東西** | 45 段。⚠️ 先讀〈[怎麼用這本書](docs/HOW_TO_USE.md)〉——它們長得像範本，其實是完整解答 |
 | **課程版** | 七週 × 3 小時。正文裡標〔課堂〕的方框就是教案 |
@@ -92,10 +92,11 @@
 - [I　投稿前自審的完整檢查表](appendix/I-self-review.md)
 - [J　打開一份長大的技能檔](appendix/J-a-grown-skill.md) — 實際在跑的檔案全文
 - [K　接上你的書目庫與知識庫](appendix/K-connectors.md) — 選配
+- [L　拆解一篇論文的設計](appendix/L-reading-design.md) — 五個問題展開，讀出它為什麼那樣做
 
 **查閱**
 - [症狀導航](docs/SYMPTOM_INDEX.md) — 「我現在卡在這裡，該翻哪一節」
-- [詞彙表](resources/glossary.md) — 59 詞
+- [詞彙表](resources/glossary.md) — 61 詞
 - [常見的坑](resources/pitfalls.md) — 18 則，每則附對應的設計模式
 
 **其他**
@@ -112,6 +113,7 @@
 | 打算認真走一遍 | 先讀 [怎麼用這本書](docs/HOW_TO_USE.md) |
 | 手上已經卡住了 | [症狀導航](docs/SYMPTOM_INDEX.md)。找一句最像你現在處境的話 |
 | 想先看成品長什麼樣 | [附錄 J](appendix/J-a-grown-skill.md)。一份用了幾個月的技能檔全文 |
+| 讀了很多篇，還是不知道自己的研究該怎麼設計 | [第 4 章 4.6](chapters/04-research-question.md) 與 [附錄 L](appendix/L-reading-design.md) |
 | 要拿去開課 | [七週課綱](syllabus/seven-week-syllabus.md) |
 
 **這本書假設你**會用電腦但沒寫過程式，而且手上有一個正在進行的研究。第二條比較重要——每一章都要你拿自己的東西來做。
