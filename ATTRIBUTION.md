@@ -20,6 +20,8 @@
 - **Thariq Shihipar**（Anthropic）｜〈[A field guide to Claude Fable 5: Finding your unknowns](https://claude.com/blog/a-field-guide-to-claude-fable-finding-your-unknowns)〉 → [2.4](chapters/02-first-note.md#24-教育研究最常遇到的三種型態) 的四象限框架
 - **virgiliojr94**｜`book-to-skill` → [6.2](chapters/06-analysis-writing.md#62-當你遇到不會的方法) 把一本書變成顧問
 - **J. W. Creswell & J. D. Creswell**｜*Research Design* (5th ed.). SAGE, 2018. → [4.1](chapters/04-research-question.md#41-從模糊的興趣到一個查得動的問題) 三取向、四世界觀、三種效度
+- **Bronwyn Eager**｜*AI-Powered Scholar: A Beginner's Guide to Artificial Intelligence for Academic Writing & Research*. Routledge, 2025. [https://doi.org/10.4324/9781032665276](https://doi.org/10.4324/9781032665276) → [6.3](chapters/06-analysis-writing.md#63-寫作模式鏈)〈在大綱之前：先把腦裡那團倒出來〉的做法；各章末〈拿去跟人討論〉的體例
+- **Rowena Murray**｜大綱標字數的做法 → [6.3](chapters/06-analysis-writing.md#63-寫作模式鏈)〈大綱要標字數〉。此條經上一筆轉述得知，作者本人的原書未讀
 
 其中 Cheng-I Wu 的 Academic Research Skills 指定了署名格式，依其要求原文照錄：
 
@@ -57,6 +59,10 @@ https://github.com/Imbad0202/academic-research-skills
 | **[2.4](chapters/02-first-note.md#24-教育研究最常遇到的三種型態)** 執行前追問 | mattpocock/skills；Anthropic 該文 |
 | **[4.1](chapters/04-research-question.md#41-從模糊的興趣到一個查得動的問題)** 三取向、四世界觀、三種效度 | Creswell & Creswell (2018) |
 | **[6.2](chapters/06-analysis-writing.md#62-當你遇到不會的方法)** 把一本書變成顧問 | book-to-skill |
+| **[6.3](chapters/06-analysis-writing.md#63-寫作模式鏈)** 動筆前的傾倒稿做法｜各章末〈拿去跟人討論〉的體例 | Eager (2025) |
+| **[6.3](chapters/06-analysis-writing.md#63-寫作模式鏈)** 大綱標字數 | Rowena Murray（經 Eager 2025 轉述，原書未讀） |
+
+⚠️ Eager (2025) 那兩列與其餘各列性質不同：其餘來自公開釋出的技能庫，本書取的是可改寫的做法； Eager 該書為 Routledge 出版、全版權保留，本書**只取做法本身、未沿用其文字、結構與練習設計**，正文亦不出現書名。Murray 那一條為二手轉述，驗證層級只到「有這樣一個做法」，正文已標明。
 
 **下列部分無外部上游**：[3.2](chapters/03-skills.md#32-那個檔案裡該寫什麼) 所引之技能檔全文、[5.1](chapters/05-verification.md#51-引用幻覺與四步核實) 存在查核、[4.3](chapters/04-research-question.md#43-文獻工作的三個瓶頸) 檢索工序與取用政策、[附錄 F](appendix/F-skill-library.md) 十二個設計模式、[附錄 G](appendix/G-writing-fingerprint.md) 寫作聲紋，以及本書電子書的排版流程。
 
