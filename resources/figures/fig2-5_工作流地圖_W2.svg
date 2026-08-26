@@ -41,9 +41,9 @@
   </style>
 
   <rect class="bg" width="560" height="753"/>
-  <text class="ink title" x="18" y="28">圖 3-5　你在整條工作流的哪裡</text>
-  <text class="on s" x="18" y="50" font-weight="700">第 3 章　把重複的做法固定下來</text>
-  <text class="muted s" x="18" y="68">技能檔不在任何一站上——它是讓每一站都變快的那一層。</text>
+  <text class="ink title" x="18" y="28">圖 2-5　你在整條工作流的哪裡</text>
+  <text class="on s" x="18" y="50" font-weight="700">第 2 章　第一份文獻筆記</text>
+  <text class="muted s" x="18" y="68">你跑的是「蒐集」裡的一站。它的產出會一路餵到最後一站。</text>
   <text class="onSpan h" x="18" y="90">貫穿全程（不屬於任何一站）</text>
   <g class="dim">
     <rect class="span" x="18" y="96" width="524" height="42" rx="6"/>
@@ -51,12 +51,11 @@
     <text class="muted s" x="34" y="130">文獻／概念／靈感／技術四種筆記</text>
     <text class="muted s" x="530" y="114" text-anchor="end">1.2 · 4.4</text>
   </g>
-  <g>
-    <rect class="spanOn" x="18" y="141" width="524" height="42" rx="6"/>
-    <text class="onSpan b" x="34" y="159">你的技能檔</text>
+  <g class="dim">
+    <rect class="span" x="18" y="141" width="524" height="42" rx="6"/>
+    <text class="ink b" x="34" y="159">你的技能檔</text>
     <text class="muted s" x="34" y="175">把重複的做法固定下來，跨章重用</text>
-    <text class="muted s" x="468" y="159" text-anchor="end">3.1–3.5</text>
-    <text class="tagOnSpan s" x="530" y="159" text-anchor="end" font-weight="700">← 本章</text>
+    <text class="muted s" x="530" y="159" text-anchor="end">3.1–3.5</text>
   </g>
   <path class="rail" d="M40,192 L40,672"/>
   <text class="zone h" x="58" y="200">起點</text>
@@ -73,11 +72,12 @@
     <text class="muted s" x="72" y="291">先搜自己的，涵蓋不足才往外</text>
     <text class="muted s" x="530" y="277" text-anchor="end">4.3</text>
   </g>
-  <g class="dim">
-    <rect class="node" x="58" y="299" width="484" height="33" rx="5"/>
-    <text class="ink b" x="72" y="313">轉檔與七欄筆記</text>
+  <g>
+    <rect class="nodeOn" x="58" y="299" width="484" height="33" rx="5"/>
+    <text class="on b" x="72" y="313">轉檔與七欄筆記</text>
     <text class="muted s" x="72" y="327">PDF → 看得懂的文字 → 結構化筆記</text>
-    <text class="muted s" x="530" y="313" text-anchor="end">2.1</text>
+    <text class="muted s" x="468" y="313" text-anchor="end">2.1</text>
+    <text class="tagOn s" x="530" y="313" text-anchor="end" font-weight="700">← 本章</text>
   </g>
   <g class="dim">
     <rect class="node" x="58" y="335" width="484" height="33" rx="5"/>

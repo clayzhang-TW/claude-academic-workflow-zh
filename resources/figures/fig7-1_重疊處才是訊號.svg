@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 484" width="560" height="484" font-family="Noto Sans TC, Microsoft JhengHei, Helvetica, Arial, sans-serif">
+  <style>
+    @page{size:560px 484px;margin:0}
+    .bg{fill:#faf7f0}
+    .ink{fill:#23201b}
+    .muted{fill:#6b6459}
+    .rule{stroke:#ddd5c6;stroke-width:1}
+    .role{fill:#efe9dc;stroke:#c9bfab;stroke-width:1.4}
+    .draft{fill:#f2ede2;stroke:#c9bfab;stroke-width:1.4}
+    .seg{fill:#faf7f0;stroke:#c9bfab;stroke-width:1}
+    .seghot{fill:#f6eaec;stroke:#8a2b3f;stroke-width:2}
+    .point{stroke:#6b6459;stroke-width:1.6;fill:none;stroke-linecap:round}
+    .pointhot{stroke:#8a2b3f;stroke-width:2.2;fill:none;stroke-linecap:round}
+    .key{fill:#2f6b4f}
+    .warn{fill:#8a2b3f}
+    .head{fill:#8a5a2b}
+    .title{font-size:17px;font-weight:700}
+    .b{font-size:13px;font-weight:700}
+    .s{font-size:12px}
+    @media (prefers-color-scheme: dark){
+      .bg{fill:#17150f}.ink{fill:#ece5d6}.muted{fill:#a49a88}.rule{stroke:#3a352a}
+      .role{fill:#241f16;stroke:#4a4335}.draft{fill:#1e1a13;stroke:#4a4335}
+      .seg{fill:#17150f;stroke:#4a4335}.seghot{fill:#2a1a1f;stroke:#e08a9c}
+      .point{stroke:#a49a88}.pointhot{stroke:#e08a9c}
+      .key{fill:#7fc4a0}.warn{fill:#e08a9c}.head{fill:#d09a5e}
+    }
+  </style>
+
+  <rect class="bg" width="560" height="484"/>
+  <text class="ink title" x="18" y="28">圖 7-1　要找的不是誰寫得最兇，是哪一段被指了三次</text>
+  <text class="muted s" x="18" y="50">五個角色分五次獨立對話跑，彼此看不到。看線的終點怎麼分布。</text>
+
+  <defs>
+    <marker id="mp71" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path fill="#6b6459" d="M0,0 L10,5 L0,10 z"/>
+    </marker>
+    <marker id="mh71" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path class="warn" d="M0,0 L10,5 L0,10 z"/>
+    </marker>
+  </defs>
+
+  <text class="muted s" x="18" y="78">五次獨立對話</text>
+
+  <!-- 五個角色（各自獨立的框，彼此之間沒有任何線） -->
+  <rect class="role" x="18" y="86" width="132" height="28" rx="4"/>
+  <text class="ink s" x="30" y="105">主編</text>
+  <rect class="role" x="18" y="136" width="132" height="28" rx="4"/>
+  <text class="ink s" x="30" y="155">方法論審查</text>
+  <rect class="role" x="18" y="186" width="132" height="28" rx="4"/>
+  <text class="ink s" x="30" y="205">領域審查</text>
+  <rect class="role" x="18" y="236" width="132" height="28" rx="4"/>
+  <text class="ink s" x="30" y="255">視角審查</text>
+  <rect class="role" x="18" y="286" width="132" height="28" rx="4"/>
+  <text class="warn s" x="30" y="305">魔鬼代言人</text>
+
+  <!-- 稿子 -->
+  <rect class="draft" x="384" y="80" width="158" height="252" rx="6"/>
+  <text class="head b" x="463" y="102" text-anchor="middle">你的稿子</text>
+
+  <rect class="seg" x="396" y="112" width="134" height="34" rx="4"/>
+  <text class="muted s" x="463" y="134" text-anchor="middle">貢獻陳述</text>
+
+  <rect class="seghot" x="396" y="176" width="134" height="48" rx="4"/>
+  <text class="warn s" x="463" y="196" text-anchor="middle" font-weight="700">樣本只有</text>
+  <text class="warn s" x="463" y="214" text-anchor="middle" font-weight="700">一個縣市</text>
+
+  <rect class="seg" x="396" y="264" width="134" height="34" rx="4"/>
+  <text class="muted s" x="463" y="286" text-anchor="middle">討論段</text>
+
+  <!-- 五條線，全部水平／垂直，互不交叉 -->
+  <path class="point" d="M150,100 H250 V129 H392" marker-end="url(#mp71)"/>
+  <path class="pointhot" d="M150,150 H270 V188 H392" marker-end="url(#mh71)"/>
+  <path class="pointhot" d="M150,200 H392" marker-end="url(#mh71)"/>
+  <path class="point" d="M150,250 H340 V281 H392" marker-end="url(#mp71)"/>
+  <path class="pointhot" d="M150,300 H310 V212 H392" marker-end="url(#mh71)"/>
+
+  <!-- 底部 -->
+  <line class="rule" x1="18" y1="356" x2="542" y2="356"/>
+  <text class="ink b" x="18" y="378">三條線分別從三個角度落在同一段。那種重疊很難用巧合解釋。</text>
+  <text class="muted s" x="18" y="402">方法論說取樣不足、領域說推論範圍過廣、魔鬼代言人說這是最強的反論——三個人沒有看過彼此。</text>
+  <text class="warn s" x="18" y="428" font-weight="700">而只要有一句「上一位審查者說 X，你覺得呢」，這張圖就垮了。</text>
+  <text class="key s" x="18" y="454">跟圖 4-4 是同一個幾何，方向相反：那裡兩條線往上追會合一，是假獨立；</text>
+  <text class="key s" x="18" y="476">這裡多條線往下指到同一處，是真訊號。差別只在線本身獨不獨立。</text>
+</svg>

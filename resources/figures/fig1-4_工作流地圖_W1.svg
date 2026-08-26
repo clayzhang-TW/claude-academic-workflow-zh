@@ -41,15 +41,16 @@
   </style>
 
   <rect class="bg" width="560" height="753"/>
-  <text class="ink title" x="18" y="28">圖 6-3　你在整條工作流的哪裡</text>
-  <text class="on s" x="18" y="50" font-weight="700">第 6 章　分析與撰寫</text>
-  <text class="muted s" x="18" y="68">到這裡才動筆。⚠️ 分析在撰寫之前，不是反過來。</text>
+  <text class="ink title" x="18" y="28">圖 1-4　你在整條工作流的哪裡</text>
+  <text class="on s" x="18" y="50" font-weight="700">第 1 章　先把現場搭起來</text>
+  <text class="muted s" x="18" y="68">你先建的是那個貫穿全程的底座——後面每一站都會回來用它。</text>
   <text class="onSpan h" x="18" y="90">貫穿全程（不屬於任何一站）</text>
-  <g class="dim">
-    <rect class="span" x="18" y="96" width="524" height="42" rx="6"/>
-    <text class="ink b" x="34" y="114">知識庫</text>
+  <g>
+    <rect class="spanOn" x="18" y="96" width="524" height="42" rx="6"/>
+    <text class="onSpan b" x="34" y="114">知識庫</text>
     <text class="muted s" x="34" y="130">文獻／概念／靈感／技術四種筆記</text>
-    <text class="muted s" x="530" y="114" text-anchor="end">1.2 · 4.4</text>
+    <text class="muted s" x="468" y="114" text-anchor="end">1.2 · 4.4</text>
+    <text class="tagOnSpan s" x="530" y="114" text-anchor="end" font-weight="700">← 本章</text>
   </g>
   <g class="dim">
     <rect class="span" x="18" y="141" width="524" height="42" rx="6"/>
@@ -98,19 +99,17 @@
     <text class="muted s" x="530" y="444" text-anchor="end">5.3</text>
   </g>
   <text class="zone h" x="58" y="485">產出</text>
-  <g>
-    <rect class="nodeOn" x="58" y="489" width="484" height="33" rx="5"/>
-    <text class="on b" x="72" y="503">資料分析</text>
+  <g class="dim">
+    <rect class="node" x="58" y="489" width="484" height="33" rx="5"/>
+    <text class="ink b" x="72" y="503">資料分析</text>
     <text class="muted s" x="72" y="517">寫語法 → 跑 → 偵錯 → 存成技術筆記</text>
-    <text class="muted s" x="468" y="503" text-anchor="end">6.1</text>
-    <text class="tagOn s" x="530" y="503" text-anchor="end" font-weight="700">← 本章</text>
+    <text class="muted s" x="530" y="503" text-anchor="end">6.1</text>
   </g>
-  <g>
-    <rect class="nodeOn" x="58" y="525" width="484" height="33" rx="5"/>
-    <text class="on b" x="72" y="539">撰寫</text>
+  <g class="dim">
+    <rect class="node" x="58" y="525" width="484" height="33" rx="5"/>
+    <text class="ink b" x="72" y="539">撰寫</text>
     <text class="muted s" x="72" y="553">六種模式，一次只處理一個階段</text>
-    <text class="muted s" x="468" y="539" text-anchor="end">6.3</text>
-    <text class="tagOn s" x="530" y="539" text-anchor="end" font-weight="700">← 本章</text>
+    <text class="muted s" x="530" y="539" text-anchor="end">6.3</text>
   </g>
   <text class="zone h" x="58" y="580">送出</text>
   <g class="dim">

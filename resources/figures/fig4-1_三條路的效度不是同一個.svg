@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 492" width="560" height="492" font-family="Noto Sans TC, Microsoft JhengHei, Helvetica, Arial, sans-serif">
+  <style>
+    @page{size:560px 492px;margin:0}
+    .bg{fill:#faf7f0}
+    .ink{fill:#23201b}
+    .muted{fill:#6b6459}
+    .rule{stroke:#ddd5c6;stroke-width:1}
+    .laneA{fill:#f2ede2;stroke:#c9bfab;stroke-width:1.4}
+    .laneB{fill:#f1ebf5;stroke:#6b4a7a;stroke-width:1.4}
+    .laneC{fill:#f5efe2;stroke:#8a5a2b;stroke-width:1.4}
+    .divide{stroke:#ddd5c6;stroke-width:1}
+    .cross{stroke:#8a2b3f;stroke-width:2.4;fill:none;stroke-dasharray:5 3}
+    .nameA{fill:#23201b}
+    .nameB{fill:#6b4a7a}
+    .nameC{fill:#8a5a2b}
+    .key{fill:#2f6b4f}
+    .warn{fill:#8a2b3f}
+    .title{font-size:17px;font-weight:700}
+    .h{font-size:14px;font-weight:700}
+    .b{font-size:13px;font-weight:700}
+    .s{font-size:12px}
+    @media (prefers-color-scheme: dark){
+      .bg{fill:#17150f}.ink{fill:#ece5d6}.muted{fill:#a49a88}.rule{stroke:#3a352a}
+      .laneA{fill:#1e1a13;stroke:#4a4335}
+      .laneB{fill:#241b2a;stroke:#c3a0d4}
+      .laneC{fill:#241f16;stroke:#d09a5e}
+      .divide{stroke:#3a352a}.cross{stroke:#e08a9c}
+      .nameA{fill:#ece5d6}.nameB{fill:#c3a0d4}.nameC{fill:#d09a5e}
+      .key{fill:#7fc4a0}.warn{fill:#e08a9c}
+    }
+  </style>
+
+  <rect class="bg" width="560" height="492"/>
+  <text class="ink title" x="18" y="28">圖 4-1　三條路問的不是同一個問題</text>
+  <text class="muted s" x="18" y="50">三條帶子，各有各的效度。右邊那條紅線跨過帶子——那是最常見的誤傷。</text>
+
+  <defs>
+    <marker id="mx41a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path class="warn" d="M0,0 L10,5 L0,10 z"/>
+    </marker>
+    <marker id="mx41b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path class="warn" d="M0,0 L10,5 L0,10 z"/>
+    </marker>
+  </defs>
+
+  <!-- 泳道一：量化 -->
+  <rect class="laneA" x="18" y="72" width="524" height="80" rx="6"/>
+  <text class="nameA h" x="34" y="100">量化</text>
+  <text class="ink s" x="34" y="122">它問：這個結果</text>
+  <text class="ink s" x="34" y="140">還有別的解釋嗎</text>
+  <line class="divide" x1="152" y1="82" x2="152" y2="142"/>
+  <text class="muted s" x="166" y="100">威脅是一份列得完的清單，你逐項排除</text>
+  <text class="muted s" x="166" y="120">自然成長／組別本來就不同／中途流失</text>
+  <text class="muted s" x="166" y="140">做過一次就變熟練</text>
+
+  <!-- 跨帶的誤傷：一條雙向線 -->
+  <path class="cross" d="M430,130 V240" marker-start="url(#mx41b)" marker-end="url(#mx41a)"/>
+  <text class="warn s" x="418" y="176" text-anchor="end" font-weight="700">拿信度係數去問一份訪談</text>
+  <text class="warn s" x="418" y="196" text-anchor="end" font-weight="700">拿「他說的是真的嗎」去問量化</text>
+
+  <!-- 泳道二：質性 -->
+  <rect class="laneB" x="18" y="212" width="524" height="80" rx="6"/>
+  <text class="nameB h" x="34" y="240">質性</text>
+  <text class="ink s" x="34" y="262">它問：別人憑什麼</text>
+  <text class="ink s" x="34" y="280">相信你的詮釋</text>
+  <line class="divide" x1="152" y1="222" x2="152" y2="282"/>
+  <text class="muted s" x="166" y="240">沒有清單可以排除，做法是留下痕跡</text>
+  <text class="muted s" x="166" y="260">多來源交叉／拿回去給參與者確認</text>
+  <text class="muted s" x="166" y="280">厚描述／交代你自己的位置</text>
+
+  <!-- 泳道三：混合 -->
+  <rect class="laneC" x="18" y="316" width="524" height="80" rx="6"/>
+  <text class="nameC h" x="34" y="344">混合</text>
+  <text class="ink s" x="34" y="366">兩邊都要</text>
+  <text class="ink s" x="34" y="384">而且多一題</text>
+  <line class="divide" x1="152" y1="326" x2="152" y2="386"/>
+  <text class="muted s" x="166" y="344">多的那一題：兩股資料結論不一致時怎麼辦</text>
+  <text class="warn s" x="166" y="364" font-weight="700">這一題不能等資料出來再想</text>
+  <text class="muted s" x="166" y="384">並排卻沒有整合點，那是兩個研究裝訂在一起</text>
+
+  <!-- 底部 -->
+  <line class="rule" x1="18" y1="424" x2="542" y2="424"/>
+  <text class="ink b" x="18" y="448">用錯一邊的判準去要求另一邊，是計畫書審查最常見的誤傷。</text>
+  <text class="key s" x="18" y="474">決定走哪一條的不是你比較會哪一種，是研究問題的性質——三者衝突時它優先。</text>
+</svg>

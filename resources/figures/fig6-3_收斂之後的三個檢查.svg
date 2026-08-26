@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 640" width="560" height="640" font-family="Noto Sans TC, Microsoft JhengHei, Helvetica, Arial, sans-serif">
+  <style>
+    @page{size:560px 640px;margin:0}
+    .bg{fill:#faf7f0}
+    .ink{fill:#23201b}
+    .muted{fill:#6b6459}
+    .rule{stroke:#ddd5c6;stroke-width:1}
+    .axis{stroke:#c9bfab;stroke-width:2}
+    .box{fill:#efe9dc;stroke:#c9bfab;stroke-width:1.4}
+    .youbox{fill:#dcece3;stroke:#2f6b4f;stroke-width:1.8}
+    .conv{fill:#f5efe2;stroke:#8a5a2b;stroke-width:1.8}
+    .cut{stroke:#8a2b3f;stroke-width:1.6;stroke-dasharray:6 4}
+    .key{fill:#2f6b4f}
+    .warn{fill:#8a2b3f}
+    .head{fill:#8a5a2b}
+    .node{fill:#c9bfab}
+    .nodeyou{fill:#2f6b4f}
+    .title{font-size:17px;font-weight:700}
+    .h{font-size:14px;font-weight:700}
+    .b{font-size:13px;font-weight:700}
+    .s{font-size:12px}
+    @media (prefers-color-scheme: dark){
+      .bg{fill:#17150f}.ink{fill:#ece5d6}.muted{fill:#a49a88}.rule{stroke:#3a352a}
+      .axis{stroke:#4a4335}
+      .box{fill:#241f16;stroke:#4a4335}.youbox{fill:#1c3327;stroke:#7fc4a0}
+      .conv{fill:#241f16;stroke:#d09a5e}
+      .cut{stroke:#e08a9c}
+      .key{fill:#7fc4a0}.warn{fill:#e08a9c}.head{fill:#d09a5e}
+      .node{fill:#4a4335}.nodeyou{fill:#7fc4a0}
+    }
+  </style>
+
+  <rect class="bg" width="560" height="640"/>
+  <text class="ink title" x="18" y="28">圖 6-3　收斂之後，還有三個檢查</text>
+  <text class="muted s" x="18" y="50">時間由上往下。紅色虛線是程式世界的盡頭——線以下沒有任何東西會提醒你。</text>
+
+  <!-- 時間軸 -->
+  <line class="axis" x1="96" y1="76" x2="96" y2="586"/>
+  <text class="muted s" x="18" y="82">時間 ↓</text>
+
+  <!-- ===== 線以上：程式會做的 ===== -->
+  <text class="muted b" x="120" y="82">程式的世界</text>
+
+  <circle class="node" cx="96" cy="112" r="6"/>
+  <rect class="box" x="120" y="94" width="410" height="36" rx="5"/>
+  <text class="ink s" x="134" y="117">你設定模型：分幾組、哪些參數自由估計</text>
+
+  <circle class="node" cx="96" cy="172" r="6"/>
+  <rect class="box" x="120" y="154" width="410" height="36" rx="5"/>
+  <text class="ink s" x="134" y="177">軟體反覆估計，直到參數不再變動</text>
+
+  <circle class="node" cx="96" cy="232" r="6"/>
+  <rect class="conv" x="120" y="210" width="410" height="44" rx="5"/>
+  <text class="head b" x="134" y="230">軟體回報：收斂了</text>
+  <text class="muted s" x="134" y="248">語法沒錯、程序跑完、參數表印出來了</text>
+
+  <!-- ===== 分界 ===== -->
+  <line class="cut" x1="18" y1="282" x2="542" y2="282"/>
+  <text class="warn b" x="18" y="276">程式會替你做的，到這條線為止</text>
+
+  <!-- ===== 線以下：你要做的 ===== -->
+  <text class="key b" x="120" y="308">以下三件，沒有任何一支程式會做，也沒有任何一支會提醒你</text>
+
+  <circle class="nodeyou" cx="96" cy="348" r="6"/>
+  <rect class="youbox" x="120" y="326" width="410" height="52" rx="5"/>
+  <text class="key b" x="134" y="346">① 最小的那一組，有幾個人？</text>
+  <text class="muted s" x="134" y="366">小於總樣本的 5％ 就要懷疑——那可能是退化解，不是一個真的次群</text>
+
+  <circle class="nodeyou" cx="96" cy="420" r="6"/>
+  <rect class="youbox" x="120" y="398" width="410" height="52" rx="5"/>
+  <text class="key b" x="134" y="418">② 換一批隨機起始值，答案一不一樣？</text>
+  <text class="muted s" x="134" y="438">不一樣就是局部極大值。你看到的只是碰巧先跑到的那一組</text>
+
+  <circle class="nodeyou" cx="96" cy="492" r="6"/>
+  <rect class="youbox" x="120" y="470" width="410" height="52" rx="5"/>
+  <text class="key b" x="134" y="490">③ 有沒有任何參數碰到邊界？</text>
+  <text class="muted s" x="134" y="510">變異數 ≈ 0、相關 ≈ ±1 都算。要翻參數表才看得到，摘要頁不會寫</text>
+
+  <circle class="node" cx="96" cy="556" r="6"/>
+  <text class="key b" x="120" y="552">三題有任何一題不過</text>
+  <text class="muted s" x="120" y="572">那組結果不能直接報告。它需要的不是更多分析，是回頭改模型設定</text>
+
+  <!-- ===== 底部 ===== -->
+  <line class="rule" x1="18" y1="596" x2="542" y2="596"/>
+  <text class="ink s" x="18" y="618" font-weight="700">「收斂」是程式在說它算完了，不是在說這組答案可以用。</text>
+</svg>

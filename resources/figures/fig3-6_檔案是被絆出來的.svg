@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 480" width="560" height="480" font-family="Noto Sans TC, Microsoft JhengHei, Helvetica, Arial, sans-serif">
+  <style>
+    @page{size:560px 480px;margin:0}
+    .bg{fill:#faf7f0}
+    .ink{fill:#23201b}
+    .muted{fill:#6b6459}
+    .rule{stroke:#ddd5c6;stroke-width:1}
+    .hit{fill:#f6eaec;stroke:#8a2b3f;stroke-width:1.6}
+    .file{fill:#f5efe2;stroke:#8a5a2b;stroke-width:2}
+    .cut{fill:none;stroke:#c9bfab;stroke-width:1.4;stroke-dasharray:4 3}
+    .inflow{stroke:#8a2b3f;stroke-width:2;fill:none;stroke-linecap:round}
+    .outflow{stroke:#6b6459;stroke-width:1.8;fill:none;stroke-linecap:round;stroke-dasharray:5 3}
+    .line{stroke:#c9bfab;stroke-width:1.6;stroke-linecap:round}
+    .linekey{stroke:#8a2b3f;stroke-width:2.2;stroke-linecap:round}
+    .key{fill:#2f6b4f}
+    .warn{fill:#8a2b3f}
+    .head{fill:#8a5a2b}
+    .title{font-size:17px;font-weight:700}
+    .b{font-size:13px;font-weight:700}
+    .s{font-size:12px}
+    @media (prefers-color-scheme: dark){
+      .bg{fill:#17150f}.ink{fill:#ece5d6}.muted{fill:#a49a88}.rule{stroke:#3a352a}
+      .hit{fill:#2a1a1f;stroke:#e08a9c}.file{fill:#241f16;stroke:#d09a5e}
+      .cut{stroke:#4a4335}
+      .inflow{stroke:#e08a9c}.outflow{stroke:#a49a88}
+      .line{stroke:#4a4335}.linekey{stroke:#e08a9c}
+      .key{fill:#7fc4a0}.warn{fill:#e08a9c}.head{fill:#d09a5e}
+    }
+  </style>
+
+  <rect class="bg" width="560" height="480"/>
+  <text class="ink title" x="18" y="28">圖 3-6　檔案不是寫出來的，是被絆出來的</text>
+  <text class="muted s" x="18" y="50">左邊每一次踩到的坑，對應中間的一條規則。右邊那條是被拿掉的。</text>
+
+  <defs>
+    <marker id="mi36" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path class="warn" d="M0,0 L10,5 L0,10 z"/>
+    </marker>
+    <marker id="mo36" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path fill="#6b6459" d="M0,0 L10,5 L0,10 z"/>
+    </marker>
+  </defs>
+
+  <!-- 左：三次摩擦 -->
+  <text class="warn b" x="18" y="86">它做錯的每一次</text>
+
+  <rect class="hit" x="18" y="110" width="150" height="46" rx="5"/>
+  <text class="warn s" x="30" y="130">第 1 次踩到</text>
+  <text class="muted s" x="30" y="148">格式每次都不一樣</text>
+
+  <rect class="hit" x="18" y="175" width="150" height="46" rx="5"/>
+  <text class="warn s" x="30" y="195">第 2 次踩到</text>
+  <text class="muted s" x="30" y="213">它自己補了一筆引用</text>
+
+  <rect class="hit" x="18" y="240" width="150" height="46" rx="5"/>
+  <text class="warn s" x="30" y="260">第 N 次踩到</text>
+  <text class="muted s" x="30" y="278">又動了我叫它別動的</text>
+
+  <!-- 進檔案 -->
+  <path class="inflow" d="M168,133 H196" marker-end="url(#mi36)"/>
+  <path class="inflow" d="M168,198 H196" marker-end="url(#mi36)"/>
+  <path class="inflow" d="M168,263 H196" marker-end="url(#mi36)"/>
+
+  <!-- 中：檔案 -->
+  <rect class="file" x="202" y="96" width="188" height="234" rx="6"/>
+  <text class="head b" x="296" y="118" text-anchor="middle">你的技能檔</text>
+
+  <line class="linekey" x1="216" y1="133" x2="376" y2="133"/>
+  <line class="linekey" x1="216" y1="198" x2="376" y2="198"/>
+  <line class="linekey" x1="216" y1="263" x2="376" y2="263"/>
+  <line class="line" x1="216" y1="155" x2="330" y2="155"/>
+  <line class="line" x1="216" y1="176" x2="360" y2="176"/>
+  <line class="line" x1="216" y1="220" x2="344" y2="220"/>
+  <line class="line" x1="216" y1="241" x2="368" y2="241"/>
+  <line class="line" x1="216" y1="285" x2="352" y2="285"/>
+
+  <text class="warn s" x="296" y="312" text-anchor="middle" font-weight="700">粗的那幾條＝你的事故史</text>
+
+  <!-- 右：修剪 -->
+  <path class="outflow" d="M390,220 H424" marker-end="url(#mo36)"/>
+  <text class="muted b" x="430" y="106">也要拿掉</text>
+  <rect class="cut" x="428" y="120" width="114" height="180" rx="5"/>
+  <text class="muted s" x="440" y="150">不會再犯的</text>
+  <text class="muted s" x="440" y="196">從沒觸發過的</text>
+  <text class="muted s" x="440" y="242">互相打架的</text>
+  <text class="muted s" x="440" y="286">（三種見內文）</text>
+
+  <!-- 底部 -->
+  <line class="rule" x1="18" y1="360" x2="542" y2="360"/>
+  <text class="ink b" x="18" y="384">流程只有一句：每次它做錯一件事，就問「哪一句話可以事先攔住它」。</text>
+  <text class="warn s" x="18" y="410" font-weight="700">所以你抄不到別人的——他的坑不是你的坑，那幾條粗線是他踩出來的。</text>
+  <text class="ink s" x="18" y="436">而長不等於好。每一條規則的成本是「它每次都要讀」，效益卻可能早就沒了。</text>
+  <text class="key s" x="18" y="462" font-weight="700">刪的時候留一行紀錄：你未來要推翻的是當初的理由，不是那條規則本身。</text>
+</svg>

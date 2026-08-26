@@ -29,7 +29,7 @@
   </style>
 
   <rect class="bg" width="560" height="588"/>
-  <text class="ink title" x="18" y="28">圖 7-2　關卡都長在同一條邊界上</text>
+  <text class="ink title" x="18" y="28">圖 7-4　關卡都長在同一條邊界上</text>
   <text class="muted s" x="18" y="50">左邊是還在你手上的，右邊是已經出去的。六道關卡全部站在那條虛線上。</text>
 
   <defs><marker id="m72b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path class="head" d="M0,0 L10,5 L0,10 z"/></marker></defs>

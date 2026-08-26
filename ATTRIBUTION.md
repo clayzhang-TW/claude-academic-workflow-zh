@@ -16,8 +16,8 @@
 - **Master-cai**｜[Research-Paper-Writing-Skills](https://github.com/Master-cai/Research-Paper-Writing-Skills) → 同上（封裝與結構化）
 - **侯智薰（雷蒙）**｜[speak-human-tw](https://github.com/Raymondhou0917/speak-human-tw) → [附錄 H](appendix/H-chinese-ai-tone.md) 全份
 - **MrGeDiao**｜[shuorenhua](https://github.com/MrGeDiao/shuorenhua) → [7.1](chapters/07-revision-integrity.md#71-修稿三輪)、[附錄 I](appendix/I-self-review.md) 的「保護片段」
-- **Matt Pocock**｜[skills](https://github.com/mattpocock/skills) 之 `grill-me` → [2.4](chapters/02-first-note.md#24-教育研究最常遇到的三種型態) 執行前追問
-- **Thariq Shihipar**（Anthropic）｜〈[A field guide to Claude Fable 5: Finding your unknowns](https://claude.com/blog/a-field-guide-to-claude-fable-finding-your-unknowns)〉 → [2.4](chapters/02-first-note.md#24-教育研究最常遇到的三種型態) 的四象限框架
+- **Matt Pocock**｜[skills](https://github.com/mattpocock/skills) 之 `grill-me` → [2.4](chapters/02-first-note.md#24-教育研究最常遇到的四種型態) 執行前追問
+- **Thariq Shihipar**（Anthropic）｜〈[A field guide to Claude Fable 5: Finding your unknowns](https://claude.com/blog/a-field-guide-to-claude-fable-finding-your-unknowns)〉 → [2.4](chapters/02-first-note.md#24-教育研究最常遇到的四種型態) 的四象限框架
 - **virgiliojr94**｜`book-to-skill` → [6.2](chapters/06-analysis-writing.md#62-當你遇到不會的方法) 把一本書變成顧問
 - **J. W. Creswell & J. D. Creswell**｜*Research Design* (5th ed.). SAGE, 2018. → [4.1](chapters/04-research-question.md#41-從模糊的興趣到一個查得動的問題) 三取向、四世界觀、三種效度
 - **Bronwyn Eager**｜*AI-Powered Scholar: A Beginner's Guide to Artificial Intelligence for Academic Writing & Research*. Routledge, 2025. [https://doi.org/10.4324/9781032665276](https://doi.org/10.4324/9781032665276) → [6.3](chapters/06-analysis-writing.md#63-寫作模式鏈)〈在大綱之前：先把腦裡那團倒出來〉的做法；各章末〈拿去跟人討論〉的體例
@@ -56,7 +56,7 @@ https://github.com/Imbad0202/academic-research-skills
 | **[7.1](chapters/07-revision-integrity.md#71-修稿三輪)** 逆向大綱、主張與證據對照 | Master-cai／彭思達 |
 | **[附錄 H](appendix/H-chinese-ai-tone.md)** 全份 | speak-human-tw |
 | **[7.1](chapters/07-revision-integrity.md#71-修稿三輪)**、詞彙表、[附錄 I](appendix/I-self-review.md) 的「保護片段」 | shuorenhua |
-| **[2.4](chapters/02-first-note.md#24-教育研究最常遇到的三種型態)** 執行前追問 | mattpocock/skills；Anthropic 該文 |
+| **[2.4](chapters/02-first-note.md#24-教育研究最常遇到的四種型態)** 執行前追問 | mattpocock/skills；Anthropic 該文 |
 | **[4.1](chapters/04-research-question.md#41-從模糊的興趣到一個查得動的問題)** 三取向、四世界觀、三種效度 | Creswell & Creswell (2018) |
 | **[6.2](chapters/06-analysis-writing.md#62-當你遇到不會的方法)** 把一本書變成顧問 | book-to-skill |
 | **[6.3](chapters/06-analysis-writing.md#63-寫作模式鏈)** 動筆前的傾倒稿做法｜各章末〈拿去跟人討論〉的體例 | Eager (2025) |

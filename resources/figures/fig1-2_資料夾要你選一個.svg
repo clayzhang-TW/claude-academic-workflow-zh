@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 400" width="560" height="400" font-family="Noto Sans TC, Microsoft JhengHei, Helvetica, Arial, sans-serif">
+  <style>
+    @page{size:560px 400px;margin:0}
+    .bg{fill:#faf7f0}
+    .ink{fill:#23201b}
+    .muted{fill:#6b6459}
+    .rule{stroke:#ddd5c6;stroke-width:1}
+    .slot{fill:#f2ede2;stroke:#c9bfab;stroke-width:1.4}
+    .slotempty{fill:none;stroke:#c9bfab;stroke-width:1.4;stroke-dasharray:4 3}
+    .use{fill:#e8f2ec;stroke:#2f6b4f;stroke-width:1.6}
+    .note{fill:#efe9dc;stroke:#8a5a2b;stroke-width:1.8}
+    .link{stroke:#2f6b4f;stroke-width:2;fill:none;stroke-linecap:round}
+    .key{fill:#2f6b4f}
+    .warn{fill:#8a2b3f}
+    .head{fill:#8a5a2b}
+    .title{font-size:17px;font-weight:700}
+    .h{font-size:14px;font-weight:700}
+    .b{font-size:13px;font-weight:700}
+    .s{font-size:12px}
+    @media (prefers-color-scheme: dark){
+      .bg{fill:#17150f}.ink{fill:#ece5d6}.muted{fill:#a49a88}.rule{stroke:#3a352a}
+      .slot{fill:#1e1a13;stroke:#4a4335}.slotempty{stroke:#4a4335}
+      .use{fill:#15241c;stroke:#7fc4a0}
+      .note{fill:#241f16;stroke:#d09a5e}
+      .link{stroke:#7fc4a0}
+      .key{fill:#7fc4a0}.warn{fill:#e08a9c}.head{fill:#d09a5e}
+    }
+  </style>
+
+  <rect class="bg" width="560" height="400"/>
+  <text class="ink title" x="18" y="28">圖 1-2　同一篇論文，三個地方都要用它</text>
+  <text class="muted s" x="18" y="50">左邊：它只能待在一個資料夾裡。右邊：它待在原地，被三個地方連到。</text>
+
+  <defs>
+    <marker id="ml12" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path class="key" d="M0,0 L10,5 L0,10 z"/>
+    </marker>
+  </defs>
+
+  <!-- ===== 左：資料夾 ===== -->
+  <text class="ink h" x="18" y="80">資料夾</text>
+  <text class="muted s" x="18" y="98">要你替它選一個位置</text>
+
+  <rect class="slot" x="18" y="110" width="238" height="46" rx="5"/>
+  <text class="muted s" x="32" y="138">量表開發專案</text>
+  <rect class="note" x="140" y="120" width="104" height="26" rx="4"/>
+  <text class="head s" x="192" y="138" text-anchor="middle">那篇論文</text>
+
+  <rect class="slotempty" x="18" y="168" width="238" height="46" rx="5"/>
+  <text class="muted s" x="32" y="190">科技接受概念</text>
+  <text class="warn s" x="32" y="208">這裡也需要它，但它不在</text>
+
+  <rect class="slotempty" x="18" y="226" width="238" height="46" rx="5"/>
+  <text class="muted s" x="32" y="248">下學期課程教材</text>
+  <text class="warn s" x="32" y="266">這裡也需要它，但它不在</text>
+
+  <!-- ===== 右：連結 ===== -->
+  <text class="key h" x="288" y="80">連結</text>
+  <text class="muted s" x="288" y="98">不必選，它同時屬於三個</text>
+
+  <rect class="note" x="288" y="160" width="92" height="46" rx="5"/>
+  <text class="head s" x="334" y="180" text-anchor="middle">那篇論文</text>
+  <text class="muted s" x="334" y="198" text-anchor="middle">只有一份</text>
+
+  <path class="link" d="M380,172 H398 V133 H424" marker-end="url(#ml12)"/>
+  <path class="link" d="M380,183 H424" marker-end="url(#ml12)"/>
+  <path class="link" d="M380,194 H398 V249 H424" marker-end="url(#ml12)"/>
+
+  <rect class="use" x="428" y="110" width="114" height="46" rx="5"/>
+  <text class="key s" x="485" y="130" text-anchor="middle">量表開發</text>
+  <text class="key s" x="485" y="147" text-anchor="middle">專案</text>
+
+  <rect class="use" x="428" y="168" width="114" height="46" rx="5"/>
+  <text class="key s" x="485" y="188" text-anchor="middle">科技接受</text>
+  <text class="key s" x="485" y="205" text-anchor="middle">概念</text>
+
+  <rect class="use" x="428" y="226" width="114" height="46" rx="5"/>
+  <text class="key s" x="485" y="246" text-anchor="middle">下學期</text>
+  <text class="key s" x="485" y="263" text-anchor="middle">課程教材</text>
+
+  <!-- ===== 底部 ===== -->
+  <line class="rule" x1="18" y1="298" x2="542" y2="298"/>
+  <text class="ink b" x="18" y="322">研究裡最有價值的東西，通常同時屬於好幾個位置。</text>
+  <text class="warn s" x="18" y="346" font-weight="700">放進哪個資料夾都會漏掉另外兩個用途——而漏掉的那兩次，你根本不會發現。</text>
+  <text class="key s" x="18" y="374" font-weight="700">所以重點不是它放在哪裡，是它連到哪些東西。</text>
+</svg>

@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 660" width="560" height="660" font-family="Noto Sans TC, Microsoft JhengHei, Helvetica, Arial, sans-serif">
+  <style>
+    @page{size:560px 660px;margin:0}
+    .bg{fill:#faf7f0}
+    .ink{fill:#23201b}
+    .muted{fill:#6b6459}
+    .rule{stroke:#ddd5c6;stroke-width:1}
+    .step{fill:#efe9dc;stroke:#c9bfab;stroke-width:1.4}
+    .gate{fill:#dcece3;stroke:#2f6b4f;stroke-width:2}
+    .vault{fill:#f5efe2;stroke:#8a5a2b;stroke-width:1.8}
+    .stop{fill:none;stroke:#c9bfab;stroke-width:1.4;stroke-dasharray:4 3}
+    .flow{stroke:#8a5a2b;stroke-width:2;fill:none;stroke-linecap:round}
+    .side{stroke:#6b6459;stroke-width:1.6;fill:none;stroke-linecap:round;stroke-dasharray:5 3}
+    .backline{stroke:#8a2b3f;stroke-width:1.8;fill:none;stroke-linecap:round}
+    .key{fill:#2f6b4f}
+    .warn{fill:#8a2b3f}
+    .head{fill:#8a5a2b}
+    .title{font-size:17px;font-weight:700}
+    .b{font-size:13px;font-weight:700}
+    .s{font-size:12px}
+    @media (prefers-color-scheme: dark){
+      .bg{fill:#17150f}.ink{fill:#ece5d6}.muted{fill:#a49a88}.rule{stroke:#3a352a}
+      .step{fill:#241f16;stroke:#4a4335}
+      .gate{fill:#1c3327;stroke:#7fc4a0}
+      .vault{fill:#241f16;stroke:#d09a5e}
+      .stop{stroke:#4a4335}
+      .flow{stroke:#d09a5e}.side{stroke:#a49a88}.backline{stroke:#e08a9c}
+      .key{fill:#7fc4a0}.warn{fill:#e08a9c}.head{fill:#d09a5e}
+    }
+  </style>
+
+  <rect class="bg" width="560" height="660"/>
+  <text class="ink title" x="18" y="28">圖 2-1　流程的頭尾各有一道關卡</text>
+  <text class="muted s" x="18" y="50">中間那條直線是完整流程。兩端各有一個分岔——一個決定要不要進來，一個決定能不能出去。</text>
+
+  <defs>
+    <marker id="mf21" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path class="head" d="M0,0 L10,5 L0,10 z"/>
+    </marker>
+    <marker id="ms21" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path fill="#6b6459" d="M0,0 L10,5 L0,10 z"/>
+    </marker>
+    <marker id="mb21" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path class="warn" d="M0,0 L10,5 L0,10 z"/>
+    </marker>
+  </defs>
+
+  <!-- ===== 關卡一 ===== -->
+  <text class="key b" x="18" y="78">關卡一</text>
+  <rect class="gate" x="190" y="84" width="180" height="46" rx="5"/>
+  <text class="key b" x="280" y="104" text-anchor="middle">第 0 步：值不值得跑</text>
+  <text class="muted s" x="280" y="122" text-anchor="middle">五個定位問題，兩分鐘</text>
+
+  <!-- 左：不留 -->
+  <path class="side" d="M190,107 H130 V172" marker-end="url(#ms21)"/>
+  <rect class="stop" x="34" y="178" width="152" height="40" rx="5"/>
+  <text class="muted s" x="110" y="203" text-anchor="middle">不留</text>
+
+  <!-- 右：只記書目（繞過主線，直接進 vault） -->
+  <path class="side" d="M370,107 H470 V568 H420" marker-end="url(#ms21)"/>
+  <rect class="stop" x="386" y="178" width="150" height="58" rx="5"/>
+  <text class="muted s" x="461" y="200" text-anchor="middle">只記書目</text>
+  <text class="muted s" x="461" y="220" text-anchor="middle">＋一句話</text>
+
+  <!-- ===== 主線 ===== -->
+  <path class="flow" d="M280,130 V172" marker-end="url(#mf21)"/>
+  <rect class="step" x="190" y="178" width="180" height="40" rx="5"/>
+  <text class="ink s" x="280" y="203" text-anchor="middle">第 1 步　轉檔</text>
+
+  <path class="flow" d="M280,218 V244" marker-end="url(#mf21)"/>
+  <rect class="step" x="190" y="250" width="180" height="40" rx="5"/>
+  <text class="ink s" x="280" y="275" text-anchor="middle">第 2 步　七欄筆記</text>
+
+  <path class="flow" d="M280,290 V316" marker-end="url(#mf21)"/>
+  <rect class="step" x="190" y="322" width="180" height="40" rx="5"/>
+  <text class="ink s" x="280" y="347" text-anchor="middle">第 3 步　糾正迴圈</text>
+
+  <path class="flow" d="M280,362 V388" marker-end="url(#mf21)"/>
+
+  <!-- ===== 關卡二 ===== -->
+  <text class="warn b" x="18" y="416">關卡二</text>
+  <rect class="gate" x="190" y="394" width="180" height="58" rx="5"/>
+  <text class="key b" x="280" y="416" text-anchor="middle">最小查證三步</text>
+  <text class="muted s" x="280" y="436" text-anchor="middle">三十秒一筆</text>
+
+  <!-- 沒過就回去（走左側通道，不穿過任何框） -->
+  <path class="backline" d="M190,423 H140 V270 H184" marker-end="url(#mb21)"/>
+  <rect class="bg" x="96" y="330" width="88" height="20"/>
+  <text class="warn s" x="140" y="346" text-anchor="middle" font-weight="700">沒過就回去</text>
+
+  <path class="flow" d="M280,452 V542" marker-end="url(#mf21)"/>
+  <rect class="vault" x="190" y="548" width="180" height="40" rx="5"/>
+  <text class="head b" x="280" y="573" text-anchor="middle">存進 vault</text>
+
+  <!-- ===== 底部 ===== -->
+  <line class="rule" x1="18" y1="612" x2="542" y2="612"/>
+  <text class="ink b" x="18" y="634">兩道關卡防的是兩件不同的事：進來的值不值得花時間，出去的查過了沒有。</text>
+  <text class="warn s" x="18" y="654" font-weight="700">順序不能反過來——先存後查，三個月後你分不出哪些查過。</text>
+</svg>

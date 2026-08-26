@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 492" width="560" height="492" font-family="Noto Sans TC, Microsoft JhengHei, Helvetica, Arial, sans-serif">
+  <style>
+    @page{size:560px 492px;margin:0}
+    .bg{fill:#faf7f0}
+    .ink{fill:#23201b}
+    .muted{fill:#6b6459}
+    .rule{stroke:#ddd5c6;stroke-width:1}
+    .center{fill:#f5efe2;stroke:#8a5a2b;stroke-width:2.2}
+    .hit{fill:#f6eaec;stroke:#8a2b3f;stroke-width:1.6}
+    .blast{stroke:#8a2b3f;stroke-width:2.4;fill:none;stroke-linecap:round}
+    .key{fill:#2f6b4f}
+    .warn{fill:#8a2b3f}
+    .head{fill:#8a5a2b}
+    .title{font-size:17px;font-weight:700}
+    .b{font-size:13px;font-weight:700}
+    .s{font-size:12px}
+    @media (prefers-color-scheme: dark){
+      .bg{fill:#17150f}.ink{fill:#ece5d6}.muted{fill:#a49a88}.rule{stroke:#3a352a}
+      .center{fill:#241f16;stroke:#d09a5e}.hit{fill:#2a1a1f;stroke:#e08a9c}
+      .blast{stroke:#e08a9c}
+      .key{fill:#7fc4a0}.warn{fill:#e08a9c}.head{fill:#d09a5e}
+    }
+  </style>
+
+  <rect class="bg" width="560" height="492"/>
+  <text class="ink title" x="18" y="28">圖 7-2　改一個定義，四個方向會跟著動</text>
+  <text class="muted s" x="18" y="50">中間是審查者點名的那一處。四個方向沒有任何一個帶編號。</text>
+
+  <defs>
+    <marker id="mb72" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path class="warn" d="M0,0 L10,5 L0,10 z"/>
+    </marker>
+  </defs>
+
+  <!-- ① 上游 -->
+  <rect class="hit" x="196" y="86" width="168" height="52" rx="5"/>
+  <text class="warn s" x="280" y="106" text-anchor="middle" font-weight="700">① 上游前提</text>
+  <text class="muted s" x="280" y="126" text-anchor="middle">假設的推導／理論框架</text>
+
+  <!-- ③ 左：詮釋回扣 -->
+  <rect class="hit" x="18" y="190" width="160" height="66" rx="5"/>
+  <text class="warn s" x="98" y="212" text-anchor="middle" font-weight="700">③ 詮釋回扣</text>
+  <text class="muted s" x="98" y="232" text-anchor="middle">討論對應段</text>
+  <text class="muted s" x="98" y="250" text-anchor="middle">結論／回答研究問題</text>
+
+  <!-- 中心 -->
+  <rect class="center" x="200" y="190" width="160" height="66" rx="5"/>
+  <text class="head b" x="280" y="214" text-anchor="middle">審查者點名的</text>
+  <text class="head b" x="280" y="234" text-anchor="middle">那一處改動</text>
+  <text class="muted s" x="280" y="251" text-anchor="middle">有編號，你一定會改</text>
+
+  <!-- ④ 右：摘要鏡像 -->
+  <rect class="hit" x="382" y="190" width="160" height="66" rx="5"/>
+  <text class="warn s" x="462" y="212" text-anchor="middle" font-weight="700">④ 摘要鏡像</text>
+  <text class="muted s" x="462" y="232" text-anchor="middle">摘要／貢獻聲明</text>
+  <text class="muted s" x="462" y="250" text-anchor="middle">圖表說明／關鍵詞</text>
+
+  <!-- ② 下游 -->
+  <rect class="hit" x="118" y="308" width="324" height="66" rx="5"/>
+  <text class="warn s" x="280" y="330" text-anchor="middle" font-weight="700">② 下游實作：一整條操作化鏈</text>
+  <text class="muted s" x="280" y="352" text-anchor="middle">定義 → 操作型定義 → 題目 → 編碼 → 分析 → 結果</text>
+  <text class="muted s" x="280" y="370" text-anchor="middle">方法章／測量題目／分析設定／表格數字</text>
+
+  <!-- 四條擴散線，全部水平或垂直 -->
+  <path class="blast" d="M280,190 V144" marker-end="url(#mb72)"/>
+  <path class="blast" d="M280,256 V302" marker-end="url(#mb72)"/>
+  <path class="blast" d="M200,223 H184" marker-end="url(#mb72)"/>
+  <path class="blast" d="M360,223 H376" marker-end="url(#mb72)"/>
+
+  <!-- 底部 -->
+  <line class="rule" x1="18" y1="400" x2="542" y2="400"/>
+  <text class="ink b" x="18" y="422">這四個地方都沒有審查意見編號。逐條驅動的流程，一個都不會叫你去看。</text>
+  <text class="muted s" x="18" y="446">於是下一輪換另一位審查者說：你方法章的定義跟前言不一致。同一個修改，製造出一個新的矛盾。</text>
+  <text class="warn s" x="18" y="472" font-weight="700">⚠ 如果檢查回報「零連帶」，那代表沒有真的追——除非你改的只是錯字。</text>
+</svg>

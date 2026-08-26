@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 560" width="560" height="560" font-family="Noto Sans TC, Microsoft JhengHei, Helvetica, Arial, sans-serif">
+  <style>
+    @page{size:560px 560px;margin:0}
+    .bg{fill:#faf7f0}
+    .ink{fill:#23201b}
+    .muted{fill:#6b6459}
+    .rule{stroke:#ddd5c6;stroke-width:1}
+    .paperkeep{fill:#e8f2ec;stroke:#2f6b4f;stroke-width:1.8}
+    .papernice{fill:#f5efe2;stroke:#8a5a2b;stroke-width:1.8}
+    .scrawl{stroke:#6b6459;stroke-width:2;stroke-linecap:round}
+    .neat{stroke:#8a5a2b;stroke-width:2;stroke-linecap:round}
+    .flow{stroke:#8a5a2b;stroke-width:2;fill:none;stroke-linecap:round}
+    .back{stroke:#2f6b4f;stroke-width:2;fill:none;stroke-linecap:round}
+    .key{fill:#2f6b4f}
+    .warn{fill:#8a2b3f}
+    .head{fill:#8a5a2b}
+    .title{font-size:17px;font-weight:700}
+    .b{font-size:13px;font-weight:700}
+    .s{font-size:12px}
+    @media (prefers-color-scheme: dark){
+      .bg{fill:#17150f}.ink{fill:#ece5d6}.muted{fill:#a49a88}.rule{stroke:#3a352a}
+      .paperkeep{fill:#15241c;stroke:#7fc4a0}
+      .papernice{fill:#241f16;stroke:#d09a5e}
+      .scrawl{stroke:#a49a88}.neat{stroke:#d09a5e}
+      .flow{stroke:#d09a5e}.back{stroke:#7fc4a0}
+      .key{fill:#7fc4a0}.warn{fill:#e08a9c}.head{fill:#d09a5e}
+    }
+  </style>
+
+  <rect class="bg" width="560" height="560"/>
+  <text class="ink title" x="18" y="28">圖 6-5　整理過的那份，不是拿來取代原稿的</text>
+  <text class="muted s" x="18" y="50">去程只有一條，回程也要有一條。沒有回程線，左邊那一團就白倒了。</text>
+
+  <defs>
+    <marker id="mf65" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path class="head" d="M0,0 L10,5 L0,10 z"/>
+    </marker>
+    <marker id="mb65" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path class="key" d="M0,0 L10,5 L0,10 z"/>
+    </marker>
+  </defs>
+
+  <!-- ===== 左：傾倒稿（說明收進框內，框外只留回程通道） ===== -->
+  <rect class="paperkeep" x="24" y="78" width="196" height="222" rx="6"/>
+  <text class="key b" x="122" y="102" text-anchor="middle">你倒出來的那一團</text>
+  <line class="scrawl" x1="42" y1="126" x2="182" y2="126"/>
+  <line class="scrawl" x1="42" y1="144" x2="126" y2="144"/>
+  <line class="scrawl" x1="42" y1="162" x2="198" y2="162"/>
+  <line class="scrawl" x1="42" y1="180" x2="94" y2="180"/>
+  <line class="scrawl" x1="42" y1="198" x2="166" y2="198"/>
+  <line class="scrawl" x1="42" y1="216" x2="110" y2="216"/>
+  <line class="scrawl" x1="42" y1="234" x2="188" y2="234"/>
+  <text class="muted s" x="42" y="262">亂，重複，沒有標點</text>
+  <text class="key b" x="42" y="286">但每一句都是你真的想的</text>
+
+  <!-- ===== 去程 ===== -->
+  <path class="flow" d="M228,162 H332" marker-end="url(#mf65)"/>
+  <text class="head s" x="280" y="152" text-anchor="middle">請它整理</text>
+
+  <!-- ===== 右：整理稿 ===== -->
+  <rect class="papernice" x="340" y="78" width="196" height="222" rx="6"/>
+  <text class="head b" x="438" y="102" text-anchor="middle">拿回來的那一份</text>
+  <line class="neat" x1="358" y1="126" x2="518" y2="126"/>
+  <line class="neat" x1="358" y1="144" x2="518" y2="144"/>
+  <line class="neat" x1="358" y1="162" x2="518" y2="162"/>
+  <line class="neat" x1="358" y1="180" x2="518" y2="180"/>
+  <line class="neat" x1="358" y1="198" x2="518" y2="198"/>
+  <line class="neat" x1="358" y1="216" x2="518" y2="216"/>
+  <line class="neat" x1="358" y1="234" x2="470" y2="234"/>
+  <text class="muted s" x="358" y="262">通順，連貫，讀起來很順</text>
+  <text class="warn b" x="358" y="286">聽起來比你原本想的更好</text>
+
+  <!-- ===== 回程線：走框下方通道，不觸及任何文字 ===== -->
+  <path class="back" d="M438,300 V342 H122 V306" marker-end="url(#mb65)"/>
+  <rect class="bg" x="246" y="332" width="68" height="20"/>
+  <text class="key b" x="280" y="347" text-anchor="middle">逐句對回</text>
+
+  <!-- ===== 底部：要對什麼 ===== -->
+  <line class="rule" x1="18" y1="384" x2="542" y2="384"/>
+  <text class="ink b" x="18" y="408">對回去的時候，只找兩件事</text>
+  <text class="ink s" x="18" y="434">① 有沒有哪個主張，在整理的過程中被換掉了</text>
+  <text class="ink s" x="18" y="456">② 有沒有哪一句，被講得比你原本敢講的更強</text>
+
+  <line class="rule" x1="18" y1="480" x2="542" y2="480"/>
+  <text class="warn b" x="18" y="504">代價藏在「通順」裡：越順，你越不想動它。</text>
+  <text class="key s" x="18" y="528" font-weight="700">所以左邊那一團不要刪。它是你唯一的對照組。</text>
+  <text class="muted s" x="18" y="550">刪掉之後你就沒有東西可以比對了，而那時候你已經覺得右邊那份寫得很好。</text>
+</svg>

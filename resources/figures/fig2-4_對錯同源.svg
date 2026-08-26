@@ -26,7 +26,7 @@
   </style>
 
   <rect class="bg" width="560" height="512"/>
-  <text class="ink title" x="18" y="28">圖 2-2　對的答案與錯的答案，走的是同一條路</text>
+  <text class="ink title" x="18" y="28">圖 2-4　對的答案與錯的答案，走的是同一條路</text>
   <text class="muted s" x="18" y="50">這就是為什麼它不會通知你——分岔點根本不存在。</text>
 
   <defs><marker id="m22b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path class="head" d="M0,0 L10,5 L0,10 z"/></marker></defs>

@@ -437,7 +437,7 @@ AI 產出的中文學術稿常混入簡中學術圈的譯名。投稿台灣期�
 - **本書其他章節**：
 - **[第 7 章](../chapters/07-revision-integrity.md) [7.1](../chapters/07-revision-integrity.md#71-修稿三輪)**〈第二輪：去 AI 腔〉與〈第二輪的三條硬規則〉：本附錄的正文版
 - **[附錄 G](../appendix/G-writing-fingerprint.md)**：量測自己的寫作基線。**兩者不可互相取代**——本附錄是查表（絕對標準），[附錄 G](../appendix/G-writing-fingerprint.md) 是比對基線（相對標準）
-- **[第 5 章](../chapters/05-verification.md) [5.2](../chapters/05-verification.md#52-照著做一次從一篇-pdf-到一句你敢寫進論文的引用) 第七步**：主張強度。H-[2.4](../chapters/02-first-note.md#24-教育研究最常遇到的三種型態) 的立場真空與它相鄰但不同：**前者是沒有立場，後者是立場超過證據**
+- **[第 5 章](../chapters/05-verification.md) [5.2](../chapters/05-verification.md#52-照著做一次從一篇-pdf-到一句你敢寫進論文的引用) 第七步**：主張強度。H-[2.4](../chapters/02-first-note.md#24-教育研究最常遇到的四種型態) 的立場真空與它相鄰但不同：**前者是沒有立場，後者是立場超過證據**
 - **[附錄 I](../appendix/I-self-review.md)**：結構那一層。**順序不能顛倒**——先用[附錄 I](../appendix/I-self-review.md) 清結構，再用本附錄清語言，否則你會把一個等一下要整段重寫的段落潤得很順。唯一會重疊的是 **I-5 限制陳述的主詞**：本附錄也會撈到那些句子，但兩邊要你做的事不同。這裡要你換一種說法，I-5 要你換一個主詞
 - **本附錄不引用學術文獻，但它有明確的工具血緣**：判準層與詞例層皆改寫自 [Raymondhou0917/speak-human-tw](https://github.com/Raymondhou0917/speak-human-tw)（侯智薰，MIT）的模式清單與台灣在地化對照表。⚠️ 本書已就學術寫作場景重寫誤殺防護與判準，詞例亦經替換，具體改了什麼見書末〈出處與致謝〉。
 - **判準內容本身出自實際改稿累積的模式歸納**，不是實證研究的結論。它的效力等同於一份工作用的檢核表，不等同於文獻主張。

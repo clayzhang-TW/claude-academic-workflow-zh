@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 452" width="560" height="452" font-family="Noto Sans TC, Microsoft JhengHei, Helvetica, Arial, sans-serif">
+  <style>
+    @page{size:560px 452px;margin:0}
+    .bg{fill:#faf7f0}
+    .ink{fill:#23201b}
+    .muted{fill:#6b6459}
+    .rule{stroke:#ddd5c6;stroke-width:1}
+    .box{fill:#efe9dc;stroke:#c9bfab;stroke-width:1.4}
+    .skipped{fill:none;stroke:#8a2b3f;stroke-width:2;stroke-dasharray:5 4}
+    .bypass{stroke:#8a2b3f;stroke-width:2;fill:none;stroke-linecap:round}
+    .key{fill:#2f6b4f}
+    .warn{fill:#8a2b3f}
+    .head{fill:#8a5a2b}
+    .title{font-size:17px;font-weight:700}
+    .b{font-size:13px;font-weight:700}
+    .s{font-size:12px}
+    @media (prefers-color-scheme: dark){
+      .bg{fill:#17150f}.ink{fill:#ece5d6}.muted{fill:#a49a88}.rule{stroke:#3a352a}
+      .box{fill:#241f16;stroke:#4a4335}
+      .skipped{stroke:#e08a9c}.bypass{stroke:#e08a9c}
+      .key{fill:#7fc4a0}.warn{fill:#e08a9c}.head{fill:#d09a5e}
+    }
+  </style>
+
+  <rect class="bg" width="560" height="452"/>
+  <text class="ink title" x="18" y="28">圖 5-3　三種假綜整，繞過的是同一個地方</text>
+  <text class="muted s" x="18" y="50">中間那個虛線框，三條線一條都沒有經過。</text>
+
+  <defs>
+    <marker id="mb53" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path class="warn" d="M0,0 L10,5 L0,10 z"/>
+    </marker>
+  </defs>
+
+  <!-- 起點 -->
+  <rect class="box" x="24" y="168" width="126" height="56" rx="5"/>
+  <text class="ink s" x="87" y="192" text-anchor="middle">二十篇筆記</text>
+  <text class="muted s" x="87" y="210" text-anchor="middle">你手上的材料</text>
+
+  <!-- 被跳過的那一步 -->
+  <rect class="skipped" x="212" y="160" width="136" height="72" rx="5"/>
+  <text class="warn b" x="280" y="184" text-anchor="middle">先寫下</text>
+  <text class="warn b" x="280" y="204" text-anchor="middle">你相信什麼</text>
+  <text class="muted s" x="280" y="222" text-anchor="middle">三條都跳過這裡</text>
+
+  <!-- 終點 -->
+  <rect class="box" x="410" y="168" width="126" height="56" rx="5"/>
+  <text class="ink s" x="473" y="192" text-anchor="middle">一段文獻回顧</text>
+  <text class="muted s" x="473" y="210" text-anchor="middle">讀起來很像那麼回事</text>
+
+  <!-- 三條繞道，全部水平／垂直 -->
+  <path class="bypass" d="M87,168 V104 H473 V164" marker-end="url(#mb53)"/>
+  <rect class="bg" x="212" y="94" width="82" height="20"/>
+  <text class="warn s" x="253" y="109" text-anchor="middle" font-weight="700">編年式</text>
+
+  <path class="bypass" d="M70,224 V282 H473 V228" marker-end="url(#mb53)"/>
+  <rect class="bg" x="206" y="272" width="98" height="20"/>
+  <text class="warn s" x="255" y="287" text-anchor="middle" font-weight="700">貼標籤式</text>
+
+  <path class="bypass" d="M104,224 V326 H500 V228" marker-end="url(#mb53)"/>
+  <rect class="bg" x="200" y="316" width="140" height="20"/>
+  <text class="warn s" x="270" y="331" text-anchor="middle" font-weight="700">AI 一鍵摘要式</text>
+
+  <!-- 底部 -->
+  <line class="rule" x1="18" y1="360" x2="542" y2="360"/>
+  <text class="ink b" x="18" y="382">三種的共同問題不是做得不夠多，是動手之前沒有先想清楚要主張什麼。</text>
+  <text class="muted s" x="18" y="406">筆記再多、分類再整齊、AI 再流暢，都跳不過中間那一格。</text>
+  <text class="key s" x="18" y="432" font-weight="700">判準：讀完之後，有沒有哪個地方跟你原本的判斷不一樣？沒有，那多半是安全但空洞的。</text>
+</svg>

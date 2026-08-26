@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 500" width="560" height="500" font-family="Noto Sans TC, Microsoft JhengHei, Helvetica, Arial, sans-serif">
+  <style>
+    @page{size:560px 500px;margin:0}
+    .bg{fill:#faf7f0}
+    .ink{fill:#23201b}
+    .muted{fill:#6b6459}
+    .rule{stroke:#ddd5c6;stroke-width:1}
+    .checkline{stroke:#2f6b4f;stroke-width:2}
+    .typebox{fill:#efe9dc;stroke:#c9bfab;stroke-width:1.4}
+    .typecaught{fill:#e8f2ec;stroke:#2f6b4f;stroke-width:1.8}
+    .drop{stroke:#8a2b3f;stroke-width:2.2;fill:none}
+    .dropstop{stroke:#2f6b4f;stroke-width:2.2;fill:none}
+    .block{stroke:#2f6b4f;stroke-width:5;stroke-linecap:round}
+    .landing{fill:#f6eaec;stroke:#8a2b3f;stroke-width:1.8}
+    .key{fill:#2f6b4f}
+    .warn{fill:#8a2b3f}
+    .head{fill:#8a5a2b}
+    .title{font-size:17px;font-weight:700}
+    .b{font-size:13px;font-weight:700}
+    .s{font-size:12px}
+    @media (prefers-color-scheme: dark){
+      .bg{fill:#17150f}.ink{fill:#ece5d6}.muted{fill:#a49a88}.rule{stroke:#3a352a}
+      .checkline{stroke:#7fc4a0}
+      .typebox{fill:#241f16;stroke:#4a4335}.typecaught{fill:#15241c;stroke:#7fc4a0}
+      .drop{stroke:#e08a9c}.dropstop{stroke:#7fc4a0}.block{stroke:#7fc4a0}
+      .landing{fill:#2a1a1f;stroke:#e08a9c}
+      .key{fill:#7fc4a0}.warn{fill:#e08a9c}.head{fill:#d09a5e}
+    }
+  </style>
+
+  <rect class="bg" width="560" height="500"/>
+  <text class="ink title" x="18" y="28">圖 2-3　三步攔得下一種，另外三種直接穿過去</text>
+  <text class="muted s" x="18" y="50">看四條線各走到哪裡。停住的只有最左邊那一條。</text>
+
+  <!-- 四個型態 -->
+  <rect class="typecaught" x="125" y="72" width="100" height="46" rx="5"/>
+  <text class="key s" x="175" y="92" text-anchor="middle">型態一</text>
+  <text class="key s" x="175" y="110" text-anchor="middle">拼裝文獻</text>
+
+  <rect class="typebox" x="230" y="72" width="100" height="46" rx="5"/>
+  <text class="ink s" x="280" y="92" text-anchor="middle">型態二</text>
+  <text class="ink s" x="280" y="110" text-anchor="middle">錯誤歸屬</text>
+
+  <rect class="typebox" x="335" y="72" width="100" height="46" rx="5"/>
+  <text class="ink s" x="385" y="92" text-anchor="middle">型態三</text>
+  <text class="ink s" x="385" y="110" text-anchor="middle">虛假的數字</text>
+
+  <rect class="typebox" x="440" y="72" width="100" height="46" rx="5"/>
+  <text class="ink s" x="490" y="92" text-anchor="middle">型態四</text>
+  <text class="ink s" x="490" y="110" text-anchor="middle">自造術語</text>
+
+  <!-- 三道關卡 -->
+  <line class="checkline" x1="118" y1="172" x2="546" y2="172"/>
+  <text class="key s" x="24" y="168">① DOI</text>
+  <text class="muted s" x="24" y="184">解析得開嗎</text>
+
+  <line class="checkline" x1="118" y1="240" x2="546" y2="240"/>
+  <text class="key s" x="24" y="236">② 作者</text>
+  <text class="muted s" x="24" y="252">寫過這主題嗎</text>
+
+  <line class="checkline" x1="118" y1="308" x2="546" y2="308"/>
+  <text class="key s" x="24" y="304">③ 卷期</text>
+  <text class="muted s" x="24" y="320">年份對得上嗎</text>
+
+  <!-- 型態一：第一關就停 -->
+  <path class="dropstop" d="M175,118 V170"/>
+  <line class="block" x1="157" y1="170" x2="193" y2="170"/>
+  <text class="key s" x="175" y="196" text-anchor="middle" font-weight="700">擋下</text>
+
+  <!-- 型態二、三、四：三關全穿 -->
+  <path class="drop" d="M280,118 V344"/>
+  <path class="drop" d="M385,118 V344"/>
+  <path class="drop" d="M490,118 V344"/>
+
+  <!-- 落地 -->
+  <rect class="landing" x="232" y="350" width="308" height="46" rx="5"/>
+  <text class="warn b" x="386" y="370" text-anchor="middle">三步都過，於是進了你的稿子</text>
+  <text class="muted s" x="386" y="388" text-anchor="middle">而它們的書目本來就是對的</text>
+
+  <!-- 底部 -->
+  <line class="rule" x1="18" y1="420" x2="542" y2="420"/>
+  <text class="ink b" x="18" y="442">三步查的是「這篇文獻存不存在」，不是「它說的內容對不對」。</text>
+  <text class="warn s" x="18" y="464" font-weight="700">而穿過去的那三種，錯的都不是書目——歸屬、數字、術語，書目那一欄全是對的。</text>
+  <text class="key s" x="18" y="482" font-weight="700">要抓它們，得打開原文讀。那是第 5 章的事，也是七欄筆記第 7 欄存在的理由。</text>
+</svg>

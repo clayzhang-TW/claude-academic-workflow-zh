@@ -30,7 +30,7 @@
   </style>
 
   <rect class="bg" width="560" height="560"/>
-  <text class="ink title" x="18" y="28">圖 5-2　從筆記到論點：片段要重新歸隊</text>
+  <text class="ink title" x="18" y="28">圖 5-4　從筆記到論點：片段要重新歸隊</text>
   <text class="muted s" x="18" y="50">左邊的單位是「一篇論文」，右邊的單位是「一個主張」。中間那一步是關鍵。</text>
 
   <defs><marker id="m5A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path class="head" d="M0,0 L10,5 L0,10 z"/></marker></defs>

@@ -41,16 +41,15 @@
   </style>
 
   <rect class="bg" width="560" height="753"/>
-  <text class="ink title" x="18" y="28">圖 1-2　你在整條工作流的哪裡</text>
-  <text class="on s" x="18" y="50" font-weight="700">第 1 章　先把現場搭起來</text>
-  <text class="muted s" x="18" y="68">你先建的是那個貫穿全程的底座——後面每一站都會回來用它。</text>
+  <text class="ink title" x="18" y="28">圖 5-5　你在整條工作流的哪裡</text>
+  <text class="on s" x="18" y="50" font-weight="700">第 5 章　查證與綜整</text>
+  <text class="muted s" x="18" y="68">這兩站是整張圖上最不能委派的地方（見圖 5-3）。</text>
   <text class="onSpan h" x="18" y="90">貫穿全程（不屬於任何一站）</text>
-  <g>
-    <rect class="spanOn" x="18" y="96" width="524" height="42" rx="6"/>
-    <text class="onSpan b" x="34" y="114">知識庫</text>
+  <g class="dim">
+    <rect class="span" x="18" y="96" width="524" height="42" rx="6"/>
+    <text class="ink b" x="34" y="114">知識庫</text>
     <text class="muted s" x="34" y="130">文獻／概念／靈感／技術四種筆記</text>
-    <text class="muted s" x="468" y="114" text-anchor="end">1.2 · 4.4</text>
-    <text class="tagOnSpan s" x="530" y="114" text-anchor="end" font-weight="700">← 本章</text>
+    <text class="muted s" x="530" y="114" text-anchor="end">1.2 · 4.4</text>
   </g>
   <g class="dim">
     <rect class="span" x="18" y="141" width="524" height="42" rx="6"/>
@@ -86,17 +85,19 @@
     <text class="muted s" x="530" y="349" text-anchor="end">4.5</text>
   </g>
   <text class="zone h" x="58" y="390">驗證與綜整</text>
-  <g class="dim">
-    <rect class="node" x="58" y="394" width="484" height="33" rx="5"/>
-    <text class="ink b" x="72" y="408">查證</text>
+  <g>
+    <rect class="nodeOn" x="58" y="394" width="484" height="33" rx="5"/>
+    <text class="on b" x="72" y="408">查證</text>
     <text class="muted s" x="72" y="422">落地驗證 → 四步核實 → 詮釋層</text>
-    <text class="muted s" x="530" y="408" text-anchor="end">5.1</text>
+    <text class="muted s" x="468" y="408" text-anchor="end">5.1</text>
+    <text class="tagOn s" x="530" y="408" text-anchor="end" font-weight="700">← 本章</text>
   </g>
-  <g class="dim">
-    <rect class="node" x="58" y="430" width="484" height="33" rx="5"/>
-    <text class="ink b" x="72" y="444">綜整</text>
+  <g>
+    <rect class="nodeOn" x="58" y="430" width="484" height="33" rx="5"/>
+    <text class="on b" x="72" y="444">綜整</text>
     <text class="muted s" x="72" y="458">三句主張 → 證據歸櫃 → 空櫃＝缺口</text>
-    <text class="muted s" x="530" y="444" text-anchor="end">5.3</text>
+    <text class="muted s" x="468" y="444" text-anchor="end">5.3</text>
+    <text class="tagOn s" x="530" y="444" text-anchor="end" font-weight="700">← 本章</text>
   </g>
   <text class="zone h" x="58" y="485">產出</text>
   <g class="dim">

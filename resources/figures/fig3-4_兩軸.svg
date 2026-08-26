@@ -27,7 +27,7 @@
   </style>
 
   <rect class="bg" width="560" height="596"/>
-  <text class="ink title" x="18" y="28">圖 3-3　兩條軸，四樣東西各站一個位置</text>
+  <text class="ink title" x="18" y="28">圖 3-4　兩條軸，四樣東西各站一個位置</text>
   <text class="muted s" x="18" y="50">位置有意義：越往右它自主性越高，越往上它越不需要你叫。</text>
 
   <defs><marker id="m33" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path class="headA" d="M0,0 L10,5 L0,10 z"/></marker></defs>

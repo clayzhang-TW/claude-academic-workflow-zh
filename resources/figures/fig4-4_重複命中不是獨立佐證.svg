@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 512" width="560" height="512" font-family="Noto Sans TC, Microsoft JhengHei, Helvetica, Arial, sans-serif">
+  <style>
+    @page{size:560px 512px;margin:0}
+    .bg{fill:#faf7f0}
+    .ink{fill:#23201b}
+    .muted{fill:#6b6459}
+    .rule{stroke:#ddd5c6;stroke-width:1}
+    .up{fill:#f6eaec;stroke:#8a2b3f;stroke-width:2}
+    .db{fill:#efe9dc;stroke:#c9bfab;stroke-width:1.4}
+    .hit{fill:#f5efe2;stroke:#8a5a2b;stroke-width:1.8}
+    .feel{fill:none;stroke:#8a2b3f;stroke-width:1.6;stroke-dasharray:5 3}
+    .pipe{stroke:#8a2b3f;stroke-width:2.2;fill:none;stroke-linecap:round}
+    .key{fill:#2f6b4f}
+    .warn{fill:#8a2b3f}
+    .head{fill:#8a5a2b}
+    .title{font-size:17px;font-weight:700}
+    .b{font-size:13px;font-weight:700}
+    .s{font-size:12px}
+    @media (prefers-color-scheme: dark){
+      .bg{fill:#17150f}.ink{fill:#ece5d6}.muted{fill:#a49a88}.rule{stroke:#3a352a}
+      .up{fill:#2a1a1f;stroke:#e08a9c}
+      .db{fill:#241f16;stroke:#4a4335}.hit{fill:#241f16;stroke:#d09a5e}
+      .feel{stroke:#e08a9c}.pipe{stroke:#e08a9c}
+      .key{fill:#7fc4a0}.warn{fill:#e08a9c}.head{fill:#d09a5e}
+    }
+  </style>
+
+  <rect class="bg" width="560" height="512"/>
+  <text class="ink title" x="18" y="28">圖 4-4　兩個來源都有，不代表有兩個來源</text>
+  <text class="muted s" x="18" y="50">由下往上追一次。兩條線在最上面合而為一。</text>
+
+  <defs>
+    <marker id="mp44" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path class="warn" d="M0,0 L10,5 L0,10 z"/>
+    </marker>
+  </defs>
+
+  <!-- 上游 -->
+  <rect class="up" x="180" y="76" width="200" height="46" rx="5"/>
+  <text class="warn b" x="280" y="96" text-anchor="middle">同一份上游書目資料</text>
+  <text class="muted s" x="280" y="114" text-anchor="middle">整合型工具的子來源就是它</text>
+
+  <!-- 分岔（全部水平／垂直） -->
+  <path class="pipe" d="M280,122 V148 H130 V174" marker-end="url(#mp44)"/>
+  <path class="pipe" d="M280,122 V148 H430 V174" marker-end="url(#mp44)"/>
+
+  <!-- 兩個資料庫 -->
+  <rect class="db" x="40" y="180" width="180" height="46" rx="5"/>
+  <text class="ink s" x="130" y="209" text-anchor="middle">資料庫 A</text>
+
+  <rect class="db" x="340" y="180" width="180" height="46" rx="5"/>
+  <text class="ink s" x="430" y="209" text-anchor="middle">資料庫 B</text>
+
+  <!-- 匯合（附著點錯開 24px） -->
+  <path class="pipe" d="M130,226 V252 H268 V278" marker-end="url(#mp44)"/>
+  <path class="pipe" d="M430,226 V252 H292 V278" marker-end="url(#mp44)"/>
+
+  <!-- 同一篇 -->
+  <rect class="hit" x="180" y="284" width="200" height="46" rx="5"/>
+  <text class="head b" x="280" y="304" text-anchor="middle">同一篇論文</text>
+  <text class="muted s" x="280" y="322" text-anchor="middle">被兩邊撈到</text>
+
+  <!-- 你的感覺 -->
+  <rect class="feel" x="120" y="358" width="320" height="44" rx="5"/>
+  <text class="warn s" x="280" y="378" text-anchor="middle">你的感覺：兩個資料庫都有</text>
+  <text class="warn s" x="280" y="396" text-anchor="middle" font-weight="700">那應該挺可靠的</text>
+
+  <!-- 底部 -->
+  <line class="rule" x1="18" y1="428" x2="542" y2="428"/>
+  <text class="ink b" x="18" y="450">那個感覺是錯的。同一個來源看兩次，看到的還是同一個東西。</text>
+  <text class="key s" x="18" y="474">這是本書那條獨立性規則在檢索層的版本——驗的人不能是摘的人，稽核不能兼任執行。</text>
+  <text class="muted s" x="18" y="496">真正的獨立，是兩條線往上追，追不到同一個地方。追得到，那就只有一個來源。</text>
+</svg>

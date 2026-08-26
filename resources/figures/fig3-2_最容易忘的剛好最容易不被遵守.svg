@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 486" width="560" height="486" font-family="Noto Sans TC, Microsoft JhengHei, Helvetica, Arial, sans-serif">
+  <style>
+    @page{size:560px 486px;margin:0}
+    .bg{fill:#faf7f0}
+    .ink{fill:#23201b}
+    .muted{fill:#6b6459}
+    .rule{stroke:#ddd5c6;stroke-width:1}
+    .node{fill:#efe9dc;stroke:#c9bfab;stroke-width:1.4}
+    .nodebad{fill:#f6eaec;stroke:#8a2b3f;stroke-width:1.8}
+    .loop{stroke:#8a2b3f;stroke-width:2.2;fill:none;stroke-linecap:round}
+    .fix{fill:#e8f2ec;stroke:#2f6b4f;stroke-width:1.8}
+    .key{fill:#2f6b4f}
+    .warn{fill:#8a2b3f}
+    .head{fill:#8a5a2b}
+    .title{font-size:17px;font-weight:700}
+    .b{font-size:13px;font-weight:700}
+    .s{font-size:12px}
+    @media (prefers-color-scheme: dark){
+      .bg{fill:#17150f}.ink{fill:#ece5d6}.muted{fill:#a49a88}.rule{stroke:#3a352a}
+      .node{fill:#241f16;stroke:#4a4335}.nodebad{fill:#2a1a1f;stroke:#e08a9c}
+      .loop{stroke:#e08a9c}.fix{fill:#15241c;stroke:#7fc4a0}
+      .key{fill:#7fc4a0}.warn{fill:#e08a9c}.head{fill:#d09a5e}
+    }
+  </style>
+
+  <rect class="bg" width="560" height="486"/>
+  <text class="ink title" x="18" y="28">圖 3-2　你最容易忘的那一句，剛好是它最容易不遵守的</text>
+  <text class="muted s" x="18" y="50">四個節點接成一圈。走一遍就會回到起點，所以它每次都會再發生一次。</text>
+
+  <defs>
+    <marker id="ml32" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path class="warn" d="M0,0 L10,5 L0,10 z"/>
+    </marker>
+  </defs>
+
+  <!-- 環線（全部直角，無斜線） -->
+  <path class="loop" d="M204,128 H348" marker-end="url(#ml32)"/>
+  <path class="loop" d="M446,158 V274" marker-end="url(#ml32)"/>
+  <path class="loop" d="M356,304 H210" marker-end="url(#ml32)"/>
+  <path class="loop" d="M114,274 V158" marker-end="url(#ml32)"/>
+
+  <!-- 四個節點 -->
+  <rect class="node" x="24" y="100" width="180" height="58" rx="5"/>
+  <text class="ink s" x="114" y="122" text-anchor="middle">一條限制</text>
+  <text class="muted s" x="114" y="142" text-anchor="middle">你最容易忘的那一句</text>
+
+  <rect class="node" x="356" y="100" width="180" height="58" rx="5"/>
+  <text class="ink s" x="446" y="122" text-anchor="middle">七元素沒有它的欄位</text>
+  <text class="muted s" x="446" y="142" text-anchor="middle">只好寫進 Context</text>
+
+  <rect class="node" x="356" y="274" width="180" height="58" rx="5"/>
+  <text class="ink s" x="446" y="296" text-anchor="middle">對話一長</text>
+  <text class="muted s" x="446" y="316" text-anchor="middle">Context 最先被擠掉</text>
+
+  <rect class="nodebad" x="24" y="274" width="180" height="58" rx="5"/>
+  <text class="warn s" x="114" y="296" text-anchor="middle" font-weight="700">它不遵守那條限制</text>
+  <text class="muted s" x="114" y="316" text-anchor="middle">而你以為你講過了</text>
+
+  <!-- 圈心 -->
+  <text class="warn b" x="280" y="206" text-anchor="middle">這不是兩個問題</text>
+  <text class="warn b" x="280" y="228" text-anchor="middle">是同一個</text>
+
+  <!-- 出口 -->
+  <line class="rule" x1="18" y1="362" x2="542" y2="362"/>
+  <rect class="fix" x="24" y="378" width="512" height="52" rx="5"/>
+  <text class="key b" x="280" y="400" text-anchor="middle">出口：把那條限制寫進檔案</text>
+  <text class="muted s" x="280" y="420" text-anchor="middle">檔案不會被擠掉，也不必靠你記得</text>
+
+  <text class="ink s" x="18" y="454">限制在七元素裡沒有自己的位置，而 Context 正是對話一長最先掉出去的那一層（3.3）。</text>
+  <text class="warn s" x="18" y="476" font-weight="700">於是你最常忘的那一句，剛好也是它最常不遵守的那一句——同一個原因。</text>
+</svg>
