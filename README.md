@@ -10,7 +10,7 @@
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](LICENSE)
 ![語言](https://img.shields.io/badge/語言-繁體中文-red)
 ![規模](https://img.shields.io/badge/七章%20＋%2012%20份附錄-25%20萬字-blue)
-![圖](https://img.shields.io/badge/圖-29%20張-green)
+![圖](https://img.shields.io/badge/圖-43%20張-green)
 
 </div>
 
@@ -49,7 +49,7 @@
 | **正文** | 七章。每章含概念、教育研究實例、動手實作、常見迷思、責任落點 |
 | **附錄** | 12 份（A–L）。⚠️ 其中**附錄 J 貼出一份實際在跑的技能檔全文**，逐段拆解——那是全書唯一讓你看到成熟工具長什麼樣的地方 |
 | **查閱頁** | 詞彙表 61 詞、症狀導航、踩坑清單 18 則、出處頁 |
-| **圖** | 29 張手繪 SVG，隨明暗色自動切換 |
+| **圖** | 43 張手繪 SVG，隨明暗色自動切換 |
 | **可直接複製的東西** | 45 段。⚠️ 先讀〈[怎麼用這本書](docs/HOW_TO_USE.md)〉——它們長得像範本，其實是完整解答 |
 | **課程版** | 七週 × 3 小時。正文裡標〔課堂〕的方框就是教案 |
 
