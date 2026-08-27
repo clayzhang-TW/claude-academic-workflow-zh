@@ -98,7 +98,7 @@
 7. **標定**一筆文獻的驗證層級，並據以判斷它能撐多重的主張
 8. **拆解**一篇論文的研究設計：它的假設從哪裡推出來、它擋掉哪一個替代解釋、它自己承認做不到什麼
 
-**節次**：[4.1](../chapters/04-research-question.md#41-從模糊的興趣到一個查得動的問題) 從模糊的興趣到一個查得動的問題（含研究取向、三種效度、構想評估）／ **[4.2](../chapters/04-research-question.md#42-該不該交給它) 該不該交給它**（風險判準＋4D＋執行前追問）／[4.3](../chapters/04-research-question.md#43-文獻工作的三個瓶頸) 文獻工作的三個瓶頸與檢索紀律／ [4.4](../chapters/04-research-question.md#44-四種筆記一篇論文可能觸發什麼) 四種筆記／[4.5](../chapters/04-research-question.md#45-書目管理層讓機械工作歸機械) 書目管理層與驗證層級／ **[4.6](../chapters/04-research-question.md#46-這篇論文為什麼這樣做) 這篇論文為什麼這樣做**（五個問題；完整清單見附錄 L） ⚠️ **2026-08-14 重排**：原 [4.2](../chapters/04-research-question.md#42-該不該交給它)（兩種記憶）移往[第 1 章](../chapters/01-setup.md)、原 [4.4](../chapters/04-research-question.md#44-四種筆記一篇論文可能觸發什麼)（七欄流程）移往[第 2 章](../chapters/02-first-note.md)； 4D 與執行前追問由原[第 2 章](../chapters/02-first-note.md)移入本章
+**節次**：[4.1](../chapters/04-research-question.md#41-從模糊的興趣到一個查得動的問題) 從模糊的興趣到一個查得動的問題（含研究取向、三種效度、構想評估）／ **[4.2](../chapters/04-research-question.md#42-該不該交給它) 該不該交給它**（風險判準＋4D＋執行前追問）／[4.3](../chapters/04-research-question.md#43-文獻工作的三個瓶頸) 文獻工作的三個瓶頸與檢索紀律／ [4.4](../chapters/04-research-question.md#44-四種筆記一篇論文可能觸發什麼) 四種筆記／[4.5](../chapters/04-research-question.md#45-書目管理層讓機械工作歸機械) 書目管理層與驗證層級／ **[4.6](../chapters/04-research-question.md#46-這篇論文為什麼這樣做) 這篇論文為什麼這樣做**（五個問題；完整清單見[附錄 L](../appendix/L-reading-design.md)） ⚠️ **2026-08-14 重排**：原 [4.2](../chapters/04-research-question.md#42-該不該交給它)（兩種記憶）移往[第 1 章](../chapters/01-setup.md)、原 [4.4](../chapters/04-research-question.md#44-四種筆記一篇論文可能觸發什麼)（七欄流程）移往[第 2 章](../chapters/02-first-note.md)； 4D 與執行前追問由原[第 2 章](../chapters/02-first-note.md)移入本章
 
 **實作（約 85 分）**：專案說明檔與決策日誌（20 分）＋**回頭修第 5 欄（15 分）**＋寫一則概念筆記（30 分）＋**找出它擋掉的那個替代解釋（20 分）**
 

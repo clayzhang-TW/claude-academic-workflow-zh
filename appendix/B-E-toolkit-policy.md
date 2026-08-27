@@ -35,7 +35,7 @@
 |---|---|
 | 補 DOI、查重複條目、匯出參考文獻 | **[4.5](../chapters/04-research-question.md#45-書目管理層讓機械工作歸機械)** 書目管理層 |
 | 判斷一筆引用能撐多重的主張 | **[4.5](../chapters/04-research-question.md#45-書目管理層讓機械工作歸機械)** 驗證層級 |
-| 讀出一篇論文為什麼那樣設計 | **[4.6](../chapters/04-research-question.md#46-這篇論文為什麼這樣做)** 五個問題；完整清單見**附錄 L** |
+| 讀出一篇論文為什麼那樣設計 | **[4.6](../chapters/04-research-question.md#46-這篇論文為什麼這樣做)** 五個問題；完整清單見**[附錄 L](../appendix/L-reading-design.md)** |
 | 留下日後查得回去的查證紀錄 | **[5.1](../chapters/05-verification.md#51-引用幻覺與四步核實)** 核實紀錄六欄 |
 | 檢查稿子裡的數字對不對 | **附錄 I-9** 事實層四個動作 |
 | 在寫進草稿之前先擋一道 | **[5.1](../chapters/05-verification.md#51-引用幻覺與四步核實)** 四步核實；完整判準見**[附錄 F](../appendix/F-skill-library.md) 模式⑤** |
