@@ -41,9 +41,9 @@
   </style>
 
   <rect class="bg" width="560" height="753"/>
-  <text class="ink title" x="18" y="28">圖 2-5　你在整條工作流的哪裡</text>
-  <text class="on s" x="18" y="50" font-weight="700">第 2 章　第一份文獻筆記</text>
-  <text class="muted s" x="18" y="68">你跑的是「蒐集」裡的一站。它的產出會一路餵到最後一站。</text>
+  <text class="ink title" x="18" y="28">圖 6-9　你在整條工作流的哪裡</text>
+  <text class="on s" x="18" y="50" font-weight="700">第 6 章　分析與撰寫</text>
+  <text class="muted s" x="18" y="68">到這裡才動筆。⚠️ 分析在撰寫之前，不是反過來。</text>
   <text class="onSpan h" x="18" y="90">貫穿全程（不屬於任何一站）</text>
   <g class="dim">
     <rect class="span" x="18" y="96" width="524" height="42" rx="6"/>
@@ -72,12 +72,11 @@
     <text class="muted s" x="72" y="291">先搜自己的，涵蓋不足才往外</text>
     <text class="muted s" x="530" y="277" text-anchor="end">4.3</text>
   </g>
-  <g>
-    <rect class="nodeOn" x="58" y="299" width="484" height="33" rx="5"/>
-    <text class="on b" x="72" y="313">轉檔與七欄筆記</text>
+  <g class="dim">
+    <rect class="node" x="58" y="299" width="484" height="33" rx="5"/>
+    <text class="ink b" x="72" y="313">轉檔與七欄筆記</text>
     <text class="muted s" x="72" y="327">PDF → 看得懂的文字 → 結構化筆記</text>
-    <text class="muted s" x="468" y="313" text-anchor="end">2.1</text>
-    <text class="tagOn s" x="530" y="313" text-anchor="end" font-weight="700">← 本章</text>
+    <text class="muted s" x="530" y="313" text-anchor="end">2.1</text>
   </g>
   <g class="dim">
     <rect class="node" x="58" y="335" width="484" height="33" rx="5"/>
@@ -99,17 +98,19 @@
     <text class="muted s" x="530" y="444" text-anchor="end">5.3</text>
   </g>
   <text class="zone h" x="58" y="485">產出</text>
-  <g class="dim">
-    <rect class="node" x="58" y="489" width="484" height="33" rx="5"/>
-    <text class="ink b" x="72" y="503">資料分析</text>
+  <g>
+    <rect class="nodeOn" x="58" y="489" width="484" height="33" rx="5"/>
+    <text class="on b" x="72" y="503">資料分析</text>
     <text class="muted s" x="72" y="517">寫語法 → 跑 → 偵錯 → 存成技術筆記</text>
-    <text class="muted s" x="530" y="503" text-anchor="end">6.1</text>
+    <text class="muted s" x="468" y="503" text-anchor="end">6.1</text>
+    <text class="tagOn s" x="530" y="503" text-anchor="end" font-weight="700">← 本章</text>
   </g>
-  <g class="dim">
-    <rect class="node" x="58" y="525" width="484" height="33" rx="5"/>
-    <text class="ink b" x="72" y="539">撰寫</text>
+  <g>
+    <rect class="nodeOn" x="58" y="525" width="484" height="33" rx="5"/>
+    <text class="on b" x="72" y="539">撰寫</text>
     <text class="muted s" x="72" y="553">六種模式，一次只處理一個階段</text>
-    <text class="muted s" x="530" y="539" text-anchor="end">6.3</text>
+    <text class="muted s" x="468" y="539" text-anchor="end">6.3</text>
+    <text class="tagOn s" x="530" y="539" text-anchor="end" font-weight="700">← 本章</text>
   </g>
   <text class="zone h" x="58" y="580">送出</text>
   <g class="dim">

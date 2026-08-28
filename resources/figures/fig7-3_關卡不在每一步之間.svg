@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 540" width="560" height="540" font-family="Noto Sans TC, Microsoft JhengHei, Helvetica, Arial, sans-serif">
+  <style>
+    @page{size:560px 540px;margin:0}
+    .bg{fill:#faf7f0}
+    .ink{fill:#23201b}
+    .muted{fill:#6b6459}
+    .rule{stroke:#ddd5c6;stroke-width:1}
+    .step{fill:#f5efe2;stroke:#8a5a2b;stroke-width:1.6}
+    .flow{stroke:#8a5a2b;stroke-width:2.2;fill:none;stroke-linecap:round}
+    .gate{stroke:#2f6b4f;stroke-width:3;stroke-linecap:round}
+    .gatedot{fill:#2f6b4f}
+    .key{fill:#2f6b4f}
+    .warn{fill:#8a2b3f}
+    .head{fill:#8a5a2b}
+    .title{font-size:17px;font-weight:700}
+    .b{font-size:13px;font-weight:700}
+    .s{font-size:12px}
+    @media (prefers-color-scheme: dark){
+      .bg{fill:#17150f}.ink{fill:#ece5d6}.muted{fill:#a49a88}.rule{stroke:#3a352a}
+      .step{fill:#241f16;stroke:#d09a5e}
+      .flow{stroke:#d09a5e}
+      .gate{stroke:#7fc4a0}.gatedot{fill:#7fc4a0}
+      .key{fill:#7fc4a0}.warn{fill:#e08a9c}.head{fill:#d09a5e}
+    }
+  </style>
+
+  <rect class="bg" width="560" height="540"/>
+  <text class="ink title" x="18" y="28">圖 7-3　關卡不放在每一步之間</text>
+  <text class="muted s" x="18" y="50">三個停點全部落在同一種位置：做下去就難回頭的那一步之前。</text>
+
+  <defs>
+    <marker id="mf74" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path class="head" d="M0,0 L10,5 L0,10 z"/>
+    </marker>
+  </defs>
+
+  <rect class="step" x="40" y="76" width="300" height="56" rx="6"/>
+  <text class="ink b" x="56" y="100">第一步　結構化整理</text>
+  <text class="muted s" x="56" y="120">把每條意見拆成三欄</text>
+
+  <path class="flow" d="M190,132 V146"/>
+  <line class="gate" x1="40" y1="152" x2="340" y2="152"/>
+  <circle class="gatedot" cx="190" cy="152" r="5"/>
+  <text class="key s" x="356" y="149">關卡一</text>
+  <text class="muted s" x="356" y="167">每一條打算怎麼處置</text>
+  <path class="flow" d="M190,158 V170" marker-end="url(#mf74)"/>
+
+  <rect class="step" x="40" y="176" width="300" height="56" rx="6"/>
+  <text class="ink b" x="56" y="200">第二步　決定回應策略</text>
+  <text class="muted s" x="56" y="220">接受／部分接受／有理由不接受</text>
+
+  <path class="flow" d="M190,232 V244"/>
+  <line class="gate" x1="40" y1="250" x2="340" y2="250"/>
+  <circle class="gatedot" cx="190" cy="250" r="5"/>
+  <text class="key s" x="356" y="247">關卡二</text>
+  <text class="muted s" x="356" y="265">這個補跑的分析要不要跑</text>
+  <text class="warn s" x="356" y="283">跑出來不利也要報</text>
+
+  <line class="gate" x1="40" y1="298" x2="340" y2="298"/>
+  <circle class="gatedot" cx="190" cy="298" r="5"/>
+  <text class="key s" x="356" y="295">關卡三</text>
+  <text class="muted s" x="356" y="313">讓步範圍到哪裡</text>
+  <path class="flow" d="M190,304 V320" marker-end="url(#mf74)"/>
+
+  <rect class="step" x="40" y="326" width="300" height="56" rx="6"/>
+  <text class="ink b" x="56" y="350">第三步　改稿並寫回應信</text>
+  <text class="muted s" x="56" y="370">動筆之後每一句都難收回</text>
+
+  <path class="flow" d="M190,382 V404" marker-end="url(#mf74)"/>
+
+  <rect class="step" x="40" y="410" width="300" height="56" rx="6"/>
+  <text class="ink b" x="56" y="434">第四步　自我驗收</text>
+  <text class="muted s" x="56" y="454">以審查者的角度再看一次</text>
+
+  <line class="rule" x1="18" y1="488" x2="542" y2="488"/>
+  <text class="ink b" x="18" y="512">四步之間有三道線，但它們不是平均分布的。</text>
+  <text class="key s" x="18" y="534">三道全部擠在第二步與第三步之間——那裡是一動筆就收不回來的地方。</text>
+</svg>

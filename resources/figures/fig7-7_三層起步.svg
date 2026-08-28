@@ -25,7 +25,7 @@
   </style>
 
   <rect class="bg" width="560" height="500"/>
-  <text class="ink title" x="18" y="28">圖 7-5　三層起步：由上往下裝，隨時可以停</text>
+  <text class="ink title" x="18" y="28">圖 7-7　三層起步：由上往下裝，隨時可以停</text>
   <text class="muted s" x="18" y="50">第一層就能單獨運作。往下每一層都是加分，不是前提。</text>
 
   <defs><marker id="m73" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path class="head" d="M0,0 L10,5 L0,10 z"/></marker></defs>

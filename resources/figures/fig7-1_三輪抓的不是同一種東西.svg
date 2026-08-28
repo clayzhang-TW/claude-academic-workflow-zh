@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 440" width="560" height="440" font-family="Noto Sans TC, Microsoft JhengHei, Helvetica, Arial, sans-serif">
+  <style>
+    @page{size:560px 440px;margin:0}
+    .bg{fill:#faf7f0}
+    .ink{fill:#23201b}
+    .muted{fill:#6b6459}
+    .rule{stroke:#ddd5c6;stroke-width:1}
+    .pane{fill:none;stroke:#ddd5c6;stroke-width:1.4}
+    .unit1{fill:#e8f2ec;stroke:#2f6b4f;stroke-width:1.6}
+    .unit2{fill:#f5efe2;stroke:#8a5a2b;stroke-width:1.2}
+    .unit3{fill:#a8968a}
+    .flow{stroke:#8a5a2b;stroke-width:2.2;fill:none;stroke-linecap:round}
+    .back{stroke:#8a2b3f;stroke-width:1.8;fill:none;stroke-dasharray:6 4}
+    .xmark{stroke:#8a2b3f;stroke-width:2.2;stroke-linecap:round}
+    .key{fill:#2f6b4f}
+    .warn{fill:#8a2b3f}
+    .head{fill:#8a5a2b}
+    .title{font-size:17px;font-weight:700}
+    .b{font-size:13px;font-weight:700}
+    .s{font-size:12px}
+    @media (prefers-color-scheme: dark){
+      .bg{fill:#17150f}.ink{fill:#ece5d6}.muted{fill:#a49a88}.rule{stroke:#3a352a}.pane{stroke:#3a352a}
+      .unit1{fill:#15241c;stroke:#7fc4a0}
+      .unit2{fill:#241f16;stroke:#d09a5e}
+      .unit3{fill:#6b6055}
+      .flow{stroke:#d09a5e}.back{stroke:#e08a9c}.xmark{stroke:#e08a9c}
+      .key{fill:#7fc4a0}.warn{fill:#e08a9c}.head{fill:#d09a5e}
+    }
+  </style>
+
+  <rect class="bg" width="560" height="440"/>
+  <text class="ink title" x="18" y="28">圖 7-1　三輪抓的不是同一種東西</text>
+  <text class="muted s" x="18" y="50">每一輪處理的單位越來越小。順序倒過來，前面做的會被打亂。</text>
+
+  <defs>
+    <marker id="mf71" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path class="head" d="M0,0 L10,5 L0,10 z"/>
+    </marker>
+    <marker id="mb71" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path class="warn" d="M0,0 L10,5 L0,10 z"/>
+    </marker>
+  </defs>
+
+  <text class="key b" x="24" y="98">第一輪　邏輯</text>
+  <text class="head b" x="205" y="98">第二輪　去 AI 腔</text>
+  <text class="muted b" x="386" y="98">第三輪　格式</text>
+
+  <rect class="pane" x="24" y="110" width="150" height="190" rx="6"/>
+  <rect class="pane" x="205" y="110" width="150" height="190" rx="6"/>
+  <rect class="pane" x="386" y="110" width="150" height="190" rx="6"/>
+
+  <rect class="unit1" x="40" y="136" width="118" height="46" rx="4"/>
+  <rect class="unit1" x="40" y="192" width="118" height="46" rx="4"/>
+  <rect class="unit1" x="40" y="248" width="118" height="46" rx="4"/>
+
+  <g>
+    <rect class="unit2" x="221" y="136" width="96" height="8" rx="3"/>
+    <rect class="unit2" x="221" y="156" width="118" height="8" rx="3"/>
+    <rect class="unit2" x="221" y="176" width="96" height="8" rx="3"/>
+    <rect class="unit2" x="221" y="196" width="118" height="8" rx="3"/>
+    <rect class="unit2" x="221" y="216" width="96" height="8" rx="3"/>
+    <rect class="unit2" x="221" y="236" width="118" height="8" rx="3"/>
+    <rect class="unit2" x="221" y="256" width="96" height="8" rx="3"/>
+    <rect class="unit2" x="221" y="276" width="118" height="8" rx="3"/>
+  </g>
+
+  <g>
+    <circle class="unit3" cx="402" cy="142" r="3"/>
+    <circle class="unit3" cx="422" cy="142" r="3"/>
+    <circle class="unit3" cx="442" cy="142" r="3"/>
+    <circle class="unit3" cx="462" cy="142" r="3"/>
+    <circle class="unit3" cx="482" cy="142" r="3"/>
+    <circle class="unit3" cx="502" cy="142" r="3"/>
+    <circle class="unit3" cx="522" cy="142" r="3"/>
+    <circle class="unit3" cx="402" cy="164" r="3"/>
+    <circle class="unit3" cx="422" cy="164" r="3"/>
+    <circle class="unit3" cx="442" cy="164" r="3"/>
+    <circle class="unit3" cx="462" cy="164" r="3"/>
+    <circle class="unit3" cx="482" cy="164" r="3"/>
+    <circle class="unit3" cx="502" cy="164" r="3"/>
+    <circle class="unit3" cx="522" cy="164" r="3"/>
+    <circle class="unit3" cx="402" cy="186" r="3"/>
+    <circle class="unit3" cx="422" cy="186" r="3"/>
+    <circle class="unit3" cx="442" cy="186" r="3"/>
+    <circle class="unit3" cx="462" cy="186" r="3"/>
+    <circle class="unit3" cx="482" cy="186" r="3"/>
+    <circle class="unit3" cx="502" cy="186" r="3"/>
+    <circle class="unit3" cx="522" cy="186" r="3"/>
+    <circle class="unit3" cx="402" cy="208" r="3"/>
+    <circle class="unit3" cx="422" cy="208" r="3"/>
+    <circle class="unit3" cx="442" cy="208" r="3"/>
+    <circle class="unit3" cx="462" cy="208" r="3"/>
+    <circle class="unit3" cx="482" cy="208" r="3"/>
+    <circle class="unit3" cx="502" cy="208" r="3"/>
+    <circle class="unit3" cx="522" cy="208" r="3"/>
+    <circle class="unit3" cx="402" cy="230" r="3"/>
+    <circle class="unit3" cx="422" cy="230" r="3"/>
+    <circle class="unit3" cx="442" cy="230" r="3"/>
+    <circle class="unit3" cx="462" cy="230" r="3"/>
+    <circle class="unit3" cx="482" cy="230" r="3"/>
+    <circle class="unit3" cx="502" cy="230" r="3"/>
+    <circle class="unit3" cx="522" cy="230" r="3"/>
+    <circle class="unit3" cx="402" cy="252" r="3"/>
+    <circle class="unit3" cx="422" cy="252" r="3"/>
+    <circle class="unit3" cx="442" cy="252" r="3"/>
+    <circle class="unit3" cx="462" cy="252" r="3"/>
+    <circle class="unit3" cx="482" cy="252" r="3"/>
+    <circle class="unit3" cx="502" cy="252" r="3"/>
+    <circle class="unit3" cx="522" cy="252" r="3"/>
+  </g>
+
+  <text class="muted s" x="99" y="318" text-anchor="middle">單位是段落</text>
+  <text class="muted s" x="280" y="318" text-anchor="middle">單位是句子</text>
+  <text class="muted s" x="461" y="318" text-anchor="middle">單位是符號</text>
+
+  <path class="flow" d="M178,205 H199" marker-end="url(#mf71)"/>
+  <path class="flow" d="M359,205 H380" marker-end="url(#mf71)"/>
+
+  <path class="back" d="M461,336 V360 H99 V336" marker-end="url(#mb71)"/>
+  <g class="xmark">
+    <line x1="273" y1="353" x2="287" y2="367"/><line x1="287" y1="353" x2="273" y2="367"/>
+  </g>
+
+  <line class="rule" x1="18" y1="382" x2="542" y2="382"/>
+  <text class="ink b" x="18" y="406">先修格式再改邏輯，改完邏輯格式又亂了。</text>
+  <text class="muted s" x="18" y="428">粗的先過，細的後過——這就是三輪不能換順序的全部理由。</text>
+</svg>

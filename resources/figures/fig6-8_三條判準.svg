@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 420" width="560" height="420" font-family="Noto Sans TC, Microsoft JhengHei, Helvetica, Arial, sans-serif">
+  <style>
+    @page{size:560px 420px;margin:0}
+    .bg{fill:#faf7f0}
+    .ink{fill:#23201b}
+    .muted{fill:#6b6459}
+    .rule{stroke:#ddd5c6;stroke-width:1}
+    .gate{fill:#e8f2ec;stroke:#2f6b4f;stroke-width:1.8}
+    .endbox{fill:#f5efe2;stroke:#8a5a2b;stroke-width:1.8}
+    .main{stroke:#8a5a2b;stroke-width:2.4;fill:none;stroke-linecap:round}
+    .leak{stroke:#8a2b3f;stroke-width:1.8;fill:none;stroke-linecap:round;stroke-dasharray:5 4}
+    .xmark{stroke:#8a2b3f;stroke-width:2;stroke-linecap:round}
+    .key{fill:#2f6b4f}
+    .warn{fill:#8a2b3f}
+    .head{fill:#8a5a2b}
+    .title{font-size:17px;font-weight:700}
+    .b{font-size:13px;font-weight:700}
+    .s{font-size:12px}
+    @media (prefers-color-scheme: dark){
+      .bg{fill:#17150f}.ink{fill:#ece5d6}.muted{fill:#a49a88}.rule{stroke:#3a352a}
+      .gate{fill:#15241c;stroke:#7fc4a0}
+      .endbox{fill:#241f16;stroke:#d09a5e}
+      .main{stroke:#d09a5e}
+      .leak{stroke:#e08a9c}.xmark{stroke:#e08a9c}
+      .key{fill:#7fc4a0}.warn{fill:#e08a9c}.head{fill:#d09a5e}
+    }
+  </style>
+
+  <rect class="bg" width="560" height="420"/>
+  <text class="ink title" x="18" y="28">圖 6-8　三條判準，各自擋住不同的東西</text>
+  <text class="muted s" x="18" y="50">三個關卡串在同一條線上，漏掉的方向卻不一樣。</text>
+
+  <defs>
+    <marker id="mf67" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path class="head" d="M0,0 L10,5 L0,10 z"/>
+    </marker>
+  </defs>
+
+  <!-- 主線 -->
+  <rect class="endbox" x="18" y="126" width="76" height="48" rx="6"/>
+  <text class="ink b" x="56" y="146" text-anchor="middle">它給的</text>
+  <text class="ink b" x="56" y="164" text-anchor="middle">推薦</text>
+
+  <path class="main" d="M98,150 H150"/>
+  <path class="main" d="M226,150 H262"/>
+  <path class="main" d="M338,150 H374"/>
+  <path class="main" d="M450,150 H472" marker-end="url(#mf67)"/>
+
+  <!-- 三個閘門 -->
+  <rect class="gate" x="150" y="122" width="76" height="56" rx="6"/>
+  <text class="key b" x="188" y="144" text-anchor="middle">它說了</text>
+  <text class="key b" x="188" y="162" text-anchor="middle">依據嗎</text>
+
+  <rect class="gate" x="262" y="122" width="76" height="56" rx="6"/>
+  <text class="key b" x="300" y="144" text-anchor="middle">你推翻</text>
+  <text class="key b" x="300" y="162" text-anchor="middle">過幾次</text>
+
+  <rect class="gate" x="374" y="122" width="76" height="56" rx="6"/>
+  <text class="key b" x="412" y="144" text-anchor="middle">它複述</text>
+  <text class="key b" x="412" y="162" text-anchor="middle">了嗎</text>
+
+  <rect class="endbox" x="476" y="126" width="66" height="48" rx="6"/>
+  <text class="ink b" x="509" y="146" text-anchor="middle">你的</text>
+  <text class="ink b" x="509" y="164" text-anchor="middle">主張</text>
+
+  <!-- 三條漏出去的岔路 -->
+  <path class="leak" d="M188,180 V244"/>
+  <path class="leak" d="M300,180 V244"/>
+  <path class="leak" d="M412,180 V244"/>
+
+  <g class="xmark">
+    <line x1="181" y1="251" x2="195" y2="265"/><line x1="195" y1="251" x2="181" y2="265"/>
+    <line x1="293" y1="251" x2="307" y2="265"/><line x1="307" y1="251" x2="293" y2="265"/>
+    <line x1="405" y1="251" x2="419" y2="265"/><line x1="419" y1="251" x2="405" y2="265"/>
+  </g>
+
+  <text class="warn b" x="188" y="292" text-anchor="middle">誘導</text>
+  <text class="warn b" x="300" y="292" text-anchor="middle">順從</text>
+  <text class="warn b" x="412" y="292" text-anchor="middle">誤解</text>
+
+  <text class="muted s" x="188" y="316" text-anchor="middle">推薦沒有依據，</text>
+  <text class="muted s" x="188" y="334" text-anchor="middle">你只能同意</text>
+
+  <text class="muted s" x="300" y="316" text-anchor="middle">一路照著點，</text>
+  <text class="muted s" x="300" y="334" text-anchor="middle">拿到的是它的</text>
+
+  <text class="muted s" x="412" y="316" text-anchor="middle">它聽成別的意思，</text>
+  <text class="muted s" x="412" y="334" text-anchor="middle">而你沒發現</text>
+
+  <line class="rule" x1="18" y1="360" x2="542" y2="360"/>
+  <text class="ink b" x="18" y="386">拿掉任何一個閘門，那一條就直接併回主線。</text>
+  <text class="muted s" x="18" y="408">另外兩條擋不住它——它們擋的不是同一件事。</text>
+</svg>

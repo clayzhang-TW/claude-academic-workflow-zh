@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 440" width="560" height="440" font-family="Noto Sans TC, Microsoft JhengHei, Helvetica, Arial, sans-serif">
+  <style>
+    @page{size:560px 440px;margin:0}
+    .bg{fill:#faf7f0}
+    .ink{fill:#23201b}
+    .muted{fill:#6b6459}
+    .rule{stroke:#ddd5c6;stroke-width:1}
+    .boxn{fill:#f5efe2;stroke:#8a5a2b;stroke-width:1.8}
+    .boxk{fill:#e8f2ec;stroke:#2f6b4f;stroke-width:1.8}
+    .flow{stroke:#8a5a2b;stroke-width:2;fill:none;stroke-linecap:round}
+    .loop{stroke:#2f6b4f;stroke-width:2;fill:none;stroke-linecap:round}
+    .key{fill:#2f6b4f}
+    .head{fill:#8a5a2b}
+    .title{font-size:17px;font-weight:700}
+    .b{font-size:13px;font-weight:700}
+    .s{font-size:12px}
+    @media (prefers-color-scheme: dark){
+      .bg{fill:#17150f}.ink{fill:#ece5d6}.muted{fill:#a49a88}.rule{stroke:#3a352a}
+      .boxn{fill:#241f16;stroke:#d09a5e}
+      .boxk{fill:#15241c;stroke:#7fc4a0}
+      .flow{stroke:#d09a5e}.loop{stroke:#7fc4a0}
+      .key{fill:#7fc4a0}.head{fill:#d09a5e}
+    }
+  </style>
+
+  <rect class="bg" width="560" height="440"/>
+  <text class="ink title" x="18" y="28">圖 6-7　兩條路徑：你寫它潤，還是它問你答</text>
+  <text class="muted s" x="18" y="50">差別不在誰動筆，在中間那一段有沒有折返。</text>
+
+  <defs>
+    <marker id="mf66" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path class="head" d="M0,0 L10,5 L0,10 z"/>
+    </marker>
+    <marker id="mk66" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path class="key" d="M0,0 L10,5 L0,10 z"/>
+    </marker>
+  </defs>
+
+  <!-- ===== 上：一直線 ===== -->
+  <text class="head b" x="18" y="84">多數人的路徑</text>
+
+  <rect class="boxn" x="26" y="104" width="76" height="52" rx="6"/>
+  <text class="ink b" x="64" y="136" text-anchor="middle">你</text>
+
+  <path class="flow" d="M108,130 H164" marker-end="url(#mf66)"/>
+  <text class="muted s" x="136" y="122" text-anchor="middle">寫</text>
+
+  <rect class="boxn" x="172" y="104" width="110" height="52" rx="6"/>
+  <text class="ink b" x="227" y="136" text-anchor="middle">一段草稿</text>
+
+  <path class="flow" d="M288,130 H344" marker-end="url(#mf66)"/>
+  <text class="muted s" x="316" y="122" text-anchor="middle">它潤</text>
+
+  <rect class="boxn" x="352" y="104" width="110" height="52" rx="6"/>
+  <text class="ink b" x="407" y="136" text-anchor="middle">通順的一段</text>
+
+  <text class="muted s" x="472" y="126">一直線</text>
+  <text class="muted s" x="472" y="144">沒有折返</text>
+
+  <text class="muted s" x="26" y="182">你交出去的東西已經定了，它只能改寫法。</text>
+
+  <line class="rule" x1="18" y1="204" x2="542" y2="204"/>
+
+  <!-- ===== 下：有折返 ===== -->
+  <text class="key b" x="18" y="238">動筆之前先被問過的路徑</text>
+
+  <rect class="boxk" x="26" y="264" width="76" height="52" rx="6"/>
+  <text class="ink b" x="64" y="296" text-anchor="middle">你</text>
+
+  <!-- 折返環：上弧 它問，下弧 你答 -->
+  <path class="loop" d="M104,278 C140,244 194,244 232,278" marker-end="url(#mk66)"/>
+  <text class="key s" x="168" y="252" text-anchor="middle">它問</text>
+
+  <path class="loop" d="M232,304 C194,338 140,338 104,304" marker-end="url(#mk66)"/>
+  <text class="key s" x="168" y="356" text-anchor="middle">你答</text>
+
+  <rect class="boxk" x="236" y="264" width="110" height="52" rx="6"/>
+  <text class="ink b" x="291" y="289" text-anchor="middle">一句</text>
+  <text class="ink b" x="291" y="307" text-anchor="middle">你的主張</text>
+
+  <path class="flow" d="M352,290 H406" marker-end="url(#mf66)"/>
+  <text class="muted s" x="379" y="282" text-anchor="middle">你寫</text>
+
+  <rect class="boxn" x="414" y="264" width="118" height="52" rx="6"/>
+  <text class="ink b" x="473" y="296" text-anchor="middle">一段有作者的</text>
+
+  <text class="key b" x="26" y="392">折返那一段沒有產出任何文字。</text>
+  <text class="muted s" x="26" y="414">它產出的是你自己也還沒講出口的那句話。</text>
+</svg>

@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 440" width="560" height="440" font-family="Noto Sans TC, Microsoft JhengHei, Helvetica, Arial, sans-serif">
+  <style>
+    @page{size:560px 440px;margin:0}
+    .bg{fill:#faf7f0}
+    .ink{fill:#23201b}
+    .muted{fill:#6b6459}
+    .rule{stroke:#ddd5c6;stroke-width:1}
+    .pipe{fill:#f3ede1;stroke:#a8968a;stroke-width:1.6}
+    .pipeK{fill:#eef5f0;stroke:#2f6b4f;stroke-width:1.6}
+    .valveOpen{stroke:#8a2b3f;stroke-width:3;stroke-linecap:round}
+    .valveShut{stroke:#2f6b4f;stroke-width:5;stroke-linecap:round}
+    .mesh{stroke:#8a5a2b;stroke-width:2;stroke-linecap:round}
+    .junk{fill:#8a2b3f}
+    .key{fill:#2f6b4f}
+    .warn{fill:#8a2b3f}
+    .head{fill:#8a5a2b}
+    .title{font-size:17px;font-weight:700}
+    .b{font-size:13px;font-weight:700}
+    .s{font-size:12px}
+    @media (prefers-color-scheme: dark){
+      .bg{fill:#17150f}.ink{fill:#ece5d6}.muted{fill:#a49a88}.rule{stroke:#3a352a}
+      .pipe{fill:#221e17;stroke:#6b6055}
+      .pipeK{fill:#141f19;stroke:#7fc4a0}
+      .valveOpen{stroke:#e08a9c}.valveShut{stroke:#7fc4a0}
+      .mesh{stroke:#d09a5e}.junk{fill:#e08a9c}
+      .key{fill:#7fc4a0}.warn{fill:#e08a9c}.head{fill:#d09a5e}
+    }
+  </style>
+
+  <rect class="bg" width="560" height="440"/>
+  <text class="ink title" x="18" y="28">圖 2-4　濾網會漏，關上的閥門不會</text>
+  <text class="muted s" x="18" y="50">同一條管路，兩個可以動手的位置。位置不同，結果差很多。</text>
+
+  <!-- ===== 上：閥門開著 ===== -->
+  <text class="warn b" x="18" y="88">閥門開著：它照樣生出書目，你在下游抓</text>
+
+  <rect class="pipe" x="60" y="106" width="440" height="40" rx="8"/>
+
+  <line class="valveOpen" x1="150" y1="100" x2="150" y2="112"/>
+  <line class="valveOpen" x1="150" y1="140" x2="150" y2="152"/>
+  <text class="warn s" x="150" y="94" text-anchor="middle">閥門</text>
+
+  <g class="mesh">
+    <line x1="352" y1="108" x2="352" y2="144"/>
+    <line x1="360" y1="108" x2="360" y2="144"/>
+    <line x1="368" y1="108" x2="368" y2="144"/>
+  </g>
+  <text class="head s" x="360" y="166" text-anchor="middle">三步查證</text>
+
+  <circle class="junk" cx="200" cy="126" r="6"/>
+  <circle class="junk" cx="236" cy="126" r="6"/>
+  <circle class="junk" cx="272" cy="126" r="6"/>
+  <circle class="junk" cx="330" cy="118" r="6"/>
+  <circle class="junk" cx="330" cy="134" r="6"/>
+  <circle class="junk" cx="440" cy="126" r="6"/>
+
+  <text class="warn s" x="440" y="166" text-anchor="middle">漏掉的那一筆</text>
+  <text class="muted s" x="510" y="130">你的稿子</text>
+
+  <line class="rule" x1="18" y1="196" x2="542" y2="196"/>
+
+  <!-- ===== 下：閥門關上 ===== -->
+  <text class="key b" x="18" y="234">閥門關上：它只留一個空格，沒有東西要抓</text>
+
+  <rect class="pipeK" x="60" y="252" width="440" height="40" rx="8"/>
+
+  <line class="valveShut" x1="150" y1="248" x2="150" y2="296"/>
+  <text class="key s" x="150" y="240" text-anchor="middle">[CITATION]</text>
+
+  <g class="mesh">
+    <line x1="352" y1="254" x2="352" y2="290"/>
+    <line x1="360" y1="254" x2="360" y2="290"/>
+    <line x1="368" y1="254" x2="368" y2="290"/>
+  </g>
+  <text class="head s" x="360" y="312" text-anchor="middle">三步查證（無事可做）</text>
+
+  <circle class="junk" cx="110" cy="272" r="6"/>
+  <text class="key s" x="470" y="276" text-anchor="middle">乾淨</text>
+
+  <line class="rule" x1="18" y1="348" x2="542" y2="348"/>
+  <text class="ink b" x="18" y="374">上面那條線上，濾網再細都有東西穿過去。</text>
+  <text class="key s" x="18" y="396">下面那條線上，濾網沒有變好——是上游根本沒有東西進來。</text>
+  <text class="muted s" x="18" y="418">事後抓與事前不讓它發生，兩招要搭配；但只有一招是關掉來源。</text>
+</svg>

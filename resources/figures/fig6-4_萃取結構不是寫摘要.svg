@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 440" width="560" height="440" font-family="Noto Sans TC, Microsoft JhengHei, Helvetica, Arial, sans-serif">
+  <style>
+    @page{size:560px 440px;margin:0}
+    .bg{fill:#faf7f0}
+    .ink{fill:#23201b}
+    .muted{fill:#6b6459}
+    .rule{stroke:#ddd5c6;stroke-width:1}
+    .book{fill:#f5efe2;stroke:#8a5a2b;stroke-width:2}
+    .blob{fill:#f0e6e8;stroke:#8a2b3f;stroke-width:1.6}
+    .slot{fill:#e8f2ec;stroke:#2f6b4f;stroke-width:1.6}
+    .line{stroke:#a8968a;stroke-width:2;stroke-linecap:round}
+    .toL{stroke:#8a2b3f;stroke-width:2.2;fill:none;stroke-linecap:round}
+    .toR{stroke:#2f6b4f;stroke-width:2.2;fill:none;stroke-linecap:round}
+    .backL{stroke:#8a2b3f;stroke-width:1.6;fill:none;stroke-dasharray:5 5}
+    .backR{stroke:#2f6b4f;stroke-width:1.6;fill:none;stroke-dasharray:5 5}
+    .xmark{stroke:#8a2b3f;stroke-width:2.2;stroke-linecap:round}
+    .key{fill:#2f6b4f}
+    .warn{fill:#8a2b3f}
+    .head{fill:#8a5a2b}
+    .title{font-size:17px;font-weight:700}
+    .b{font-size:13px;font-weight:700}
+    .s{font-size:12px}
+    @media (prefers-color-scheme: dark){
+      .bg{fill:#17150f}.ink{fill:#ece5d6}.muted{fill:#a49a88}.rule{stroke:#3a352a}
+      .book{fill:#241f16;stroke:#d09a5e}
+      .blob{fill:#2a1a1e;stroke:#e08a9c}
+      .slot{fill:#15241c;stroke:#7fc4a0}
+      .line{stroke:#6b6055}
+      .toL{stroke:#e08a9c}.toR{stroke:#7fc4a0}
+      .backL{stroke:#e08a9c}.backR{stroke:#7fc4a0}
+      .xmark{stroke:#e08a9c}
+      .key{fill:#7fc4a0}.warn{fill:#e08a9c}.head{fill:#d09a5e}
+    }
+  </style>
+
+  <rect class="bg" width="560" height="440"/>
+  <text class="ink title" x="18" y="28">圖 6-4　萃取結構，不是寫摘要</text>
+  <text class="muted s" x="18" y="50">同一本書，兩種拆法。差別在拆完之後查不查得回去。</text>
+
+  <defs>
+    <marker id="mL64" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path class="warn" d="M0,0 L10,5 L0,10 z"/>
+    </marker>
+    <marker id="mR64" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path class="key" d="M0,0 L10,5 L0,10 z"/>
+    </marker>
+  </defs>
+
+  <!-- 中間：一本書 -->
+  <rect class="book" x="234" y="150" width="92" height="132" rx="5"/>
+  <line class="line" x1="248" y1="176" x2="312" y2="176"/>
+  <line class="line" x1="248" y1="196" x2="300" y2="196"/>
+  <line class="line" x1="248" y1="216" x2="312" y2="216"/>
+  <line class="line" x1="248" y1="236" x2="288" y2="236"/>
+  <line class="line" x1="248" y1="256" x2="306" y2="256"/>
+  <text class="ink b" x="280" y="302" text-anchor="middle">一本方法書</text>
+
+  <!-- 左：摘要 -->
+  <path class="toL" d="M228,196 H180" marker-end="url(#mL64)"/>
+  <text class="warn s" x="204" y="186" text-anchor="middle">摘要</text>
+
+  <rect class="blob" x="24" y="150" width="146" height="96" rx="24"/>
+  <line class="line" x1="42" y1="176" x2="152" y2="176"/>
+  <line class="line" x1="42" y1="196" x2="140" y2="196"/>
+  <line class="line" x1="42" y1="216" x2="150" y2="216"/>
+  <text class="warn b" x="97" y="268" text-anchor="middle">一段很順的文字</text>
+
+  <path class="backL" d="M97,282 V330 H206"/>
+  <g class="xmark">
+    <line x1="200" y1="323" x2="214" y2="337"/><line x1="214" y1="323" x2="200" y2="337"/>
+  </g>
+  <text class="warn s" x="97" y="352" text-anchor="middle">查不回是哪一章</text>
+
+  <!-- 右：萃取五類 -->
+  <path class="toR" d="M332,196 H372" marker-end="url(#mR64)"/>
+  <text class="key s" x="352" y="186" text-anchor="middle">萃取</text>
+
+  <rect class="slot" x="380" y="82" width="162" height="40" rx="5"/>
+  <text class="ink s" x="392" y="107">有名字的框架</text>
+
+  <rect class="slot" x="380" y="130" width="162" height="40" rx="5"/>
+  <text class="ink s" x="392" y="155">判斷規則與門檻</text>
+
+  <rect class="slot" x="380" y="178" width="162" height="40" rx="5"/>
+  <text class="ink s" x="392" y="203">步驟方法</text>
+
+  <rect class="slot" x="380" y="226" width="162" height="40" rx="5"/>
+  <text class="ink s" x="392" y="251">作者說不要做什麼</text>
+
+  <rect class="slot" x="380" y="274" width="162" height="40" rx="5"/>
+  <text class="ink s" x="392" y="299">他在兩派之間站哪邊</text>
+
+  <path class="backR" d="M461,318 V344 H340 V292"/>
+  <text class="key s" x="461" y="338" text-anchor="middle">每一條都指得回原章</text>
+
+  <line class="rule" x1="18" y1="380" x2="542" y2="380"/>
+  <text class="ink b" x="18" y="404">摘要把書壓成一團，壓完就沒有索引了。</text>
+  <text class="key s" x="18" y="426">萃取留下的是結構——所以它回答的時候是在查書，不是在接龍。</text>
+</svg>

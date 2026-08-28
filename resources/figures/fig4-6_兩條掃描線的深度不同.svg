@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 470" width="560" height="470" font-family="Noto Sans TC, Microsoft JhengHei, Helvetica, Arial, sans-serif">
+  <style>
+    @page{size:560px 470px;margin:0}
+    .bg{fill:#faf7f0}
+    .ink{fill:#23201b}
+    .muted{fill:#6b6459}
+    .rule{stroke:#ddd5c6;stroke-width:1}
+    .up{fill:#f5efe2;stroke:#8a5a2b;stroke-width:1.8}
+    .down{fill:#e8f2ec;stroke:#2f6b4f;stroke-width:1.8}
+    .split{stroke:#8a2b3f;stroke-width:2;stroke-dasharray:6 4}
+    .probeS{stroke:#8a5a2b;stroke-width:2.4;fill:none;stroke-linecap:round}
+    .probeD{stroke:#2f6b4f;stroke-width:2.4;fill:none;stroke-linecap:round}
+    .key{fill:#2f6b4f}
+    .warn{fill:#8a2b3f}
+    .head{fill:#8a5a2b}
+    .title{font-size:17px;font-weight:700}
+    .b{font-size:13px;font-weight:700}
+    .s{font-size:12px}
+    @media (prefers-color-scheme: dark){
+      .bg{fill:#17150f}.ink{fill:#ece5d6}.muted{fill:#a49a88}.rule{stroke:#3a352a}
+      .up{fill:#241f16;stroke:#d09a5e}
+      .down{fill:#15241c;stroke:#7fc4a0}
+      .split{stroke:#e08a9c}
+      .probeS{stroke:#d09a5e}.probeD{stroke:#7fc4a0}
+      .key{fill:#7fc4a0}.warn{fill:#e08a9c}.head{fill:#d09a5e}
+    }
+  </style>
+
+  <rect class="bg" width="560" height="470"/>
+  <text class="ink title" x="18" y="28">圖 4-6　兩條掃描線，深度不一樣</text>
+  <text class="muted s" x="18" y="50">同一篇論文，七欄筆記停在一半，五個問題要下到底。</text>
+
+  <defs>
+    <marker id="ms47" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path class="head" d="M0,0 L10,5 L0,10 z"/>
+    </marker>
+    <marker id="md47" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path class="key" d="M0,0 L10,5 L0,10 z"/>
+    </marker>
+  </defs>
+
+  <!-- 論文：上層 -->
+  <rect class="up" x="140" y="106" width="280" height="112" rx="6"/>
+  <text class="ink b" x="160" y="134">它發現了什麼</text>
+  <text class="muted s" x="160" y="158">摘要</text>
+  <text class="muted s" x="160" y="180">結果與討論</text>
+  <text class="muted s" x="160" y="202">結論</text>
+
+  <!-- 分界 -->
+  <line class="split" x1="140" y1="228" x2="420" y2="228"/>
+  <text class="warn s" x="428" y="232">七欄筆記到這裡就停了</text>
+
+  <!-- 論文：下層 -->
+  <rect class="down" x="140" y="238" width="280" height="152" rx="6"/>
+  <text class="ink b" x="160" y="266">它為什麼這樣做</text>
+  <text class="muted s" x="160" y="290">引言最後一段到假設之間的距離</text>
+  <text class="muted s" x="160" y="312">方法裡那句「我們另外做了 X」</text>
+  <text class="muted s" x="160" y="334">限制那一節承認沒擋掉的</text>
+  <text class="key s" x="160" y="366">這一層才看得出一個宣稱值多少</text>
+
+  <!-- 兩條探針 -->
+  <path class="probeS" d="M200,80 V216" marker-end="url(#ms47)"/>
+  <text class="head s" x="200" y="72" text-anchor="middle">七欄筆記</text>
+
+  <path class="probeD" d="M360,80 V378" marker-end="url(#md47)"/>
+  <text class="key s" x="360" y="72" text-anchor="middle">五個問題</text>
+
+  <line class="rule" x1="18" y1="410" x2="542" y2="410"/>
+  <text class="ink b" x="18" y="434">七欄筆記的第 2 欄問的是「它做了什麼」。</text>
+  <text class="warn s" x="18" y="456">沒有一欄問過為什麼——而它不會提醒你少問了。</text>
+</svg>
