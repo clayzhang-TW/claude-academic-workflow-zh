@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 430" width="560" height="430" font-family="Noto Sans TC, Microsoft JhengHei, Helvetica, Arial, sans-serif">
+  <style>
+    @page{size:560px 430px;margin:0}
+    .bg{fill:#faf7f0}
+    .ink{fill:#23201b}
+    .muted{fill:#6b6459}
+    .rule{stroke:#ddd5c6;stroke-width:1}
+    .ev{fill:#efe9dc;stroke:#c9bfab;stroke-width:1.4}
+    .ok{fill:#e8f2ec;stroke:#2f6b4f;stroke-width:2}
+    .bad{fill:#f6eaec;stroke:#8a2b3f;stroke-width:2}
+    .ghost{fill:none;stroke:#c9bfab;stroke-width:1.4;stroke-dasharray:5 4}
+    .lnok{stroke:#2f6b4f;stroke-width:2;fill:none}
+    .lnbad{stroke:#8a2b3f;stroke-width:2;fill:none}
+    .key{fill:#2f6b4f}
+    .warn{fill:#8a2b3f}
+    .title{font-size:17px;font-weight:700}
+    .b{font-size:13px;font-weight:700}
+    .s{font-size:12px}
+    @media (prefers-color-scheme: dark){
+      .bg{fill:#17150f}.ink{fill:#ece5d6}.muted{fill:#a49a88}.rule{stroke:#3a352a}
+      .ev{fill:#241f16;stroke:#4a4335}
+      .ok{fill:#15241c;stroke:#7fc4a0}.bad{fill:#2a1a1f;stroke:#e08a9c}
+      .ghost{stroke:#4a4335}
+      .lnok{stroke:#7fc4a0}.lnbad{stroke:#e08a9c}
+      .key{fill:#7fc4a0}.warn{fill:#e08a9c}
+    }
+  </style>
+
+  <rect class="bg" width="560" height="430"/>
+  <text class="ink title" x="18" y="28">圖 7-3　同一批證據撐得起相反的兩句</text>
+  <text class="muted s" x="18" y="50">把主張反過來寫，看你手上的證據往哪裡連。</text>
+
+  <line class="rule" x1="280" y1="66" x2="280" y2="392"/>
+
+  <text class="key b" x="34" y="82">能反駁反面版本 → 原主張有內容</text>
+  <text class="warn b" x="306" y="82">反駁不了 → 原主張是空的</text>
+
+  <rect class="ok" x="34" y="96" width="220" height="42" rx="4"/>
+  <text class="ink b" x="144" y="122" text-anchor="middle">AI 輔助提升了寫作品質</text>
+
+  <rect class="bad" x="306" y="96" width="220" height="42" rx="4"/>
+  <text class="ink b" x="416" y="122" text-anchor="middle">本研究採用嚴謹的判準</text>
+
+  <path class="lnok" d="M68,208 L68,138"/>
+  <path class="lnok" d="M144,208 L144,138"/>
+  <path class="lnok" d="M220,208 L220,138"/>
+
+  <path class="lnbad" d="M340,208 L340,138"/>
+  <path class="lnbad" d="M416,208 L416,138"/>
+  <path class="lnbad" d="M492,208 L492,138"/>
+
+  <rect class="ev" x="34" y="208" width="68" height="38" rx="4"/>
+  <text class="ink s" x="68" y="232" text-anchor="middle">效果量</text>
+  <rect class="ev" x="110" y="208" width="68" height="38" rx="4"/>
+  <text class="ink s" x="144" y="232" text-anchor="middle">信賴區間</text>
+  <rect class="ev" x="186" y="208" width="68" height="38" rx="4"/>
+  <text class="ink s" x="220" y="232" text-anchor="middle">對照組</text>
+
+  <rect class="ev" x="306" y="208" width="68" height="38" rx="4"/>
+  <text class="ink s" x="340" y="232" text-anchor="middle">題目數</text>
+  <rect class="ev" x="382" y="208" width="68" height="38" rx="4"/>
+  <text class="ink s" x="416" y="232" text-anchor="middle">程序描述</text>
+  <rect class="ev" x="458" y="208" width="68" height="38" rx="4"/>
+  <text class="ink s" x="492" y="232" text-anchor="middle">專家人數</text>
+
+  <path class="lnbad" d="M340,246 L340,316"/>
+  <path class="lnbad" d="M416,246 L416,316"/>
+  <path class="lnbad" d="M492,246 L492,316"/>
+
+  <rect class="ghost" x="34" y="316" width="220" height="42" rx="4"/>
+  <text class="muted b" x="144" y="342" text-anchor="middle">沒有提升</text>
+
+  <rect class="bad" x="306" y="316" width="220" height="42" rx="4"/>
+  <text class="ink b" x="416" y="342" text-anchor="middle">採用寬鬆的判準</text>
+
+  <text class="muted s" x="34" y="382">三條線只往上。反面版本</text>
+  <text class="muted s" x="34" y="400">沒有東西撐，所以駁得倒。</text>
+  <text class="warn s" x="306" y="382">三條線上下都連得到。兩句</text>
+  <text class="warn s" x="306" y="400">都成立，等於什麼也沒說。</text>
+</svg>

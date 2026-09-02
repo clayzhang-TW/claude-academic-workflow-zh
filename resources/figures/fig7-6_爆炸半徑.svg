@@ -23,7 +23,7 @@
   </style>
 
   <rect class="bg" width="560" height="492"/>
-  <text class="ink title" x="18" y="28">圖 7-4　改一個定義，四個方向會跟著動</text>
+  <text class="ink title" x="18" y="28">圖 7-6　改一個定義，四個方向會跟著動</text>
   <text class="muted s" x="18" y="50">中間是審查者點名的那一處。四個方向沒有任何一個帶編號。</text>
 
   <defs>

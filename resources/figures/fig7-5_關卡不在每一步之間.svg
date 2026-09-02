@@ -25,7 +25,7 @@
   </style>
 
   <rect class="bg" width="560" height="540"/>
-  <text class="ink title" x="18" y="28">圖 7-3　關卡不放在每一步之間</text>
+  <text class="ink title" x="18" y="28">圖 7-5　關卡不放在每一步之間</text>
   <text class="muted s" x="18" y="50">三個停點全部落在同一種位置：做下去就難回頭的那一步之前。</text>
 
   <defs>

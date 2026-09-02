@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 362" width="560" height="362" font-family="Noto Sans TC, Microsoft JhengHei, Helvetica, Arial, sans-serif">
+  <style>
+    @page{size:560px 362px;margin:0}
+    .bg{fill:#faf7f0}
+    .ink{fill:#23201b}
+    .muted{fill:#6b6459}
+    .chk{fill:#efe9dc;stroke:#c9bfab;stroke-width:1.4}
+    .tgt{fill:#f5efe2;stroke:#8a5a2b;stroke-width:2.2}
+    .ghost{fill:none;stroke:#8a2b3f;stroke-width:1.8;stroke-dasharray:6 5}
+    .ln{stroke:#8a5a2b;stroke-width:1.8;fill:none}
+    .head{fill:#8a5a2b}
+    .warn{fill:#8a2b3f}
+    .title{font-size:17px;font-weight:700}
+    .b{font-size:13px;font-weight:700}
+    .s{font-size:12px}
+    @media (prefers-color-scheme: dark){
+      .bg{fill:#17150f}.ink{fill:#ece5d6}.muted{fill:#a49a88}
+      .chk{fill:#241f16;stroke:#4a4335}.tgt{fill:#241f16;stroke:#d09a5e}
+      .ghost{stroke:#e08a9c}.ln{stroke:#d09a5e}
+      .head{fill:#d09a5e}.warn{fill:#e08a9c}
+    }
+  </style>
+
+  <defs>
+    <marker id="ma73" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path class="head" d="M0,0 L10,5 L0,10 z"/>
+    </marker>
+  </defs>
+
+  <rect class="bg" width="560" height="362"/>
+  <text class="ink title" x="18" y="28">圖 7-3　三條線都指向同一個地方</text>
+  <text class="muted s" x="18" y="50">這一節到目前為止教的每一個檢查，看的都是同一樣東西。</text>
+
+  <rect class="chk" x="18" y="84" width="150" height="44" rx="4"/>
+  <text class="ink b" x="93" y="111" text-anchor="middle">五個角色</text>
+  <rect class="chk" x="18" y="148" width="150" height="44" rx="4"/>
+  <text class="ink b" x="93" y="175" text-anchor="middle">逆向大綱</text>
+  <rect class="chk" x="18" y="212" width="150" height="44" rx="4"/>
+  <text class="ink b" x="93" y="239" text-anchor="middle">附錄 I 檢查表</text>
+
+  <path class="ln" marker-end="url(#ma73)" d="M168,106 H300 V115 H344"/>
+  <path class="ln" marker-end="url(#ma73)" d="M168,170 H320 V130 H344"/>
+  <path class="ln" marker-end="url(#ma73)" d="M168,234 H340 V145 H344"/>
+
+  <rect class="tgt" x="350" y="100" width="190" height="60" rx="4"/>
+  <text class="ink b" x="445" y="127" text-anchor="middle">你寫出來的</text>
+  <text class="ink b" x="445" y="147" text-anchor="middle">那份稿子</text>
+
+  <rect class="ghost" x="350" y="228" width="190" height="60" rx="4"/>
+  <text class="warn b" x="445" y="255" text-anchor="middle">你判斷的時候</text>
+  <text class="warn b" x="445" y="275" text-anchor="middle">用的那把尺</text>
+
+  <text class="warn s" x="18" y="288">沒有任何一條線</text>
+  <text class="warn s" x="18" y="306">指到下面那個框。</text>
+
+  <text class="muted s" x="18" y="340">換一副眼睛看稿子，換不到那把尺。要測它，得用另一種方法。</text>
+</svg>

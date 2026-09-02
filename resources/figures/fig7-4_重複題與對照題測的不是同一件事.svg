@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 412" width="560" height="412" font-family="Noto Sans TC, Microsoft JhengHei, Helvetica, Arial, sans-serif">
+  <style>
+    @page{size:560px 412px;margin:0}
+    .bg{fill:#faf7f0}
+    .ink{fill:#23201b}
+    .muted{fill:#6b6459}
+    .rule{stroke:#ddd5c6;stroke-width:1}
+    .cell{fill:#f2ede2;stroke:#c9bfab;stroke-width:1}
+    .same{fill:#f5efe2;stroke:#8a5a2b;stroke-width:2.2}
+    .box{fill:#faf7f0;stroke:#c9bfab;stroke-width:1.4}
+    .chip{fill:#efe9dc;stroke:#c9bfab;stroke-width:1}
+    .chipdiff{fill:#f1ebf5;stroke:#6b4a7a;stroke-width:2.2}
+    .arw{stroke:#6b6459;stroke-width:1.6;fill:none}
+    .head{fill:#8a5a2b}
+    .knw{fill:#6b4a7a}
+    .title{font-size:17px;font-weight:700}
+    .b{font-size:13px;font-weight:700}
+    .s{font-size:12px}
+    @media (prefers-color-scheme: dark){
+      .bg{fill:#17150f}.ink{fill:#ece5d6}.muted{fill:#a49a88}.rule{stroke:#3a352a}
+      .cell{fill:#1e1a13;stroke:#4a4335}.same{fill:#241f16;stroke:#d09a5e}
+      .box{fill:#17150f;stroke:#4a4335}
+      .chip{fill:#241f16;stroke:#4a4335}.chipdiff{fill:#241b2a;stroke:#c3a0d4}
+      .arw{stroke:#a49a88}.head{fill:#d09a5e}.knw{fill:#c3a0d4}
+    }
+  </style>
+
+  <rect class="bg" width="560" height="412"/>
+  <text class="ink title" x="18" y="28">圖 7-4　重複題與對照題測的不是同一件事</text>
+  <text class="muted s" x="18" y="50">兩種題混在同一份題本裡，但它們回答的問題不同。</text>
+
+  <text class="head b" x="18" y="84">重複題　同一個項目，在題本裡出現兩次</text>
+
+  <rect class="cell" x="18" y="96" width="33" height="30" rx="3"/>
+  <rect class="same" x="59" y="96" width="33" height="30" rx="3"/>
+  <rect class="cell" x="100" y="96" width="33" height="30" rx="3"/>
+  <rect class="cell" x="141" y="96" width="33" height="30" rx="3"/>
+  <rect class="cell" x="182" y="96" width="33" height="30" rx="3"/>
+  <rect class="cell" x="223" y="96" width="33" height="30" rx="3"/>
+  <rect class="cell" x="264" y="96" width="33" height="30" rx="3"/>
+  <rect class="cell" x="305" y="96" width="33" height="30" rx="3"/>
+  <rect class="cell" x="346" y="96" width="33" height="30" rx="3"/>
+  <rect class="cell" x="387" y="96" width="33" height="30" rx="3"/>
+  <rect class="same" x="428" y="96" width="33" height="30" rx="3"/>
+  <rect class="cell" x="469" y="96" width="33" height="30" rx="3"/>
+
+  <path class="arw" d="M75,126 L75,146 L444,146 L444,126"/>
+  <rect class="bg" x="192" y="138" width="136" height="16"/>
+  <text class="head s" x="260" y="151" text-anchor="middle">中間隔至少 8 題</text>
+
+  <path class="arw" d="M260,158 L260,178"/>
+  <text class="ink s" x="18" y="194">兩次答案不同 → 這是你自己前後不穩，跟判準寫得對不對無關。</text>
+
+  <line class="rule" x1="18" y1="214" x2="542" y2="214"/>
+
+  <text class="knw b" x="18" y="244">對照題　兩個項目，只差一個屬性</text>
+
+  <rect class="box" x="60" y="256" width="200" height="62" rx="4"/>
+  <rect class="chip" x="68" y="272" width="56" height="30" rx="3"/>
+  <text class="ink s" x="96" y="292" text-anchor="middle">難度</text>
+  <rect class="chip" x="132" y="272" width="56" height="30" rx="3"/>
+  <text class="ink s" x="160" y="292" text-anchor="middle">層次</text>
+  <rect class="chip" x="196" y="272" width="56" height="30" rx="3"/>
+  <text class="ink s" x="224" y="292" text-anchor="middle">單一</text>
+
+  <rect class="box" x="300" y="256" width="200" height="62" rx="4"/>
+  <rect class="chip" x="308" y="272" width="56" height="30" rx="3"/>
+  <text class="ink s" x="336" y="292" text-anchor="middle">難度</text>
+  <rect class="chip" x="372" y="272" width="56" height="30" rx="3"/>
+  <text class="ink s" x="400" y="292" text-anchor="middle">層次</text>
+  <rect class="chipdiff" x="436" y="272" width="56" height="30" rx="3"/>
+  <text class="ink s" x="464" y="292" text-anchor="middle">複合</text>
+
+  <path class="arw" d="M280,318 L280,338"/>
+  <text class="ink s" x="18" y="354">兩題答案相同 → 你沒有把這個屬性分開，判準少了一條界線。</text>
+
+  <text class="muted s" x="18" y="386">沒有重複題，所有不一致都會被算到判準頭上——而其中有一部分只是你自己不穩。</text>
+</svg>
