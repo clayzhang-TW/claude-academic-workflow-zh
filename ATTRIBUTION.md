@@ -10,7 +10,7 @@
 
 謹向以下作者與團隊致謝。本書若干章節的方法與結構，建立在他們公開釋出的成果之上。
 
-- **Cheng-I Wu**｜[Academic Research Skills](https://github.com/Imbad0202/academic-research-skills) → **本書書名與前言的核心比喻**、[6.3](chapters/06-analysis-writing.md#63-寫作模式鏈)、[7.1](chapters/07-revision-integrity.md#71-修稿三輪)、[7.2](chapters/07-revision-integrity.md#72-投稿前自己審一遍)、[7.3](chapters/07-revision-integrity.md#73-回應審查意見)、[附錄 I](appendix/I-self-review.md)
+- **Cheng-I Wu**｜[Academic Research Skills](https://github.com/Imbad0202/academic-research-skills) → **前言的「機械／判斷」分界線**、[6.3](chapters/06-analysis-writing.md#63-寫作模式鏈)、[7.1](chapters/07-revision-integrity.md#71-修稿三輪)、[7.2](chapters/07-revision-integrity.md#72-投稿前自己審一遍)、[7.3](chapters/07-revision-integrity.md#73-回應審查意見)、[附錄 I](appendix/I-self-review.md)
 - **HKUSTDial 團隊**｜[Supervisor-Skills](https://github.com/HKUSTDial/Supervisor-Skills) → [4.1](chapters/04-research-question.md#41-從模糊的興趣到一個查得動的問題)、[附錄 I](appendix/I-self-review.md) 的結構層
 - **彭思達（Peng Sida）**｜[learning_research](https://github.com/pengsida/learning_research) → [7.1](chapters/07-revision-integrity.md#71-修稿三輪) 逆向大綱、主張與證據對照
 - **Master-cai**｜[Research-Paper-Writing-Skills](https://github.com/Master-cai/Research-Paper-Writing-Skills) → 同上（封裝與結構化）
@@ -51,7 +51,7 @@ https://github.com/Imbad0202/academic-research-skills
 
 | 書中位置 | 來源 |
 |---|---|
-| **書名**《把苦工交給副駕駛》｜**前言**〈這本書的立場〉的副駕駛比喻 | Academic Research Skills 之 README 開場句「AI is your copilot, not the pilot」；書名的「苦工」譯自同句的 grunt work。本書借其框架，比喻的拆解與判準另寫 |
+| **前言**〈這本書的立場〉的「機械／判斷」分界線 | Academic Research Skills 之 README 開場句「AI is your copilot, not the pilot」。本書借的是那條分界線；比喻（研究助理）、拆解、判準與全部例子另寫，書名不含其用語 |
 | **[6.3](chapters/06-analysis-writing.md#63-寫作模式鏈)** 寫作模式鏈與 `[MATERIAL GAP]`｜**[7.1](chapters/07-revision-integrity.md#71-修稿三輪)** 修稿模式｜**[7.2](chapters/07-revision-integrity.md#72-投稿前自己審一遍)** 五角色自審｜**[7.3](chapters/07-revision-integrity.md#73-回應審查意見)** 爆炸半徑檢查、唯讀稽核｜**[附錄 I](appendix/I-self-review.md)** | Academic Research Skills |
 | **[附錄 I](appendix/I-self-review.md)** 的結構層｜**[4.1](chapters/04-research-question.md#41-從模糊的興趣到一個查得動的問題)** 五維度評分、三角色對抗 | Supervisor-Skills |
 | **[7.1](chapters/07-revision-integrity.md#71-修稿三輪)** 逆向大綱、主張與證據對照 | Master-cai／彭思達 |
