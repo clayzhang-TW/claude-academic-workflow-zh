@@ -59,7 +59,7 @@
   <!-- 右：只記書目（繞過主線，直接進 vault） -->
   <path class="side" d="M370,107 H470 V568 H420" marker-end="url(#ms21)"/>
   <rect class="stop" x="386" y="178" width="150" height="58" rx="5"/>
-  <text class="muted s" x="461" y="200" text-anchor="middle">只記書目</text>
+  <text class="muted s" x="461" y="200" text-anchor="middle">只記書目引用資訊</text>
   <text class="muted s" x="461" y="220" text-anchor="middle">＋一句話</text>
 
   <!-- ===== 主線 ===== -->
