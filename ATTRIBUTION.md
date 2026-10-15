@@ -10,18 +10,18 @@
 
 謹向以下作者與團隊致謝。本書若干章節的方法與結構，建立在他們公開釋出的成果之上。
 
-- **Cheng-I Wu**｜[Academic Research Skills](https://github.com/Imbad0202/academic-research-skills) → **前言的「機械／判斷」分界線**、[6.3](chapters/06-analysis-writing.md#63-寫作模式鏈)、[7.1](chapters/07-revision-integrity.md#71-修稿三輪)、[7.2](chapters/07-revision-integrity.md#72-投稿前自己審一遍)、[7.3](chapters/07-revision-integrity.md#73-回應審查意見)、[附錄 I](appendix/I-self-review.md)
+- **Cheng-I Wu**｜[Academic Research Skills](https://github.com/Imbad0202/academic-research-skills) → **前言的「機械／判斷」分界線**、[第 12 章](chapters/12-writing.md)、[第 13 章](chapters/13-revision.md)、[第 14 章](chapters/14-self-review.md)、[第 15 章](chapters/15-submission.md)、[附錄 I](appendix/I-self-review.md)
 - **HKUSTDial 團隊**｜[Supervisor-Skills](https://github.com/HKUSTDial/Supervisor-Skills) → [4.1](chapters/04-research-question.md#41-從模糊的興趣到一個查得動的問題)、[附錄 I](appendix/I-self-review.md) 的結構層
-- **彭思達（Peng Sida）**｜[learning_research](https://github.com/pengsida/learning_research) → [7.1](chapters/07-revision-integrity.md#71-修稿三輪) 逆向大綱、主張與證據對照
+- **彭思達（Peng Sida）**｜[learning_research](https://github.com/pengsida/learning_research) → [第 13 章](chapters/13-revision.md) 逆向大綱、主張與證據對照
 - **Master-cai**｜[Research-Paper-Writing-Skills](https://github.com/Master-cai/Research-Paper-Writing-Skills) → 同上（封裝與結構化）
 - **侯智薰（雷蒙）**｜[speak-human-tw](https://github.com/Raymondhou0917/speak-human-tw) → [附錄 H](appendix/H-chinese-ai-tone.md) 全份
-- **MrGeDiao**｜[shuorenhua](https://github.com/MrGeDiao/shuorenhua) → [7.1](chapters/07-revision-integrity.md#71-修稿三輪)、[附錄 I](appendix/I-self-review.md) 的「保護片段」
+- **MrGeDiao**｜[shuorenhua](https://github.com/MrGeDiao/shuorenhua) → [第 13 章](chapters/13-revision.md)、[附錄 I](appendix/I-self-review.md) 的「保護片段」
 - **Matt Pocock**｜[skills](https://github.com/mattpocock/skills) 之 `grill-me` → [4.2](chapters/04-research-question.md#42-該不該交給它) 執行前追問
 - **Thariq Shihipar**（Anthropic）｜〈[A field guide to Claude Fable 5: Finding your unknowns](https://claude.com/blog/a-field-guide-to-claude-fable-finding-your-unknowns)〉 → [2.4](chapters/02-first-note.md#24-教育研究最常遇到的四種型態) 的四象限框架
-- **virgiliojr94**｜`book-to-skill` → [6.2](chapters/06-analysis-writing.md#62-當你遇到不會的方法) 把一本書變成顧問
+- **virgiliojr94**｜`book-to-skill` → [10.2](chapters/10-statistics.md#102-當你遇到不會的方法) 把一本書變成顧問
 - **J. W. Creswell & J. D. Creswell**｜*Research Design* (5th ed.). SAGE, 2018. → [4.1](chapters/04-research-question.md#41-從模糊的興趣到一個查得動的問題) 三取向、四世界觀、三種效度
-- **Bronwyn Eager**｜*AI-Powered Scholar: A Beginner's Guide to Artificial Intelligence for Academic Writing & Research*. Routledge, 2025. [https://doi.org/10.4324/9781032665276](https://doi.org/10.4324/9781032665276) → [6.3](chapters/06-analysis-writing.md#63-寫作模式鏈)〈在大綱之前：先把腦裡那團倒出來〉的做法；各章末〈拿去跟人討論〉的體例
-- **Rowena Murray**｜大綱標字數的做法 → [6.3](chapters/06-analysis-writing.md#63-寫作模式鏈)〈大綱要標字數〉。此條經上一筆轉述得知，作者本人的原書未讀
+- **Bronwyn Eager**｜*AI-Powered Scholar: A Beginner's Guide to Artificial Intelligence for Academic Writing & Research*. Routledge, 2025. [https://doi.org/10.4324/9781032665276](https://doi.org/10.4324/9781032665276) → [第 12 章](chapters/12-writing.md)〈在大綱之前：先把腦裡那團倒出來〉的做法；各章末〈拿去跟人討論〉的體例
+- **Rowena Murray**｜大綱標字數的做法 → [第 12 章](chapters/12-writing.md)〈大綱要標字數〉。此條經上一筆轉述得知，作者本人的原書未讀
 
 其中 Cheng-I Wu 的 Academic Research Skills 指定了署名格式，依其要求原文照錄：
 
@@ -52,20 +52,20 @@ https://github.com/Imbad0202/academic-research-skills
 | 書中位置 | 來源 |
 |---|---|
 | **前言**〈這本書的立場〉的「機械／判斷」分界線 | Academic Research Skills 之 README 開場句「AI is your copilot, not the pilot」。本書借的是那條分界線；比喻（研究助理）、拆解、判準與全部例子另寫，書名不含其用語 |
-| **[6.3](chapters/06-analysis-writing.md#63-寫作模式鏈)** 寫作模式鏈與 `[MATERIAL GAP]`｜**[7.1](chapters/07-revision-integrity.md#71-修稿三輪)** 修稿模式｜**[7.2](chapters/07-revision-integrity.md#72-投稿前自己審一遍)** 五角色自審｜**[7.3](chapters/07-revision-integrity.md#73-回應審查意見)** 爆炸半徑檢查、唯讀稽核｜**[附錄 I](appendix/I-self-review.md)** | Academic Research Skills |
+| **[第 12 章](chapters/12-writing.md)** 寫作模式鏈與 `[MATERIAL GAP]`｜**[第 13 章](chapters/13-revision.md)** 修稿模式｜**[第 14 章](chapters/14-self-review.md)** 五角色自審｜**[第 15 章](chapters/15-submission.md)** 爆炸半徑檢查、唯讀稽核｜**[附錄 I](appendix/I-self-review.md)** | Academic Research Skills |
 | **[附錄 I](appendix/I-self-review.md)** 的結構層｜**[4.1](chapters/04-research-question.md#41-從模糊的興趣到一個查得動的問題)** 五維度評分、三角色對抗 | Supervisor-Skills |
-| **[7.1](chapters/07-revision-integrity.md#71-修稿三輪)** 逆向大綱、主張與證據對照 | Master-cai／彭思達 |
+| **[第 13 章](chapters/13-revision.md)** 逆向大綱、主張與證據對照 | Master-cai／彭思達 |
 | **[附錄 H](appendix/H-chinese-ai-tone.md)** 全份 | speak-human-tw |
-| **[7.1](chapters/07-revision-integrity.md#71-修稿三輪)**、詞彙表、[附錄 I](appendix/I-self-review.md) 的「保護片段」 | shuorenhua |
+| **[第 13 章](chapters/13-revision.md)**、詞彙表、[附錄 I](appendix/I-self-review.md) 的「保護片段」 | shuorenhua |
 | **[4.2](chapters/04-research-question.md#42-該不該交給它)** 執行前追問 | mattpocock/skills；Anthropic 該文 |
 | **[4.1](chapters/04-research-question.md#41-從模糊的興趣到一個查得動的問題)** 三取向、四世界觀、三種效度 | Creswell & Creswell (2018) |
-| **[6.2](chapters/06-analysis-writing.md#62-當你遇到不會的方法)** 把一本書變成顧問 | book-to-skill |
-| **[6.3](chapters/06-analysis-writing.md#63-寫作模式鏈)** 動筆前的傾倒稿做法｜各章末〈拿去跟人討論〉的體例 | Eager (2025) |
-| **[6.3](chapters/06-analysis-writing.md#63-寫作模式鏈)** 大綱標字數 | Rowena Murray（經 Eager 2025 轉述，原書未讀） |
+| **[10.2](chapters/10-statistics.md#102-當你遇到不會的方法)** 把一本書變成顧問 | book-to-skill |
+| **[第 12 章](chapters/12-writing.md)** 動筆前的傾倒稿做法｜各章末〈拿去跟人討論〉的體例 | Eager (2025) |
+| **[第 12 章](chapters/12-writing.md)** 大綱標字數 | Rowena Murray（經 Eager 2025 轉述，原書未讀） |
 
 ⚠️ Eager (2025) 那兩列與其餘各列性質不同：其餘來自公開釋出的技能庫，本書取的是可改寫的做法； Eager 該書為 Routledge 出版、全版權保留，本書**只取做法本身、未沿用其文字、結構與練習設計**，正文亦不出現書名。Murray 那一條為二手轉述，驗證層級只到「有這樣一個做法」，正文已標明。
 
-**下列部分無外部上游**：[3.2](chapters/03-skills.md#32-那個檔案裡該寫什麼) 所引之技能檔全文、[5.1](chapters/05-verification.md#51-引用幻覺與四步核實) 存在查核、[4.3](chapters/04-research-question.md#43-文獻工作的三個瓶頸) 檢索工序與取用政策、[附錄 F](appendix/F-skill-library.md) 十二個設計模式、[附錄 G](appendix/G-writing-fingerprint.md) 寫作聲紋，以及本書電子書的排版流程。
+**下列部分無外部上游**：[3.2](chapters/03-skills.md#32-那個檔案裡該寫什麼) 所引之技能檔全文、[7.1](chapters/07-verification.md#71-引用幻覺與四步核實) 存在查核、[5.1](chapters/05-literature-search.md#51-文獻工作的三個瓶頸) 檢索工序與取用政策、[附錄 F](appendix/F-skill-library.md) 十二個設計模式、[附錄 G](appendix/G-writing-fingerprint.md) 寫作聲紋，以及本書電子書的排版流程。
 
 書末〈詞彙表〉61 條中有 **17 條標註 †**，即對應上表各來源。⚠️ 未標註 † 者不表示為作者原創，僅表示其無可指名之單一上游。
 
@@ -81,11 +81,11 @@ Academic Research Skills 為四套供研究者使用的技能：論文寫作（1
 
 | 位置 | 原作 | 本書 | 理由 |
 |---|---|---|---|
-| [6.3](chapters/06-analysis-writing.md#63-寫作模式鏈) 寫作模式鏈 | 11 種模式 | **6 種**：plan／outline／draft／revise／abstract／revision-coach | 刪去的五種，或已於本書他章處理（引用查核見[第 5 章](chapters/05-verification.md)、使用聲明見[附錄 D](appendix/B-E-toolkit-policy.md)），或對初學者構成額外負擔。⚠️ 另**增列 `draft`**——原作將撰寫包含於 `full` 之中，本書單獨標出，因其為唯一「可能替讀者生成內容」的階段 |
-| [7.2](chapters/07-revision-integrity.md#72-投稿前自己審一遍) 五角色自審 | 7 個角色 | **5 個** | 刪去偏格式與統計細節的兩個角色，其職能分由 [7.1](chapters/07-revision-integrity.md#71-修稿三輪) 第三輪與[附錄 I](appendix/I-self-review.md) 承擔。⚠️ 並改為**分五次對話執行**——讀者不具並行環境，此一限制反使「五個角色互不知悉」成為必然，而非設定 |
+| [第 12 章](chapters/12-writing.md) 寫作模式鏈 | 11 種模式 | **6 種**：plan／outline／draft／revise／abstract／revision-coach | 刪去的五種，或已於本書他章處理（引用查核見[第 7 章](chapters/07-verification.md)、使用聲明見[附錄 D](appendix/B-E-toolkit-policy.md)），或對初學者構成額外負擔。⚠️ 另**增列 `draft`**——原作將撰寫包含於 `full` 之中，本書單獨標出，因其為唯一「可能替讀者生成內容」的階段 |
+| [第 14 章](chapters/14-self-review.md) 五角色自審 | 7 個角色 | **5 個** | 刪去偏格式與統計細節的兩個角色，其職能分由 [第 13 章](chapters/13-revision.md) 第三輪與[附錄 I](appendix/I-self-review.md) 承擔。⚠️ 並改為**分五次對話執行**——讀者不具並行環境，此一限制反使「五個角色互不知悉」成為必然，而非設定 |
 | [附錄 I](appendix/I-self-review.md) | 6 種模式、0–100 評分量尺 | **均不採用**，僅取八個品質面向與五條拒稿標準 | 評分量尺係供模擬審查者評分之用，對自審讀者易誘發「我幾分」此類錯誤提問。五條拒稿標準已改寫為教育測量取向（樣本數、測量恆等性、效度來源） |
-| [7.1](chapters/07-revision-integrity.md#71-修稿三輪) 修稿 | 單一 `revision` 模式 | **拆為三輪**（邏輯 → 去 AI 腔 → 格式），規定於同一對話完成 | 一次要求處理全部，等同將原作已拆開者重新壓回 |
-| 文獻探索、十階段協調 | 13 個角色／10 個階段 | **未採用** | [第 4 章](chapters/04-research-question.md)之檢索工序另有來源；本書七章之順序即為該流程，另加一層協調器僅增抽象 |
+| [第 13 章](chapters/13-revision.md) 修稿 | 單一 `revision` 模式 | **拆為三輪**（邏輯 → 去 AI 腔 → 格式），規定於同一對話完成 | 一次要求處理全部，等同將原作已拆開者重新壓回 |
+| 文獻探索、十階段協調 | 13 個角色／10 個階段 | **未採用** | [第 5 章](chapters/05-literature-search.md)之檢索工序另有來源；本書七章之順序即為該流程，另加一層協調器僅增抽象 |
 
 [第 3 章](chapters/03-skills.md) [3.5](chapters/03-skills.md#35-讓它長大) 述及「不宜逕行沿用他人的技能」，理由有四：跳過發現摩擦的過程、繼承他人的品質標準、取得無法檢視的黑箱、領域不通用。
 
@@ -95,7 +95,7 @@ Academic Research Skills 為四套供研究者使用的技能：論文寫作（1
 
 ## 五、彭思達的研究筆記
 
-[7.1](chapters/07-revision-integrity.md#71-修稿三輪) 的逆向大綱與「主張—證據對照」向上追溯有兩層：Master-cai 的專案（MIT）承襲自彭思達的公開研究筆記。Master-cai 於其 README 載明，該專案的貢獻在於「整理、結構化改寫、封裝成可重用的技能」，**寫作知識與方法論本身出自彭思達**。該 MIT 授權涵蓋的是封裝層。
+[第 13 章](chapters/13-revision.md) 的逆向大綱與「主張—證據對照」向上追溯有兩層：Master-cai 的專案（MIT）承襲自彭思達的公開研究筆記。Master-cai 於其 README 載明，該專案的貢獻在於「整理、結構化改寫、封裝成可重用的技能」，**寫作知識與方法論本身出自彭思達**。該 MIT 授權涵蓋的是封裝層。
 
 彭思達的原始專案**未作授權宣告**。未宣告者依預設為著作權全部保留，惟作者於文件中載明條件：
 
@@ -117,6 +117,6 @@ Academic Research Skills 為四套供研究者使用的技能：論文寫作（1
 
 ## 七、不屬本頁範圍者
 
-文獻引用載於各章〈延伸資源〉，並附驗證層級。AI Fluency 框架之授權與處理方式載於[第 4 章](chapters/04-research-question.md)該節及其延伸資源。所使用之軟體與工具不予列入。其為工具而非內容。
+文獻引用載於各章〈延伸資源〉，並附驗證層級。AI Fluency 框架之授權與處理方式載於[第 5 章](chapters/05-literature-search.md)該節及其延伸資源。所使用之軟體與工具不予列入。其為工具而非內容。
 
 ---

@@ -18,11 +18,11 @@
 
 | 徵象 | 缺的是哪一環 | 你怎麼看出來 | 要他回哪 |
 |---|---|---|---|
-| **文獻回顧讀起來像一串摘要並排** | 綜整 | 逐段找主張句。找不到主張句、只找得到「某某（年）發現……」一路接續，那就是編年式或貼標籤式 | [第 5 章](../chapters/05-verification.md) [5.3](../chapters/05-verification.md#53-從二十篇筆記到一個論點) |
+| **文獻回顧讀起來像一串摘要並排** | 綜整 | 逐段找主張句。找不到主張句、只找得到「某某（年）發現……」一路接續，那就是編年式或貼標籤式 | [第 7 章](../chapters/07-verification.md) [7.3](../chapters/07-verification.md#73-從二十篇筆記到一個論點) |
 | **假設像宣告不像推導** | 讀出別人怎麼推 | 量引言最後一段到假設之間的距離。距離短到看不見（「因此，本研究假設 A 與 B 有關」），代表沒有推導 | [附錄 L](../appendix/L-reading-design.md) 問題一 |
-| **沒處理明顯的替代解釋** | 設計的理由 | 當面問一句：「如果結論反過來也說得通，你靠什麼擋住？」答不出來，或答「我有控制變項」卻說不出控制的是哪一個替代解釋 | [第 4 章](../chapters/04-research-question.md) [4.6](../chapters/04-research-question.md#46-這篇論文為什麼這樣做)、[附錄 L](../appendix/L-reading-design.md) 問題二 |
+| **沒處理明顯的替代解釋** | 設計的理由 | 當面問一句：「如果結論反過來也說得通，你靠什麼擋住？」答不出來，或答「我有控制變項」卻說不出控制的是哪一個替代解釋 | [第 5 章](../chapters/05-literature-search.md) [5.4](../chapters/05-literature-search.md#54-這篇論文為什麼這樣做)、[附錄 L](../appendix/L-reading-design.md) 問題二 |
 | **分析方法與討論的動詞對不上** | 關聯與因果的區辨 | 先看用什麼分析，再看討論用什麼動詞。相關分析配上「導致」「促進」「提升」是最常見的一種，而且它經常先出現在摘要裡 | [附錄 L](../appendix/L-reading-design.md) 問題四 |
-| **研究意涵草率** | 意涵怎麼從結果長出來 | 挑一句意涵，問它指回哪一個結果。指不回去、或換一篇論文照樣成立，那是通用意涵不是意涵 | [第 6 章](../chapters/06-analysis-writing.md) [6.3](../chapters/06-analysis-writing.md#63-寫作模式鏈) |
+| **研究意涵草率** | 意涵怎麼從結果長出來 | 挑一句意涵，問它指回哪一個結果。指不回去、或換一篇論文照樣成立，那是通用意涵不是意涵 | [第 12 章](../chapters/12-writing.md) |
 
 ⚠️ **五項裡最有診斷價值的是第三項**，因為它是唯一必須當面問、而且**沒有辦法事後補的**。前四項學生可以回去補寫，第三項要嘛他當初想過，要嘛沒有。
 
@@ -54,7 +54,7 @@
 
 這也是為什麼書裡把統計那一章標為風險最高：**它的錯誤最不容易浮出水面。**
 
-⚠️ **書裡有一節明文寫著「這件事不能交出去」，只有一節**：[第 4 章](../chapters/04-research-question.md) [4.6](../chapters/04-research-question.md#46-這篇論文為什麼這樣做)，拆解別人的研究設計。理由寫在那裡：**在學生還不知道正確答案的地方要工具給答案，他的錯誤沒有任何對照組。**
+⚠️ **書裡有一節明文寫著「這件事不能交出去」，只有一節**：[第 5 章](../chapters/05-literature-search.md) [5.4](../chapters/05-literature-search.md#54-這篇論文為什麼這樣做)，拆解別人的研究設計。理由寫在那裡：**在學生還不知道正確答案的地方要工具給答案，他的錯誤沒有任何對照組。**
 
 ---
 
@@ -118,11 +118,11 @@ van de Pol 等人（2010）回顧十年的鷹架研究，把鷹架拆成三個�
 
 | 拿去做 | 在哪一節 |
 |---|---|
-| 挑三到五篇跟自己設計最像的論文，一篇一篇讀出它為什麼這樣設計 | [第 4 章](../chapters/04-research-question.md) [4.6](../chapters/04-research-question.md#46-這篇論文為什麼這樣做)、[附錄 L](../appendix/L-reading-design.md) |
+| 挑三到五篇跟自己設計最像的論文，一篇一篇讀出它為什麼這樣設計 | [第 5 章](../chapters/05-literature-search.md) [5.4](../chapters/05-literature-search.md#54-這篇論文為什麼這樣做)、[附錄 L](../appendix/L-reading-design.md) |
 | 找出每一個宣稱的替代解釋，以及那篇論文用哪一個動作擋住它 | [附錄 L](../appendix/L-reading-design.md) 問題二 |
-| 先決定要主張什麼，再讓證據歸隊——不是反過來 | [第 5 章](../chapters/05-verification.md) [5.3](../chapters/05-verification.md#53-從二十篇筆記到一個論點) |
-| 逐句核對寫下的那句話真的在那一頁 | [第 5 章](../chapters/05-verification.md) [5.1](../chapters/05-verification.md#51-引用幻覺與四步核實) |
-| 把每一句意涵指回一個具體結果 | [第 6 章](../chapters/06-analysis-writing.md) [6.3](../chapters/06-analysis-writing.md#63-寫作模式鏈) |
+| 先決定要主張什麼，再讓證據歸隊——不是反過來 | [第 7 章](../chapters/07-verification.md) [7.3](../chapters/07-verification.md#73-從二十篇筆記到一個論點) |
+| 逐句核對寫下的那句話真的在那一頁 | [第 7 章](../chapters/07-verification.md) [7.1](../chapters/07-verification.md#71-引用幻覺與四步核實) |
+| 把每一句意涵指回一個具體結果 | [第 12 章](../chapters/12-writing.md) |
 
 **這五件，正好就是第一節那五個徵象缺的東西。**
 
@@ -140,11 +140,11 @@ van de Pol 等人（2010）回顧十年的鷹架研究，把鷹架拆成三個�
 |---|---|---|
 | 一次丟幾十篇文獻進去整理 | 書裡明令不准。手動路徑「五筆以內，不要一次五十筆」，批次路徑標為「更容易出事」，並列出它會放大的四種不報錯的錯誤 | [第 2 章](../chapters/02-first-note.md) [2.1](../chapters/02-first-note.md#21-把一篇-pdf-變成一份筆記) |
 | 只讀摘要，學生以為自己懂了 | 「摘要不等於理解」是[第 2 章](../chapters/02-first-note.md)的開場判斷。流程前面設一道閘門，先問五題把論文分成細讀／只記書目引用資訊／不留三類。**實作明文要求「務必挑你已經讀過的論文」** | [第 2 章](../chapters/02-first-note.md) [2.1](../chapters/02-first-note.md#21-把一篇-pdf-變成一份筆記) |
-| 產生的引用是假的，不回去看原文就完了 | 整個[第 2 章](../chapters/02-first-note.md)在講這件事，而且要求讀者**親手誘發一次幻覺**才准往下讀。[第 5 章](../chapters/05-verification.md)給四步核實與逐句落地驗證 | [第 2 章](../chapters/02-first-note.md)、[第 5 章](../chapters/05-verification.md) [5.1](../chapters/05-verification.md#51-引用幻覺與四步核實) |
-| 文獻回顧變成把摘要組合起來 | 「AI 一鍵摘要式」被列為三種假綜整之一。書裡的判語是：它給你的是二十篇的平均值，不是你的立場 | [第 5 章](../chapters/05-verification.md) [5.3](../chapters/05-verification.md#53-從二十篇筆記到一個論點) |
-| 假說推論薄弱、研究設計沒擋掉污染 | 有一節專門教怎麼從別人的論文裡讀出設計的理由，五個問題，**第二題就是「如果結論反過來也說得通，它靠什麼擋住」**。展開版另有完整清單 | [第 4 章](../chapters/04-research-question.md) [4.6](../chapters/04-research-question.md#46-這篇論文為什麼這樣做)、[附錄 L](../appendix/L-reading-design.md) |
+| 產生的引用是假的，不回去看原文就完了 | 整個[第 2 章](../chapters/02-first-note.md)在講這件事，而且要求讀者**親手誘發一次幻覺**才准往下讀。[第 7 章](../chapters/07-verification.md)給四步核實與逐句落地驗證 | [第 2 章](../chapters/02-first-note.md)、[第 7 章](../chapters/07-verification.md) [7.1](../chapters/07-verification.md#71-引用幻覺與四步核實) |
+| 文獻回顧變成把摘要組合起來 | 「AI 一鍵摘要式」被列為三種假綜整之一。書裡的判語是：它給你的是二十篇的平均值，不是你的立場 | [第 7 章](../chapters/07-verification.md) [7.3](../chapters/07-verification.md#73-從二十篇筆記到一個論點) |
+| 假說推論薄弱、研究設計沒擋掉污染 | 有一節專門教怎麼從別人的論文裡讀出設計的理由，五個問題，**第二題就是「如果結論反過來也說得通，它靠什麼擋住」**。展開版另有完整清單 | [第 5 章](../chapters/05-literature-search.md) [5.4](../chapters/05-literature-search.md#54-這篇論文為什麼這樣做)、[附錄 L](../appendix/L-reading-design.md) |
 | 分不清關聯與因果、中介與調節 | [附錄 L](../appendix/L-reading-design.md) 問題四教的是認出症狀：先看它用什麼分析，再看它在討論用什麼動詞。**書刻意不教這些方法怎麼跑**——那是方法論課程的事 | [附錄 L](../appendix/L-reading-design.md) 問題四 |
-| 研究意涵草草結束 | [第 6 章](../chapters/06-analysis-writing.md)有一節專講意涵怎麼從結果長出來，以及工具在這一步最容易產出什麼（換一篇論文照樣成立的通用意涵） | [第 6 章](../chapters/06-analysis-writing.md) [6.3](../chapters/06-analysis-writing.md#63-寫作模式鏈) |
+| 研究意涵草草結束 | [第 12 章](../chapters/12-writing.md)有一節專講意涵怎麼從結果長出來，以及工具在這一步最容易產出什麼（換一篇論文照樣成立的通用意涵） | [第 12 章](../chapters/12-writing.md) |
 
 ---
 
@@ -162,10 +162,10 @@ van de Pol 等人（2010）回顧十年的鷹架研究，把鷹架拆成三個�
 **書內**
 
 - [第 2 章](../chapters/02-first-note.md) [2.1](../chapters/02-first-note.md#21-把一篇-pdf-變成一份筆記)〈把一篇 PDF 變成一份筆記〉——第 0 步的五題閘門
-- [第 4 章](../chapters/04-research-question.md) [4.6](../chapters/04-research-question.md#46-這篇論文為什麼這樣做)〈這篇論文為什麼這樣做〉——全書唯一明寫不可委派的一節
-- [第 5 章](../chapters/05-verification.md) [5.3](../chapters/05-verification.md#53-從二十篇筆記到一個論點)〈從二十篇筆記到一個論點〉——三種假綜整
-- [第 6 章](../chapters/06-analysis-writing.md) [6.3](../chapters/06-analysis-writing.md#63-寫作模式鏈)——寫作模式鏈與意涵
-- [第 7 章](../chapters/07-revision-integrity.md) [7.4](../chapters/07-revision-integrity.md#74-誠信的完整框架)〈誠信的完整框架〉——本頁第二節的完整版
+- [第 5 章](../chapters/05-literature-search.md) [5.4](../chapters/05-literature-search.md#54-這篇論文為什麼這樣做)〈這篇論文為什麼這樣做〉——全書唯一明寫不可委派的一節
+- [第 7 章](../chapters/07-verification.md) [7.3](../chapters/07-verification.md#73-從二十篇筆記到一個論點)〈從二十篇筆記到一個論點〉——三種假綜整
+- [第 12 章](../chapters/12-writing.md)——寫作模式鏈與意涵
+- [第 16 章](../chapters/16-integrity.md) [16.1](../chapters/16-integrity.md#161-誠信的完整框架)〈誠信的完整框架〉——本頁第二節的完整版
 - [附錄 E](../appendix/B-E-toolkit-policy.md)〈課堂 AI 政策範本〉——四欄結構與學生交件分級
 - [附錄 L](../appendix/L-reading-design.md)〈拆解一篇論文的設計〉——五個問題的展開版
 - [第 3 章](../chapters/03-skills.md) [3.5](../chapters/03-skills.md#35-讓它長大)〈讓它長大〉的〈也要寫退場〉——三個成分的完整對照，以及可貼的〈退場〉區塊
