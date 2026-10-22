@@ -52,7 +52,7 @@ https://github.com/Imbad0202/academic-research-skills
 | 書中位置 | 來源 |
 |---|---|
 | **前言**〈這本書的立場〉的「機械／判斷」分界線 | Academic Research Skills 之 README 開場句「AI is your copilot, not the pilot」。本書借的是那條分界線；比喻（研究助理）、拆解、判準與全部例子另寫，書名不含其用語 |
-| **[第 12 章](chapters/12-writing.md)** 寫作模式鏈與 `[MATERIAL GAP]`｜**[第 13 章](chapters/13-revision.md)** 修稿模式｜**[第 14 章](chapters/14-self-review.md)** 五角色自審｜**[第 15 章](chapters/15-submission.md)** 爆炸半徑檢查、唯讀稽核｜**[附錄 I](appendix/I-self-review.md)** | Academic Research Skills |
+| **[第 6 章](chapters/06-systematic-review.md)** [6.9](chapters/06-systematic-review.md#69-一個文獻研究技能怎麼運作) 文獻研究技能的設計｜**[第 12 章](chapters/12-writing.md)** 寫作模式鏈與 `[MATERIAL GAP]`｜**[第 13 章](chapters/13-revision.md)** 修稿模式｜**[第 14 章](chapters/14-self-review.md)** 五角色自審｜**[第 15 章](chapters/15-submission.md)** 爆炸半徑檢查、唯讀稽核｜**[附錄 I](appendix/I-self-review.md)**｜**[附錄 M](appendix/M-skill-manual.md)** M-1.14、M-[2.7](chapters/02-first-note.md#27-動手實作) 至 M-[2.9](chapters/02-first-note.md#29-章末整理) | Academic Research Skills |
 | **[附錄 I](appendix/I-self-review.md)** 的結構層｜**[4.1](chapters/04-research-question.md#41-從模糊的興趣到一個查得動的問題)** 五維度評分、三角色對抗 | Supervisor-Skills |
 | **[第 13 章](chapters/13-revision.md)** 逆向大綱、主張與證據對照 | Master-cai／彭思達 |
 | **[附錄 H](appendix/H-chinese-ai-tone.md)** 全份 | speak-human-tw |
@@ -73,7 +73,7 @@ https://github.com/Imbad0202/academic-research-skills
 
 ## 四、本書所作的改動
 
-上表第二列涉及五處，均出自同一來源，故單獨說明。
+上表第二列涉及七處，均出自同一來源，故單獨說明。
 
 Academic Research Skills 為四套供研究者使用的技能：論文寫作（12 個角色、11 種模式）、論文審查（7 個角色、6 種模式）、文獻探索（13 個角色、8 種模式），另有一套 10 階段的全流程協調器。其規模遠大於本書所採用者。
 
@@ -85,7 +85,7 @@ Academic Research Skills 為四套供研究者使用的技能：論文寫作（1
 | [第 14 章](chapters/14-self-review.md) 五角色自審 | 7 個角色 | **5 個** | 刪去偏格式與統計細節的兩個角色，其職能分由[第 13 章](chapters/13-revision.md)第三輪（格式）與[附錄 I](appendix/I-self-review.md)（統計報告）承擔。⚠️ 並改為**分五次對話執行**——讀者不具並行環境，此一限制反使「五個角色互不知悉」成為必然，而非設定 |
 | [附錄 I](appendix/I-self-review.md) | 6 種模式、0–100 評分量尺 | **均不採用**，僅取八個品質面向與五條拒稿標準 | 評分量尺係供模擬審查者評分之用，對自審讀者易誘發「我幾分」此類錯誤提問。五條拒稿標準已改寫為教育測量取向（樣本數、測量恆等性、效度來源） |
 | [第 13 章](chapters/13-revision.md) 修稿 | 單一 `revision` 模式 | **拆為三輪**（邏輯 → 去 AI 腔 → 格式），規定於同一對話完成 | 一次要求處理全部，等同將原作已拆開者重新壓回 |
-| 文獻探索、十階段協調 | 13 個角色／10 個階段 | **未採用** | [第 5 章](chapters/05-literature-search.md)之檢索工序另行設計（無外部上游，見第三節末）；本書十六章之順序即為該流程，另加一層協調器僅增抽象 |
+| 文獻探索、十階段協調 | 13 個角色／10 個階段 | **教學流程未採用**；[第 6 章](chapters/06-systematic-review.md) [6.9](chapters/06-systematic-review.md#69-一個文獻研究技能怎麼運作) 與附錄 M-1.14、M-[2.8](chapters/02-first-note.md#28-常見迷思) 描述作者改編版的設計，不貼原檔 | [第 5 章](chapters/05-literature-search.md)之檢索工序另行設計（無外部上游，見第三節末）；本書十六章之順序即為該流程，另加一層協調器僅增抽象 |
 
 [第 3 章](chapters/03-skills.md) [3.5](chapters/03-skills.md#35-讓它長大) 述及「不宜逕行沿用他人的技能」，理由有四：跳過發現摩擦的過程、繼承他人的品質標準、取得無法檢視的黑箱、領域不通用。
 

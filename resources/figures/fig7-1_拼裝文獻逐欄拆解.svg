@@ -40,7 +40,7 @@
   <rect class="truebg" x="18" y="98" width="524" height="52" rx="4"/>
   <text class="ink b" x="34" y="120">作者</text>
   <text class="true b" x="150" y="120">真</text>
-  <text class="muted s" x="264" y="120">第 2 步通過（查得到）</text>
+  <text class="muted s" x="264" y="120">第 4 步通過（查得到）</text>
   <text class="muted s" x="34" y="140">真實存在，而且確實是這個領域的人</text>
 
   <!-- 期刊 -->
@@ -62,7 +62,7 @@
   <rect class="false" x="18" y="278" width="4" height="52"/>
   <text class="ink b" x="34" y="300">標題</text>
   <text class="false b" x="150" y="300">假</text>
-  <text class="false s" x="264" y="300" font-weight="700">唯一的破綻</text>
+  <text class="false s" x="264" y="300" font-weight="700">唯一的破綻：第 2 步查不到</text>
   <text class="muted s" x="34" y="320">像這個領域會有的題目，但從未存在過</text>
 
   <!-- DOI -->
@@ -79,5 +79,5 @@
   <text class="ink t" x="34" y="444" font-weight="700">為什麼查到一半會停手</text>
   <text class="muted s" x="34" y="466">作者、期刊、年份三欄全部通過，人很自然就認定這一筆沒問題。</text>
   <text class="false s" x="34" y="488" font-weight="700">真的欄位越多，它越晚被抓到，也就越危險。</text>
-  <text class="ink s" x="34" y="504" font-weight="700">每一筆都要查到第 4 步，沒有例外。</text>
+  <text class="ink s" x="34" y="504" font-weight="700">四步一步都不跳，沒有例外。</text>
 </svg>
