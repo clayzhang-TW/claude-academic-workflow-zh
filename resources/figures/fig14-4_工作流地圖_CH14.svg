@@ -1,0 +1,155 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 704" width="560" height="704" font-family="Noto Sans TC, Microsoft JhengHei, Helvetica, Arial, sans-serif">
+  <style>
+    @page{size:560px 704px;margin:0}
+    .bg{fill:#faf7f0}
+    .ink{fill:#23201b}
+    .muted{fill:#6b6459}
+    .rule{stroke:#ddd5c6;stroke-width:1}
+    .rail{stroke:#c9bda8;stroke-width:2.4;fill:none}
+    .node{fill:#f3f0e8;stroke:#c9bfa8;stroke-width:1.2}
+    .nodeOn{fill:#e8f2ec;stroke:#2f6b4f;stroke-width:2.4}
+    .span{fill:#f2edf6;stroke:#b8a8c4;stroke-width:1.2}
+    .spanOn{fill:#f1ebf5;stroke:#6b4a7a;stroke-width:2.4}
+    .zone{fill:#8a5a2b}
+    .on{fill:#2f6b4f}
+    .onSpan{fill:#6b4a7a}
+    .dim{opacity:0.42}
+    .tagOn{fill:#2f6b4f}
+    .tagOnSpan{fill:#6b4a7a}
+    .hdr{fill:#efe9dc}
+    .title{font-size:17px;font-weight:700}
+    .h{font-size:14px;font-weight:700}
+    .b{font-size:13px;font-weight:700}
+    .s{font-size:12px}
+    @media (prefers-color-scheme: dark){
+      .bg{fill:#17150f}
+      .ink{fill:#ece5d6}
+      .muted{fill:#a49a88}
+      .rule{stroke:#3a352a}
+      .rail{stroke:#4a4335}
+      .node{fill:#1e1b14;stroke:#3d3629}
+      .nodeOn{fill:#15241c;stroke:#7fc4a0}
+      .span{fill:#221c28;stroke:#4d4356}
+      .spanOn{fill:#241b2a;stroke:#c3a0d4}
+      .zone{fill:#d09a5e}
+      .on{fill:#7fc4a0}
+      .onSpan{fill:#c3a0d4}
+      .tagOn{fill:#7fc4a0}
+      .tagOnSpan{fill:#c3a0d4}
+      .hdr{fill:#241f16}
+    }
+  </style>
+
+  <rect class="bg" width="560" height="704"/>
+  <text class="ink title" x="18" y="28">圖 14-4　你在整條工作流的哪裡</text>
+  <text class="on s" x="18" y="50" font-weight="700">第 14 章　投稿前自審</text>
+  <text class="muted s" x="18" y="68">送出區的第二站：換一副看不到你修改理由的眼睛。</text>
+  <text class="onSpan h" x="18" y="90">貫穿全程（不屬於任何一站）</text>
+  <g class="dim">
+    <rect class="span" x="18" y="96" width="524" height="42" rx="6"/>
+    <text class="ink b" x="34" y="114">知識庫</text>
+    <text class="muted s" x="34" y="130">文獻／概念／靈感／技術四種筆記</text>
+    <text class="muted s" x="530" y="114" text-anchor="end">1.2 · 5.2</text>
+  </g>
+  <g class="dim">
+    <rect class="span" x="18" y="141" width="524" height="42" rx="6"/>
+    <text class="ink b" x="34" y="159">你的技能檔</text>
+    <text class="muted s" x="34" y="175">把重複的做法固定下來，跨章重用</text>
+    <text class="muted s" x="530" y="159" text-anchor="end">3.1–3.5</text>
+  </g>
+  <path class="rail" d="M40,192 L40,624"/>
+  <text class="zone h" x="58" y="200">起點</text>
+  <g class="dim">
+    <rect class="node" x="58" y="204" width="239" height="33" rx="5"/>
+    <text class="ink b" x="70" y="218">研究構想</text>
+    <text class="muted s" x="70" y="232">從興趣收斂成查得動的問題</text>
+    <text class="muted s" x="285.0" y="218" text-anchor="end">第4章</text>
+  </g>
+  <text class="zone h" x="58" y="259">蒐集</text>
+  <g class="dim">
+    <rect class="node" x="58" y="263" width="239" height="33" rx="5"/>
+    <text class="ink b" x="70" y="277">文獻檢索與書目</text>
+    <text class="muted s" x="70" y="291">先搜自己的，再往外搜</text>
+    <text class="muted s" x="285.0" y="277" text-anchor="end">第5章</text>
+  </g>
+  <g class="dim">
+    <rect class="node" x="303" y="263" width="239" height="33" rx="5"/>
+    <text class="ink b" x="315" y="277">轉檔與七欄筆記</text>
+    <text class="muted s" x="315" y="291">PDF 變成結構化筆記</text>
+    <text class="muted s" x="530.0" y="277" text-anchor="end">第2章</text>
+  </g>
+  <g class="dim">
+    <rect class="node" x="58" y="299" width="239" height="33" rx="5"/>
+    <text class="ink b" x="70" y="313">系統性回顧</text>
+    <text class="muted s" x="70" y="327">判準先寫死，篩選留紀錄</text>
+    <text class="muted s" x="285.0" y="313" text-anchor="end">第6章</text>
+  </g>
+  <text class="zone h" x="58" y="354">驗證與綜整</text>
+  <g class="dim">
+    <rect class="node" x="58" y="358" width="239" height="33" rx="5"/>
+    <text class="ink b" x="70" y="372">查證</text>
+    <text class="muted s" x="70" y="386">原文裡真的有那一句嗎</text>
+    <text class="muted s" x="285.0" y="372" text-anchor="end">7.1</text>
+  </g>
+  <g class="dim">
+    <rect class="node" x="303" y="358" width="239" height="33" rx="5"/>
+    <text class="ink b" x="315" y="372">綜整</text>
+    <text class="muted s" x="315" y="386">三句主張，證據歸櫃</text>
+    <text class="muted s" x="530.0" y="372" text-anchor="end">7.3</text>
+  </g>
+  <text class="zone h" x="58" y="413">資料</text>
+  <g class="dim">
+    <rect class="node" x="58" y="417" width="239" height="33" rx="5"/>
+    <text class="ink b" x="70" y="431">找資料</text>
+    <text class="muted s" x="70" y="445">現成資料能不能回答你</text>
+    <text class="muted s" x="285.0" y="431" text-anchor="end">第8章</text>
+  </g>
+  <g class="dim">
+    <rect class="node" x="303" y="417" width="239" height="33" rx="5"/>
+    <text class="ink b" x="315" y="431">量表與測驗</text>
+    <text class="muted s" x="315" y="445">要自編工具時才走這站</text>
+    <text class="muted s" x="530.0" y="431" text-anchor="end">第9章</text>
+  </g>
+  <text class="zone h" x="58" y="472">產出</text>
+  <g class="dim">
+    <rect class="node" x="58" y="476" width="239" height="33" rx="5"/>
+    <text class="ink b" x="70" y="490">資料分析</text>
+    <text class="muted s" x="70" y="504">寫語法、跑、讀警告區</text>
+    <text class="muted s" x="285.0" y="490" text-anchor="end">第10章</text>
+  </g>
+  <g class="dim">
+    <rect class="node" x="303" y="476" width="239" height="33" rx="5"/>
+    <text class="ink b" x="315" y="490">圖表</text>
+    <text class="muted s" x="315" y="504">從資料算出來的圖</text>
+    <text class="muted s" x="530.0" y="490" text-anchor="end">第11章</text>
+  </g>
+  <g class="dim">
+    <rect class="node" x="58" y="512" width="239" height="33" rx="5"/>
+    <text class="ink b" x="70" y="526">撰寫</text>
+    <text class="muted s" x="70" y="540">先問出主張再動筆</text>
+    <text class="muted s" x="285.0" y="526" text-anchor="end">第12章</text>
+  </g>
+  <text class="zone h" x="58" y="567">送出</text>
+  <g class="dim">
+    <rect class="node" x="58" y="571" width="239" height="33" rx="5"/>
+    <text class="ink b" x="70" y="585">修稿</text>
+    <text class="muted s" x="70" y="599">邏輯、去 AI 腔、格式</text>
+    <text class="muted s" x="285.0" y="585" text-anchor="end">第13章</text>
+  </g>
+  <g>
+    <rect class="nodeOn" x="303" y="571" width="239" height="33" rx="5"/>
+    <text class="on b" x="315" y="585">自審</text>
+    <text class="muted s" x="315" y="599">審查者互相不知道</text>
+    <text class="muted s" x="468.0" y="585" text-anchor="end">第14章</text>
+    <text class="tagOn s" x="530.0" y="585" text-anchor="end" font-weight="700">← 本章</text>
+  </g>
+  <g class="dim">
+    <rect class="node" x="58" y="607" width="239" height="33" rx="5"/>
+    <text class="ink b" x="70" y="621">投稿與回應</text>
+    <text class="muted s" x="70" y="635">作者須知、逐條判斷</text>
+    <text class="muted s" x="285.0" y="621" text-anchor="end">第15章</text>
+  </g>
+  <line class="rule" x1="18" y1="652" x2="542" y2="652"/>
+  <text class="muted s" x="18" y="672">淡掉的那幾站不是不重要——它們是你在別章會站上去的位置。</text>
+  <text class="ink s" x="18" y="692" font-weight="700">這張圖每一章都會再出現一次，亮起來的位置不同。</text>
+</svg>
