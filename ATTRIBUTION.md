@@ -117,6 +117,6 @@ Academic Research Skills 為四套供研究者使用的技能：論文寫作（1
 
 ## 七、不屬本頁範圍者
 
-文獻引用載於各章〈延伸資源〉，並附驗證層級。AI Fluency 框架見[第 4 章](chapters/04-research-question.md) [4.2](chapters/04-research-question.md#42-該不該交給它)。所使用之軟體與工具不予列入。其為工具而非內容。
+文獻引用載於各章〈延伸資源〉，並附驗證層級。AI Fluency 框架見[第 4 章](chapters/04-research-question.md) [4.2](chapters/04-research-question.md#42-該不該交給它)。Anthropic 學院（Claude Academy，[https://academy.claude.com/zh-TW](https://academy.claude.com/zh-TW)）中文版課程的概念名稱用於[第 2 章](chapters/02-first-note.md) [2.3](chapters/02-first-note.md#23-為什麼會這樣它在做的事是接龍)、[第 3 章](chapters/03-skills.md) [3.2](chapters/03-skills.md#32-那個檔案裡該寫什麼)–[3.4](chapters/03-skills.md#34-提示詞技能代理)、[第 4 章](chapters/04-research-question.md) [4.2](chapters/04-research-question.md#42-該不該交給它)，各單元網址見該章〈延伸資源〉；課程頁面標示 © 2026 Anthropic PBC，本書只沿用概念名稱與分類，未轉載其文字、例子與練習。所使用之軟體與工具不予列入。其為工具而非內容。
 
 ---

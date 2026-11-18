@@ -48,7 +48,7 @@
   <text class="muted s" x="128" y="160">判準＝可偵測性 × 不可逆性</text>
 
   <rect class="onode" x="112" y="352" width="336" height="62" rx="8"/>
-  <text class="co b" x="128" y="376">Diligence　謹慎</text>
+  <text class="co b" x="128" y="376">Diligence　審慎</text>
   <text class="ink s" x="128" y="396">我留下紀錄了嗎？別人查得到嗎？</text>
   <text class="muted s" x="128" y="410">使用聲明是它的最小實作（7.4）</text>
 
@@ -57,7 +57,7 @@
 
   <!-- 內框 -->
   <rect class="innerbox" x="82" y="176" width="396" height="164" rx="10"/>
-  <text class="ci h" x="98" y="198">內圈　互動與品質</text>
+  <text class="ci h" x="98" y="198">內圈　描述-辨別循環</text>
   <text class="muted s" x="248" y="198">週期：一次對話往返</text>
 
   <rect class="inode" x="130" y="208" width="300" height="52" rx="6"/>
